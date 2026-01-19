@@ -1,0 +1,1184 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_cognitive_account.speech_with_commitment[\"large\"]",
+      "costComponents": [
+        {
+          "name": "Speech to text (commitment)",
+          "monthlyQuantity": "50,000",
+          "unit": "hours",
+          "monthlyCost": "25,000.00"
+        },
+        {
+          "name": "Speech to text (overage)",
+          "monthlyQuantity": "100",
+          "unit": "hours",
+          "monthlyCost": "50.00"
+        },
+        {
+          "name": "Speech to text (connected container commitment)",
+          "monthlyQuantity": "50,000",
+          "unit": "hours",
+          "monthlyCost": "23,750.00"
+        },
+        {
+          "name": "Speech to text (connected container overage)",
+          "monthlyQuantity": "100",
+          "unit": "hours",
+          "monthlyCost": "48.00"
+        },
+        {
+          "name": "Speech to text batch",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Speech to text custom model (commitment)",
+          "monthlyQuantity": "50,000",
+          "unit": "hours",
+          "monthlyCost": "30,000.00"
+        },
+        {
+          "name": "Speech to text custom model (overage)",
+          "monthlyQuantity": "100",
+          "unit": "hours",
+          "monthlyCost": "60.00"
+        },
+        {
+          "name": "Speech to text custom model (connected container commitment)",
+          "monthlyQuantity": "50,000",
+          "unit": "hours",
+          "monthlyCost": "28,500.00"
+        },
+        {
+          "name": "Speech to text custom model (connected container overage)",
+          "monthlyQuantity": "100",
+          "unit": "hours",
+          "monthlyCost": "56.50"
+        },
+        {
+          "name": "Speech to text custom model batch",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Speech to text custom endpoint hosting",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Speech to text custom training",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Speech to text enhanced add-ons (commitment)",
+          "monthlyQuantity": "50,000",
+          "unit": "hours",
+          "monthlyCost": "7,500.00"
+        },
+        {
+          "name": "Speech to text enhanced add-ons (overage)",
+          "monthlyQuantity": "100",
+          "unit": "hours",
+          "monthlyCost": "15.00"
+        },
+        {
+          "name": "Speech to text enhanced add-ons (connected container commitment)",
+          "monthlyQuantity": "50,000",
+          "unit": "hours",
+          "monthlyCost": "7,125.00"
+        },
+        {
+          "name": "Speech to text enhanced add-ons (connected container overage)",
+          "monthlyQuantity": "100",
+          "unit": "hours",
+          "monthlyCost": "14.25"
+        },
+        {
+          "name": "Speech to text conversation transcription multi-channel audio",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Text to speech custom neural training",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Text to speech custom neural",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Text to speech custom neural endpoint hosting",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Text to speech long audio",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Text to speech personal voice profiles",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Text to speech personal voice characters",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Speech translation",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Speaker verification",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Speaker identification",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Voice profiles",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_cognitive_account.textanalytics_with_tiers",
+      "costComponents": [
+        {
+          "name": "Summarization",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Conversational language understanding",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Conversational language understanding advanced training",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Customized text classification",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Customized summarization",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Customized training",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_cognitive_account.speech_with_commitment[\"medium\"]",
+      "costComponents": [
+        {
+          "name": "Speech to text (commitment)",
+          "monthlyQuantity": "10,000",
+          "unit": "hours",
+          "monthlyCost": "6,500.00"
+        },
+        {
+          "name": "Speech to text (overage)",
+          "monthlyQuantity": "100",
+          "unit": "hours",
+          "monthlyCost": "65.00"
+        },
+        {
+          "name": "Speech to text (connected container commitment)",
+          "monthlyQuantity": "10,000",
+          "unit": "hours",
+          "monthlyCost": "6,175.00"
+        },
+        {
+          "name": "Speech to text (connected container overage)",
+          "monthlyQuantity": "100",
+          "unit": "hours",
+          "monthlyCost": "62.00"
+        },
+        {
+          "name": "Speech to text batch",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Speech to text custom model (commitment)",
+          "monthlyQuantity": "10,000",
+          "unit": "hours",
+          "monthlyCost": "7,800.00"
+        },
+        {
+          "name": "Speech to text custom model (overage)",
+          "monthlyQuantity": "100",
+          "unit": "hours",
+          "monthlyCost": "78.00"
+        },
+        {
+          "name": "Speech to text custom model (connected container commitment)",
+          "monthlyQuantity": "10,000",
+          "unit": "hours",
+          "monthlyCost": "7,410.00"
+        },
+        {
+          "name": "Speech to text custom model (connected container overage)",
+          "monthlyQuantity": "100",
+          "unit": "hours",
+          "monthlyCost": "73.72"
+        },
+        {
+          "name": "Speech to text custom model batch",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Speech to text custom endpoint hosting",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Speech to text custom training",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Speech to text enhanced add-ons (commitment)",
+          "monthlyQuantity": "10,000",
+          "unit": "hours",
+          "monthlyCost": "1,950.00"
+        },
+        {
+          "name": "Speech to text enhanced add-ons (overage)",
+          "monthlyQuantity": "100",
+          "unit": "hours",
+          "monthlyCost": "19.50"
+        },
+        {
+          "name": "Speech to text enhanced add-ons (connected container commitment)",
+          "monthlyQuantity": "10,000",
+          "unit": "hours",
+          "monthlyCost": "1,852.50"
+        },
+        {
+          "name": "Speech to text enhanced add-ons (connected container overage)",
+          "monthlyQuantity": "100",
+          "unit": "hours",
+          "monthlyCost": "18.53"
+        },
+        {
+          "name": "Speech to text conversation transcription multi-channel audio",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Text to speech custom neural training",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Text to speech custom neural",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Text to speech custom neural endpoint hosting",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Text to speech long audio",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Text to speech personal voice profiles",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Text to speech personal voice characters",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Speech translation",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Speaker verification",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Speaker identification",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Voice profiles",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_cognitive_account.luis_with_commitment[\"large\"]",
+      "costComponents": [
+        {
+          "name": "Speech requests",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_cognitive_account.textanalytics_with_commitment[\"large\"]",
+      "costComponents": [
+        {
+          "name": "Conversational language understanding",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Conversational language understanding advanced training",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Customized text classification",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Customized summarization",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Customized question answering (over 2.5M)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Customized training",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Text analytics for health (5K-500K)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_cognitive_account.speech_with_commitment[\"small\"]",
+      "costComponents": [
+        {
+          "name": "Speech to text (commitment)",
+          "monthlyQuantity": "2,000",
+          "unit": "hours",
+          "monthlyCost": "1,600.00"
+        },
+        {
+          "name": "Speech to text (overage)",
+          "monthlyQuantity": "100",
+          "unit": "hours",
+          "monthlyCost": "80.00"
+        },
+        {
+          "name": "Speech to text (connected container commitment)",
+          "monthlyQuantity": "2,000",
+          "unit": "hours",
+          "monthlyCost": "1,520.00"
+        },
+        {
+          "name": "Speech to text (connected container overage)",
+          "monthlyQuantity": "100",
+          "unit": "hours",
+          "monthlyCost": "76.00"
+        },
+        {
+          "name": "Speech to text batch",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Speech to text custom model (commitment)",
+          "monthlyQuantity": "2,000",
+          "unit": "hours",
+          "monthlyCost": "1,920.00"
+        },
+        {
+          "name": "Speech to text custom model (overage)",
+          "monthlyQuantity": "100",
+          "unit": "hours",
+          "monthlyCost": "96.00"
+        },
+        {
+          "name": "Speech to text custom model (connected container commitment)",
+          "monthlyQuantity": "2,000",
+          "unit": "hours",
+          "monthlyCost": "1,824.00"
+        },
+        {
+          "name": "Speech to text custom model (connected container overage)",
+          "monthlyQuantity": "100",
+          "unit": "hours",
+          "monthlyCost": "90.86"
+        },
+        {
+          "name": "Speech to text custom model batch",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Speech to text custom endpoint hosting",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Speech to text custom training",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Speech to text enhanced add-ons (commitment)",
+          "monthlyQuantity": "2,000",
+          "unit": "hours",
+          "monthlyCost": "480.00"
+        },
+        {
+          "name": "Speech to text enhanced add-ons (overage)",
+          "monthlyQuantity": "100",
+          "unit": "hours",
+          "monthlyCost": "24.00"
+        },
+        {
+          "name": "Speech to text enhanced add-ons (connected container commitment)",
+          "monthlyQuantity": "2,000",
+          "unit": "hours",
+          "monthlyCost": "456.00"
+        },
+        {
+          "name": "Speech to text enhanced add-ons (connected container overage)",
+          "monthlyQuantity": "100",
+          "unit": "hours",
+          "monthlyCost": "22.80"
+        },
+        {
+          "name": "Speech to text conversation transcription multi-channel audio",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Text to speech custom neural training",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Text to speech custom neural",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Text to speech custom neural endpoint hosting",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Text to speech long audio",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Text to speech personal voice profiles",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Text to speech personal voice characters",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Speech translation",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Speaker verification",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Speaker identification",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Voice profiles",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_cognitive_account.textanalytics_with_commitment[\"medium\"]",
+      "costComponents": [
+        {
+          "name": "Conversational language understanding",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Conversational language understanding advanced training",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Customized text classification",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Customized summarization",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Customized question answering (over 2.5M)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Customized training",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Text analytics for health (5K-500K)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_cognitive_account.luis_with_commitment[\"medium\"]",
+      "costComponents": [
+        {
+          "name": "Speech requests",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_cognitive_account.luis_with_commitment[\"small\"]",
+      "costComponents": [
+        {
+          "name": "Speech requests",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_cognitive_account.textanalytics_with_commitment[\"small\"]",
+      "costComponents": [
+        {
+          "name": "Conversational language understanding",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Conversational language understanding advanced training",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Customized text classification",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Customized summarization",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Customized question answering (over 2.5M)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Customized training",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Text analytics for health (5K-500K)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_cognitive_account.with_usage[\"SpeechServices-S0\"]",
+      "costComponents": [
+        {
+          "name": "Speech to text",
+          "monthlyQuantity": "20",
+          "unit": "hours",
+          "monthlyCost": "20.00"
+        },
+        {
+          "name": "Speech to text batch",
+          "monthlyQuantity": "56",
+          "unit": "hours",
+          "monthlyCost": "10.08"
+        },
+        {
+          "name": "Speech to text custom model",
+          "monthlyQuantity": "17",
+          "unit": "hours",
+          "monthlyCost": "20.40"
+        },
+        {
+          "name": "Speech to text custom model batch",
+          "monthlyQuantity": "44",
+          "unit": "hours",
+          "monthlyCost": "9.90"
+        },
+        {
+          "name": "Speech to text custom endpoint hosting",
+          "monthlyQuantity": "372",
+          "unit": "hours",
+          "monthlyCost": "20.00"
+        },
+        {
+          "name": "Speech to text custom training",
+          "monthlyQuantity": "2",
+          "unit": "hours",
+          "monthlyCost": "20.00"
+        },
+        {
+          "name": "Speech to text enhanced add-ons",
+          "monthlyQuantity": "67",
+          "unit": "hours",
+          "monthlyCost": "20.10"
+        },
+        {
+          "name": "Speech to text conversation transcription multi-channel audio",
+          "monthlyQuantity": "9.5",
+          "unit": "hours",
+          "monthlyCost": "19.95"
+        },
+        {
+          "name": "Text to speech custom neural training",
+          "monthlyQuantity": "0.4",
+          "unit": "hours",
+          "monthlyCost": "20.80"
+        },
+        {
+          "name": "Text to speech custom neural endpoint hosting",
+          "monthlyQuantity": "5",
+          "unit": "hours",
+          "monthlyCost": "20.16"
+        },
+        {
+          "name": "Speech translation",
+          "monthlyQuantity": "8",
+          "unit": "hours",
+          "monthlyCost": "20.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_cognitive_account.with_usage[\"TextAnalytics-S0\"]",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_cognitive_account.with_usage[\"LUIS-S0\"]",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_cognitive_account.luis_with_commitment[\"invalid\"]",
+      "costComponents": [
+        {
+          "name": "Speech requests",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_cognitive_account.speech_with_commitment[\"invalid\"]",
+      "costComponents": [
+        {
+          "name": "Speech to text batch",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Speech to text custom model",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Speech to text custom model batch",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Speech to text custom endpoint hosting",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Speech to text custom training",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Speech to text enhanced add-ons",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Speech to text conversation transcription multi-channel audio",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Text to speech neural",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Text to speech custom neural training",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Text to speech custom neural",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Text to speech custom neural endpoint hosting",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Text to speech long audio",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Text to speech personal voice profiles",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Text to speech personal voice characters",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Speech translation",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Speaker verification",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Speaker identification",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Voice profiles",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_cognitive_account.textanalytics_with_commitment[\"invalid\"]",
+      "costComponents": [
+        {
+          "name": "Conversational language understanding",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Conversational language understanding advanced training",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Customized text classification",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Customized summarization",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Customized question answering (over 2.5M)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Customized training",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Text analytics for health (5K-500K)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_cognitive_account.without_usage[\"LUIS-S0\"]",
+      "costComponents": [
+        {
+          "name": "Text requests",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Speech requests",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_cognitive_account.without_usage[\"SpeechServices-S0\"]",
+      "costComponents": [
+        {
+          "name": "Speech to text",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Speech to text batch",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Speech to text custom model",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Speech to text custom model batch",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Speech to text custom endpoint hosting",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Speech to text custom training",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Speech to text enhanced add-ons",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Speech to text conversation transcription multi-channel audio",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Text to speech neural",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Text to speech custom neural training",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Text to speech custom neural",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Text to speech custom neural endpoint hosting",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Text to speech long audio",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Text to speech personal voice profiles",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Text to speech personal voice characters",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Speech translation",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Speaker verification",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Speaker identification",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Voice profiles",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_cognitive_account.without_usage[\"TextAnalytics-S0\"]",
+      "costComponents": [
+        {
+          "name": "Text analytics (500K-2.5M)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Summarization",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Conversational language understanding",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Conversational language understanding advanced training",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Customized text classification",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Customized summarization",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Customized question answering (over 2.5M)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Customized training",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Text analytics for health (5K-500K)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

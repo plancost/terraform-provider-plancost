@@ -1,0 +1,246 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_linux_virtual_machine.standard_a2_v2_custom_disk",
+      "costComponents": [
+        {
+          "name": "Instance usage (Linux, pay as you go, Standard_A2_v2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "65.92"
+        }
+      ],
+      "subResources": [
+        {
+          "name": "os_disk",
+          "costComponents": [
+            {
+              "name": "Storage (E30, LRS)",
+              "monthlyQuantity": "1",
+              "unit": "months",
+              "monthlyCost": "76.80"
+            },
+            {
+              "name": "Disk operations",
+              "monthlyQuantity": "2",
+              "unit": "10k operations",
+              "monthlyCost": "0.00"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    },
+    {
+      "name": "azurerm_linux_virtual_machine.standard_f2_lowercase",
+      "costComponents": [
+        {
+          "name": "Instance usage (Linux, pay as you go, standard_f2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "72.27"
+        }
+      ],
+      "subResources": [
+        {
+          "name": "os_disk",
+          "costComponents": [
+            {
+              "name": "Storage (P4, LRS)",
+              "monthlyQuantity": "1",
+              "unit": "months",
+              "monthlyCost": "5.28"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    },
+    {
+      "name": "azurerm_linux_virtual_machine.standard_f2_premium_disk",
+      "costComponents": [
+        {
+          "name": "Instance usage (Linux, pay as you go, Standard_F2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "72.27"
+        }
+      ],
+      "subResources": [
+        {
+          "name": "os_disk",
+          "costComponents": [
+            {
+              "name": "Storage (P4, LRS)",
+              "monthlyQuantity": "1",
+              "unit": "months",
+              "monthlyCost": "5.28"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    },
+    {
+      "name": "azurerm_linux_virtual_machine.standard_a2_ultra_enabled",
+      "costComponents": [
+        {
+          "name": "Instance usage (Linux, pay as you go, Standard_A2_v2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "65.92"
+        },
+        {
+          "name": "Ultra disk reservation (if unattached)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": [
+        {
+          "name": "os_disk",
+          "costComponents": [
+            {
+              "name": "Storage (E4, LRS)",
+              "monthlyQuantity": "1",
+              "unit": "months",
+              "monthlyCost": "2.40"
+            },
+            {
+              "name": "Disk operations",
+              "monthlyQuantity": "0",
+              "unit": "usage_based",
+              "monthlyCost": "0.00"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    },
+    {
+      "name": "azurerm_linux_virtual_machine.basic_a2",
+      "costComponents": [
+        {
+          "name": "Instance usage (Linux, pay as you go, Basic_A2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "57.67"
+        }
+      ],
+      "subResources": [
+        {
+          "name": "os_disk",
+          "costComponents": [
+            {
+              "name": "Storage (S4, LRS)",
+              "monthlyQuantity": "1",
+              "unit": "months",
+              "monthlyCost": "1.54"
+            },
+            {
+              "name": "Disk operations",
+              "monthlyQuantity": "0",
+              "unit": "usage_based",
+              "monthlyCost": "0.00"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    },
+    {
+      "name": "azurerm_linux_virtual_machine.basic_b1",
+      "costComponents": [
+        {
+          "name": "Instance usage (Linux, pay as you go, Standard_B1s)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "7.59"
+        }
+      ],
+      "subResources": [
+        {
+          "name": "os_disk",
+          "costComponents": [
+            {
+              "name": "Storage (S4, LRS)",
+              "monthlyQuantity": "1",
+              "unit": "months",
+              "monthlyCost": "1.54"
+            },
+            {
+              "name": "Disk operations",
+              "monthlyQuantity": "0",
+              "unit": "usage_based",
+              "monthlyCost": "0.00"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    },
+    {
+      "name": "azurerm_linux_virtual_machine.basic_b1_lowercase",
+      "costComponents": [
+        {
+          "name": "Instance usage (Linux, pay as you go, standard_b1s)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "7.59"
+        }
+      ],
+      "subResources": [
+        {
+          "name": "os_disk",
+          "costComponents": [
+            {
+              "name": "Storage (S4, LRS)",
+              "monthlyQuantity": "1",
+              "unit": "months",
+              "monthlyCost": "1.54"
+            },
+            {
+              "name": "Disk operations",
+              "monthlyQuantity": "0",
+              "unit": "usage_based",
+              "monthlyCost": "0.00"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    },
+    {
+      "name": "azurerm_linux_virtual_machine.basic_b1_withMonthlyHours",
+      "costComponents": [
+        {
+          "name": "Instance usage (Linux, pay as you go, Standard_B1s)",
+          "monthlyQuantity": "100",
+          "unit": "hours",
+          "monthlyCost": "1.04"
+        }
+      ],
+      "subResources": [
+        {
+          "name": "os_disk",
+          "costComponents": [
+            {
+              "name": "Storage (S4, LRS)",
+              "monthlyQuantity": "1",
+              "unit": "months",
+              "monthlyCost": "1.54"
+            },
+            {
+              "name": "Disk operations",
+              "monthlyQuantity": "0",
+              "unit": "usage_based",
+              "monthlyCost": "0.00"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    }
+  ]
+}

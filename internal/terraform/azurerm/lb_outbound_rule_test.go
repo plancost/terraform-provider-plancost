@@ -1,0 +1,48 @@
+// Copyright 2021 Infracost Inc.
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+package azurerm_test
+
+import (
+	"testing"
+
+	"github.com/plancost/terraform-provider-plancost/internal/testcase"
+)
+
+func TestAzureRMLoadBalancerOutboundRuleGoldenFile(t *testing.T) {
+	t.Parallel()
+	if testing.Short() {
+		t.Skip("skipping test in short mode")
+	}
+	opts := testcase.DefaultGoldenFileOptions()
+
+	// Skip CLI diff as it yields different results
+	opts.IgnoreCLI = true
+
+	testcase.GoldenFileResourceTestsWithOpts(t, "lb_outbound_rule_test", opts)
+}
+
+func TestAzureRMLoadBalancerOutboundRuleV2GoldenFile(t *testing.T) {
+	t.Parallel()
+	if testing.Short() {
+		t.Skip("skipping test in short mode")
+	}
+
+	opts := testcase.DefaultGoldenFileOptions()
+
+	// Skip CLI diff as it yields different results
+	opts.IgnoreCLI = true
+
+	testcase.GoldenFileResourceTestsWithOpts(t, "lb_outbound_rule_v2_test", opts)
+}

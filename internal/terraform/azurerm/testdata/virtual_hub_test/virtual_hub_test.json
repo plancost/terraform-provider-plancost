@@ -1,0 +1,34 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_virtual_hub.virtual_hub_with_usage",
+      "costComponents": [
+        {
+          "name": "Deployment",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "182.50"
+        },
+        {
+          "name": "Data processed",
+          "monthlyQuantity": "90",
+          "unit": "GB",
+          "monthlyCost": "1.80"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_virtual_hub.virtual_hub",
+      "costComponents": [
+        {
+          "name": "Deployment",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "182.50"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

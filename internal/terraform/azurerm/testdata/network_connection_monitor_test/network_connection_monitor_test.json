@@ -1,0 +1,36 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_network_connection_monitor.connection_monitor_with_usage",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_network_connection_monitor.connection_monitor[\"multiple-test-groups-18-tests\"]",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_network_connection_monitor.connection_monitor[\"12-tests\"]",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_network_connection_monitor.connection_monitor[\"multiple-test-groups-1-disabled\"]",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_network_watcher.network_watcher",
+      "costComponents": [
+        {
+          "name": "Network diagnostic tool (over 1,000 checks)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

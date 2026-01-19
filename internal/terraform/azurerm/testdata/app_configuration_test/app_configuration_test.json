@@ -1,0 +1,55 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_app_configuration.usage[\"standard.replicas.3\"]",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_app_configuration.base[\"standard.replicas.3\"]",
+      "costComponents": [
+        {
+          "name": "Requests (over 200k/day per replica)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_app_configuration.usage[\"standard.replicas.1\"]",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_app_configuration.base[\"standard.replicas.1\"]",
+      "costComponents": [
+        {
+          "name": "Requests (over 200k/day per replica)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_app_configuration.usage[\"standard.replicas.0\"]",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_app_configuration.base[\"standard.replicas.0\"]",
+      "costComponents": [
+        {
+          "name": "Requests (over 200k/day per replica)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

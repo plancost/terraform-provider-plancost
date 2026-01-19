@@ -1,0 +1,14 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_vpn_gateway.vpn_with_scale_units",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_vpn_gateway.default_vpn",
+      "costComponents": [],
+      "subResources": []
+    }
+  ]
+}

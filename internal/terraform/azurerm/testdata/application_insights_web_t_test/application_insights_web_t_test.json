@@ -1,0 +1,21 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_application_insights_web_test.non_free",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_application_insights.example",
+      "costComponents": [
+        {
+          "name": "Data ingested",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

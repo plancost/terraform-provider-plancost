@@ -1,0 +1,16 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_key_vault_managed_hardware_security_module.my_module",
+      "costComponents": [
+        {
+          "name": "HSM pools",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "3,540.50"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

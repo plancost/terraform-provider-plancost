@@ -1,0 +1,43 @@
+name: CI Demo
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  estimate:
+    name: Generate Cost Estimate
+    runs-on: ubuntu-latest
+    environment: azure
+    env:
+      # Azure credentials needed for azurerm provider
+      # You need to set these secrets in your repo settings
+      ARM_CLIENT_ID: ${{ secrets.ARM_CLIENT_ID }}
+      ARM_CLIENT_SECRET: ${{ secrets.ARM_CLIENT_SECRET }}
+      ARM_SUBSCRIPTION_ID: ${{ secrets.ARM_SUBSCRIPTION_ID }}
+      ARM_TENANT_ID: ${{ secrets.ARM_TENANT_ID }}
+      # PlanCost API key needed to run in CI
+      PLANCOST_API_KEY: ${{ secrets.PLANCOST_API_KEY }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Terraform
+        uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_wrapper: false
+
+      - name: Terraform Init
+        run: terraform init
+
+      - name: Terraform Plan
+        run: terraform plan -out=tfplan
+
+      - name: Comment PR
+        uses: thollander/actions-comment-pull-request@v2
+        with:
+          filePath: estimate.md
+          comment_tag: plancost_estimate

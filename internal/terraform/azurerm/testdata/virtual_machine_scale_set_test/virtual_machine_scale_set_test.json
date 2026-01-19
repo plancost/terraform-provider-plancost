@@ -1,0 +1,138 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_virtual_machine_scale_set.windows",
+      "costComponents": [
+        {
+          "name": "Instance usage (Windows, hybrid benefit, Standard_F2)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "249.66"
+        }
+      ],
+      "subResources": [
+        {
+          "name": "storage_os_disk",
+          "costComponents": [
+            {
+              "name": "Storage (S4, LRS)",
+              "monthlyQuantity": "1",
+              "unit": "months",
+              "monthlyCost": "1.54"
+            },
+            {
+              "name": "Disk operations",
+              "monthlyQuantity": "100",
+              "unit": "10k operations",
+              "monthlyCost": "0.05"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "storage_data_disk",
+          "costComponents": [
+            {
+              "name": "Storage (E4, LRS)",
+              "monthlyQuantity": "1",
+              "unit": "months",
+              "monthlyCost": "2.40"
+            },
+            {
+              "name": "Disk operations",
+              "monthlyQuantity": "200",
+              "unit": "10k operations",
+              "monthlyCost": "0.40"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "storage_data_disk",
+          "costComponents": [
+            {
+              "name": "Storage (S4, LRS)",
+              "monthlyQuantity": "1",
+              "unit": "months",
+              "monthlyCost": "1.54"
+            },
+            {
+              "name": "Disk operations",
+              "monthlyQuantity": "200",
+              "unit": "10k operations",
+              "monthlyCost": "0.10"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    },
+    {
+      "name": "azurerm_virtual_machine_scale_set.linux",
+      "costComponents": [
+        {
+          "name": "Instance usage (Linux, pay as you go, Standard_F2)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "166.44"
+        }
+      ],
+      "subResources": [
+        {
+          "name": "storage_os_disk",
+          "costComponents": [
+            {
+              "name": "Storage (S4, LRS)",
+              "monthlyQuantity": "1",
+              "unit": "months",
+              "monthlyCost": "1.54"
+            },
+            {
+              "name": "Disk operations",
+              "monthlyQuantity": "0",
+              "unit": "usage_based",
+              "monthlyCost": "0.00"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "storage_data_disk",
+          "costComponents": [
+            {
+              "name": "Storage (E4, LRS)",
+              "monthlyQuantity": "1",
+              "unit": "months",
+              "monthlyCost": "2.40"
+            },
+            {
+              "name": "Disk operations",
+              "monthlyQuantity": "0",
+              "unit": "usage_based",
+              "monthlyCost": "0.00"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "storage_data_disk",
+          "costComponents": [
+            {
+              "name": "Storage (S4, LRS)",
+              "monthlyQuantity": "1",
+              "unit": "months",
+              "monthlyCost": "1.54"
+            },
+            {
+              "name": "Disk operations",
+              "monthlyQuantity": "0",
+              "unit": "usage_based",
+              "monthlyCost": "0.00"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    }
+  ]
+}

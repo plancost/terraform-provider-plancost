@@ -1,0 +1,201 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_kubernetes_cluster.windows",
+      "costComponents": [
+        {
+          "name": "Uptime SLA",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "73.00"
+        }
+      ],
+      "subResources": [
+        {
+          "name": "default_node_pool",
+          "costComponents": [
+            {
+              "name": "Instance usage (Windows, pay as you go, Standard_D2_v2)",
+              "monthlyQuantity": "3,650",
+              "unit": "hours",
+              "monthlyCost": "868.70"
+            },
+            {
+              "name": "Storage (S4, LRS)",
+              "monthlyQuantity": "5",
+              "unit": "months",
+              "monthlyCost": "7.68"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    },
+    {
+      "name": "azurerm_kubernetes_cluster.paid_5nc_32gb",
+      "costComponents": [
+        {
+          "name": "Uptime SLA",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "73.00"
+        }
+      ],
+      "subResources": [
+        {
+          "name": "default_node_pool",
+          "costComponents": [
+            {
+              "name": "Instance usage (Linux, pay as you go, Standard_D2_v2)",
+              "monthlyQuantity": "3,650",
+              "unit": "hours",
+              "monthlyCost": "532.90"
+            },
+            {
+              "name": "Storage (S4, LRS)",
+              "monthlyQuantity": "5",
+              "unit": "months",
+              "monthlyCost": "7.68"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    },
+    {
+      "name": "azurerm_kubernetes_cluster.min_count",
+      "costComponents": [
+        {
+          "name": "Uptime SLA",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "73.00"
+        }
+      ],
+      "subResources": [
+        {
+          "name": "default_node_pool",
+          "costComponents": [
+            {
+              "name": "Instance usage (Linux, pay as you go, Standard_DS2_v2)",
+              "monthlyQuantity": "2,190",
+              "unit": "hours",
+              "monthlyCost": "319.74"
+            },
+            {
+              "name": "Storage (P10, LRS)",
+              "monthlyQuantity": "3",
+              "unit": "months",
+              "monthlyCost": "59.13"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    },
+    {
+      "name": "azurerm_kubernetes_cluster.paid_D2SV2_3nc_128gb",
+      "costComponents": [
+        {
+          "name": "Uptime SLA",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "73.00"
+        }
+      ],
+      "subResources": [
+        {
+          "name": "default_node_pool",
+          "costComponents": [
+            {
+              "name": "Instance usage (Linux, pay as you go, Standard_DS2_v2)",
+              "monthlyQuantity": "2,190",
+              "unit": "hours",
+              "monthlyCost": "319.74"
+            },
+            {
+              "name": "Storage (P10, LRS)",
+              "monthlyQuantity": "3",
+              "unit": "months",
+              "monthlyCost": "59.13"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    },
+    {
+      "name": "azurerm_kubernetes_cluster.usage_ephemeral",
+      "costComponents": [
+        {
+          "name": "Uptime SLA",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "73.00"
+        }
+      ],
+      "subResources": [
+        {
+          "name": "default_node_pool",
+          "costComponents": [
+            {
+              "name": "Instance usage (Linux, pay as you go, Standard_D2_v2)",
+              "monthlyQuantity": "900",
+              "unit": "hours",
+              "monthlyCost": "131.40"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "Load Balancer",
+          "costComponents": [
+            {
+              "name": "Data processed",
+              "monthlyQuantity": "100",
+              "unit": "GB",
+              "monthlyCost": "0.50"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "DNS",
+          "costComponents": [
+            {
+              "name": "Hosted zone",
+              "monthlyQuantity": "1",
+              "unit": "months",
+              "monthlyCost": "0.50"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    },
+    {
+      "name": "azurerm_kubernetes_cluster.free_D2V2",
+      "costComponents": [],
+      "subResources": [
+        {
+          "name": "default_node_pool",
+          "costComponents": [
+            {
+              "name": "Instance usage (Linux, pay as you go, Standard_D2_v2)",
+              "monthlyQuantity": "730",
+              "unit": "hours",
+              "monthlyCost": "106.58"
+            },
+            {
+              "name": "Storage (S10, LRS)",
+              "monthlyQuantity": "1",
+              "unit": "months",
+              "monthlyCost": "5.89"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    }
+  ]
+}

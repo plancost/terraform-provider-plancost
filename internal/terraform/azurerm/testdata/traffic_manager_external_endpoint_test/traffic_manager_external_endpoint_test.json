@@ -1,0 +1,64 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_traffic_manager_external_endpoint.germany_example",
+      "costComponents": [
+        {
+          "name": "Basic health check (Germany)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "0.54"
+        },
+        {
+          "name": "Fast interval health checks add-on (Germany)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "2.54"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_traffic_manager_external_endpoint.fast_healthcheck_example",
+      "costComponents": [
+        {
+          "name": "Basic health check (Global)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "0.54"
+        },
+        {
+          "name": "Fast interval health checks add-on (Global)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "2.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_traffic_manager_external_endpoint.basic_healthcheck_example",
+      "costComponents": [
+        {
+          "name": "Basic health check (Global)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "0.54"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_traffic_manager_external_endpoint.default_healthcheck_example",
+      "costComponents": [
+        {
+          "name": "Basic health check (Global)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "0.54"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

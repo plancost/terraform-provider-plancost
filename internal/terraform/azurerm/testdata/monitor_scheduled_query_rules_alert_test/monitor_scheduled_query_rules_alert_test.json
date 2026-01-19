@@ -1,0 +1,24 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_monitor_scheduled_query_rules_alert.example_freq_5[\"5\"]",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_monitor_scheduled_query_rules_alert.example_freq_5[\"11\"]",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_monitor_scheduled_query_rules_alert.example_freq_5[\"15\"]",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_monitor_scheduled_query_rules_alert.example_freq_5[\"60\"]",
+      "costComponents": [],
+      "subResources": []
+    }
+  ]
+}

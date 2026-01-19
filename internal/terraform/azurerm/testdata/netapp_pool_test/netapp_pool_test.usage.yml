@@ -1,0 +1,5 @@
+version: 0.1
+resource_usage:
+  azurerm_netapp_pool.cool_access:
+    capacity_in_cool_access_percentage: 70
+    cool_access_data_read_write_percentage: 30

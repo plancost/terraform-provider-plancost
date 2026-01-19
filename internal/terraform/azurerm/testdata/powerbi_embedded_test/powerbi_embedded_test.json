@@ -1,0 +1,28 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_powerbi_embedded.a5",
+      "costComponents": [
+        {
+          "name": "Node usage (A5)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "11,768.33"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_powerbi_embedded.a1",
+      "costComponents": [
+        {
+          "name": "Node usage (A1)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "735.91"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

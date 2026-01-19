@@ -1,0 +1,64 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_traffic_manager_nested_endpoint.germany_example",
+      "costComponents": [
+        {
+          "name": "Basic health check (Germany)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "0.36"
+        },
+        {
+          "name": "Fast interval health checks add-on (Germany)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "1.36"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_traffic_manager_nested_endpoint.fast_healthcheck_example",
+      "costComponents": [
+        {
+          "name": "Basic health check (Global)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "0.36"
+        },
+        {
+          "name": "Fast interval health checks add-on (Global)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "1.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_traffic_manager_nested_endpoint.basic_healthcheck_example",
+      "costComponents": [
+        {
+          "name": "Basic health check (Global)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "0.36"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_traffic_manager_nested_endpoint.default_healthcheck_example",
+      "costComponents": [
+        {
+          "name": "Basic health check (Global)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "0.36"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

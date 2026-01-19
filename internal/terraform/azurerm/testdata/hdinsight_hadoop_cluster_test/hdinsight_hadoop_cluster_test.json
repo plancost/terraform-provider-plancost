@@ -1,0 +1,112 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_hdinsight_hadoop_cluster.with_edge",
+      "costComponents": [
+        {
+          "name": "Head node (Standard_D3_V2)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "430.70"
+        },
+        {
+          "name": "Worker node (Standard_D4_V2)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "1,292.10"
+        },
+        {
+          "name": "Zookeeper node (Standard_D3_V2)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "646.05"
+        },
+        {
+          "name": "Edge node (Standard_A5)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "554.07"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_hdinsight_hadoop_cluster.without_edge",
+      "costComponents": [
+        {
+          "name": "Head node (Standard_A4m_V2)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "446.76"
+        },
+        {
+          "name": "Worker node (Standard_A1_V2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "43.80"
+        },
+        {
+          "name": "Zookeeper node (Standard_A5)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "554.07"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.example",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "List and create container operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Data retrieval",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Blob index",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Early deletion",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

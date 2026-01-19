@@ -1,0 +1,160 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_virtual_network_gateway.VpnGw5",
+      "costComponents": [
+        {
+          "name": "VPN gateway (VpnGw5)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "2,664.50"
+        },
+        {
+          "name": "VPN gateway data tranfer",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_virtual_network_gateway.VpnGw4",
+      "costComponents": [
+        {
+          "name": "VPN gateway (VpnGw4)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "1,533.00"
+        },
+        {
+          "name": "VPN gateway P2S tunnels (over 128)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "VPN gateway data tranfer",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_virtual_network_gateway.VpnGw3",
+      "costComponents": [
+        {
+          "name": "VPN gateway (VpnGw3)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "912.50"
+        },
+        {
+          "name": "VPN gateway P2S tunnels (over 128)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "VPN gateway data tranfer",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_virtual_network_gateway.VpnGw2",
+      "costComponents": [
+        {
+          "name": "VPN gateway (VpnGw2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "357.70"
+        },
+        {
+          "name": "VPN gateway data tranfer",
+          "monthlyQuantity": "20",
+          "unit": "GB",
+          "monthlyCost": "0.70"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_virtual_network_gateway.VpnGw1AZ",
+      "costComponents": [
+        {
+          "name": "VPN gateway (VpnGw1AZ)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "153.30"
+        },
+        {
+          "name": "VPN gateway data tranfer",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_virtual_network_gateway.Basic",
+      "costComponents": [
+        {
+          "name": "VPN gateway (Basic)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "26.28"
+        },
+        {
+          "name": "VPN gateway data tranfer",
+          "monthlyQuantity": "1",
+          "unit": "GB",
+          "monthlyCost": "0.04"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_virtual_network_gateway.VpnGw1",
+      "costComponents": [
+        {
+          "name": "VPN gateway (VpnGw1)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "138.70"
+        },
+        {
+          "name": "VPN gateway P2S tunnels (over 128)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "VPN gateway data tranfer",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_public_ip.example",
+      "costComponents": [
+        {
+          "name": "IP address (dynamic, regional)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "2.92"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

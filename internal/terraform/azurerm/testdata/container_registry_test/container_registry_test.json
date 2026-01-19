@@ -1,0 +1,61 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_container_registry.twoLocations",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_container_registry.my_registry",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_container_registry.overStorage",
+      "costComponents": [
+        {
+          "name": "Storage (over 10GB)",
+          "monthlyQuantity": "540",
+          "unit": "GB",
+          "monthlyCost": "54.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_container_registry.withoutLocations",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_container_registry.basic",
+      "costComponents": [
+        {
+          "name": "Storage (over 10GB)",
+          "monthlyQuantity": "140",
+          "unit": "GB",
+          "monthlyCost": "14.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_container_registry.withoutUsage",
+      "costComponents": [
+        {
+          "name": "Storage (over 10GB)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Build vCPU",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

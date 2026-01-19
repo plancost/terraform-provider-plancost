@@ -1,0 +1,46 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_application_insights.with_retention",
+      "costComponents": [
+        {
+          "name": "Data ingested",
+          "monthlyQuantity": "1,000",
+          "unit": "GB",
+          "monthlyCost": "2,300.00"
+        },
+        {
+          "name": "Data retention (120 days)",
+          "monthlyQuantity": "1,000",
+          "unit": "GB",
+          "monthlyCost": "100.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_application_insights.usage",
+      "costComponents": [
+        {
+          "name": "Data ingested",
+          "monthlyQuantity": "1,000",
+          "unit": "GB",
+          "monthlyCost": "2,300.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_application_insights.non_usage",
+      "costComponents": [
+        {
+          "name": "Data ingested",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

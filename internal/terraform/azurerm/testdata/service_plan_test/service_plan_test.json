@@ -1,0 +1,3244 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_service_plan.example[\"Windows.I6v2.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I6v2)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "38,333.76"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.I6v2.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I6v2)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "38,333.76"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.I6v2.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I6v2)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "27,050.88"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.I6v2.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I6v2)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "25,555.84"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.I6v2.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I6v2)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "25,555.84"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.I5v2.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I5v2)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "19,166.88"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.I5v2.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I5v2)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "19,166.88"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.I6v2.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I6v2)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "18,033.92"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.I5v2.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I5v2)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "13,525.44"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.I5v2.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I5v2)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "12,777.92"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.I6v2.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I6v2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "12,777.92"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.I5v2.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I5v2)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "12,777.92"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.I6v2.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I6v2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "12,777.92"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.P5mv3.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P5mv3)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "12,123.84"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.P5mv3.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P5mv3)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "12,123.84"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.I4v2.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I4v2)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "9,583.44"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.I4v2.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I4v2)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "9,583.44"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.I5v2.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I5v2)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "9,016.96"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.I6v2.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I6v2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "9,016.96"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.P5mv3.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P5mv3)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "8,082.56"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.P5mv3.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P5mv3)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "8,082.56"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.I4v2.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I4v2)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "6,762.72"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.P5mv3.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P5mv3)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "6,517.44"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.I4v2.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I4v2)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "6,388.96"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.I5v2.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I5v2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "6,388.96"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.I4v2.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I4v2)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "6,388.96"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.I5v2.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I5v2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "6,388.96"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.P4mv3.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P4mv3)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "6,061.92"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.P4mv3.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P4mv3)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "6,061.92"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.I3v2.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I3v2)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "4,791.72"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.I3v2.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I3v2)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "4,791.72"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.I4v2.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I4v2)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "4,508.48"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.I5v2.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I5v2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "4,508.48"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.P5mv3.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P5mv3)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "4,344.96"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.P4mv3.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P4mv3)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "4,041.28"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.P5mv3.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P5mv3)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "4,041.28"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.P4mv3.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P4mv3)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "4,041.28"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.P5mv3.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P5mv3)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "4,041.28"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.I3v2.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I3v2)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "3,381.36"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.P4mv3.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P4mv3)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "3,258.72"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.I3v2.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I3v2)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "3,194.48"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.I4v2.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I4v2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "3,194.48"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.I3v2.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I3v2)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "3,194.48"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.I4v2.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I4v2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "3,194.48"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.P3mv3.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P3mv3)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "3,030.96"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.P3mv3.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P3mv3)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "3,030.96"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.P3v3.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P3v3)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "2,759.40"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.P3v3.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P3v3)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "2,759.40"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.I3.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I3)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "2,628.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.I3.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I3)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "2,628.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.I3.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I3)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "2,628.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.I2v2.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I2v2)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "2,395.86"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.I2v2.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I2v2)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "2,395.86"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.I3v2.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I3v2)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "2,254.24"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.I4v2.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I4v2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "2,254.24"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.P4mv3.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P4mv3)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "2,172.48"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.P5mv3.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P5mv3)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "2,172.48"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.P3mv3.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P3mv3)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "2,020.64"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.P4mv3.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P4mv3)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "2,020.64"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.P3mv3.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P3mv3)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "2,020.64"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.P4mv3.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P4mv3)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "2,020.64"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.P3v3.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P3v3)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "1,839.60"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.P3v3.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P3v3)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "1,839.60"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.I3.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I3)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "1,752.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.I3.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I3)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "1,752.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.P3v2.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P3v2)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "1,752.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.I3.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I3)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "1,752.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.P3v2.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P3v2)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "1,752.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.I2v2.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I2v2)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "1,690.68"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.P3mv3.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P3mv3)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "1,629.36"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.I2v2.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I2v2)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "1,597.24"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.I3v2.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I3v2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "1,597.24"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.I2v2.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I2v2)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "1,597.24"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.I3v2.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I3v2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "1,597.24"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.P2mv3.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P2mv3)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "1,515.48"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.P2mv3.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P2mv3)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "1,515.48"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.P2v3.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P2v3)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "1,379.70"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.P2v3.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P2v3)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "1,379.70"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.P3v3.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P3v3)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "1,357.80"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.I2.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I2)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "1,314.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.I2.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I2)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "1,314.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.I2.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I2)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "1,314.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.I1v2.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I1v2)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "1,197.93"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.I1v2.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I1v2)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "1,197.93"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.P3v2.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P3v2)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "1,168.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.P3v2.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P3v2)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "1,168.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.I2v2.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I2v2)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "1,127.12"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.I3v2.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I3v2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "1,127.12"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.P3mv3.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P3mv3)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "1,086.24"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.P4mv3.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P4mv3)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "1,086.24"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.P2mv3.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P2mv3)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "1,010.32"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.P3mv3.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P3mv3)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "1,010.32"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.P2mv3.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P2mv3)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "1,010.32"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.P3mv3.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P3mv3)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "1,010.32"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.P2v3.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P2v3)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "919.80"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.P3v3.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P3v3)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "919.80"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.P2v3.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P2v3)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "919.80"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.P3v3.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P3v3)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "919.80"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.P3v3.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P3v3)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "905.20"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.P3v2.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P3v2)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "882.57"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.I2.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I2)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "876.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.I3.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I3)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "876.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.I2.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I2)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "876.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.I3.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I3)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "876.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.P2v2.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P2v2)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "876.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.S3.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (S3)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "876.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.I2.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I2)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "876.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.I3.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I3)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "876.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.P2v2.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P2v2)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "876.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.S3.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (S3)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "876.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.I1v2.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I1v2)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "845.34"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.S3.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (S3)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "832.20"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.P2mv3.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P2mv3)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "814.68"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.I1v2.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I1v2)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "798.62"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.I2v2.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I2v2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "798.62"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.I1v2.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I1v2)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "798.62"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.I2v2.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I2v2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "798.62"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.P1mv3.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P1mv3)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "757.74"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.P1mv3.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P1mv3)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "757.74"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.P1v3.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P1v3)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "689.85"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.P1v3.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P1v3)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "689.85"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.P2v3.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P2v3)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "678.90"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.I1.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I1)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "657.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.B3.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (B3)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "657.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.I1.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I1)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "657.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.B3.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (B3)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "657.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.I1.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I1)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "657.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.P3v2.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P3v2)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "588.38"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.P2v2.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P2v2)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "584.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.P3v2.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P3v2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "584.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.S3.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (S3)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "584.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.P2v2.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P2v2)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "584.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.P3v2.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P3v2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "584.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.S3.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (S3)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "584.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.I1v2.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I1v2)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "563.56"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.I2v2.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I2v2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "563.56"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.S3.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (S3)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "554.80"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.P2mv3.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P2mv3)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "543.12"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.P3mv3.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P3mv3)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "543.12"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.P1mv3.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P1mv3)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "505.16"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.P2mv3.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P2mv3)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "505.16"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.P1mv3.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P1mv3)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "505.16"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.P2mv3.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P2mv3)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "505.16"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.P1v3.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P1v3)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "459.90"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.P2v3.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P2v3)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "459.90"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.P1v3.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P1v3)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "459.90"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.P2v3.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P2v3)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "459.90"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.P2v3.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P2v3)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "452.60"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.P3v3.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P3v3)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "452.60"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.P2v2.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P2v2)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "442.38"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.I1.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I1)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "438.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.I2.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "438.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.B3.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (B3)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "438.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.I1.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I1)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "438.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.I2.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "438.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.P1v2.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P1v2)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "438.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.S2.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (S2)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "438.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.B3.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (B3)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "438.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.I1.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I1)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "438.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.I2.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "438.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.P1v2.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P1v2)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "438.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.S2.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (S2)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "438.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.S2.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (S2)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "416.10"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.P1mv3.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P1mv3)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "407.34"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.I1v2.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I1v2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "399.31"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.I1v2.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I1v2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "399.31"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.P0v3.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P0v3)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "344.93"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.P0v3.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P0v3)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "344.93"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.P1v3.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P1v3)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "339.45"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.B2.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (B2)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "328.50"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.B2.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (B2)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "328.50"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.P2v2.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P2v2)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "294.92"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.P3v2.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P3v2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "294.19"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.P1v2.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P1v2)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "292.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.P2v2.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P2v2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "292.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.S2.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (S2)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "292.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.S3.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (S3)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "292.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.P1v2.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P1v2)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "292.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.P2v2.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P2v2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "292.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.S2.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (S2)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "292.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.S3.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (S3)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "292.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.I1v2.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I1v2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "281.78"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.S2.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (S2)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "277.40"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.S3.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (S3)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "277.40"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.P1mv3.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P1mv3)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "271.56"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.P2mv3.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P2mv3)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "271.56"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.P1mv3.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P1mv3)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "252.58"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.P1mv3.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P1mv3)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "252.58"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.P0v3.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P0v3)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "229.95"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.P1v3.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P1v3)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "229.95"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.P0v3.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P0v3)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "229.95"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.P1v3.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P1v3)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "229.95"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.P1v3.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P1v3)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "226.30"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.P2v3.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P2v3)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "226.30"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.P1v2.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P1v2)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "221.19"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.I1.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I1)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "219.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.B2.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (B2)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "219.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.B3.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (B3)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "219.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.I1.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I1)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "219.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.S1.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (S1)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "219.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.B2.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (B2)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "219.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.B3.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (B3)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "219.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.I1.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (I1)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "219.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.S1.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (S1)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "219.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.S1.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (S1)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "208.05"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.P0v3.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P0v3)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "169.73"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.B1.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (B1)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "164.25"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.B1.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (B1)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "164.25"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.P1v2.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P1v2)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "147.46"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.P2v2.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P2v2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "147.46"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.B3.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (B3)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "146.73"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.P1v2.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P1v2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "146.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.S1.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (S1)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "146.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.S2.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (S2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "146.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.P1v2.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P1v2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "146.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.S1.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (S1)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "146.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.S2.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (S2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "146.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.S1.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (S1)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "138.70"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.S2.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (S2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "138.70"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.P1mv3.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P1mv3)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "135.78"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.P0v3.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P0v3)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "114.98"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.P0v3.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P0v3)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "114.98"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.P0v3.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P0v3)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "113.15"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.P1v3.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P1v3)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "113.15"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.B1.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (B1)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "109.50"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.B2.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (B2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "109.50"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.B1.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (B1)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "109.50"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.B2.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (B2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "109.50"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.B3.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (B3)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "97.82"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.B2.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (B2)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "74.46"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.P1v2.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P1v2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "73.73"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.S1.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (S1)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "73.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.S1.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (S1)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "73.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.S1.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (S1)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "69.35"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.P0v3.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (P0v3)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "56.58"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.B1.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (B1)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "54.75"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.B1.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (B1)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "54.75"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.B2.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (B2)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "49.64"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.B3.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (B3)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "48.91"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.B1.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (B1)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "37.23"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.D1.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (D1)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "28.47"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.SHARED.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (SHARED)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "28.47"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.D1.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (D1)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "28.47"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.SHARED.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (SHARED)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "28.47"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.D1.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (D1)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "28.47"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.SHARED.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (SHARED)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "28.47"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.B1.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (B1)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "24.82"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.B2.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (B2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "24.82"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.D1.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (D1)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "18.98"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.SHARED.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (SHARED)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "18.98"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.D1.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (D1)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "18.98"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.SHARED.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (SHARED)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "18.98"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.D1.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (D1)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "18.98"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.SHARED.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (SHARED)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "18.98"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.B1.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (B1)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "12.41"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.D1.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (D1)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "9.49"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.SHARED.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (SHARED)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "9.49"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.D1.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (D1)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "9.49"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.SHARED.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (SHARED)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "9.49"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.D1.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (D1)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "9.49"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.SHARED.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (SHARED)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "9.49"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.F1.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (F1)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.F1.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (F1)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Linux.F1.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (F1)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.F1.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (F1)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.F1.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (F1)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"Windows.F1.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (F1)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.F1.1\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (F1)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.F1.2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (F1)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_service_plan.example[\"WindowsContainer.F1.3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (F1)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

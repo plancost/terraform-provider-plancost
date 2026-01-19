@@ -1,0 +1,76 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_data_factory_integration_runtime_self_hosted.with_usage",
+      "costComponents": [
+        {
+          "name": "Data movement activity",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "73.00"
+        },
+        {
+          "name": "Pipeline activity",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "1.46"
+        },
+        {
+          "name": "External pipeline activity",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "0.07"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_data_factory_integration_runtime_self_hosted.example",
+      "costComponents": [
+        {
+          "name": "Orchestration",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Data movement activity",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "73.00"
+        },
+        {
+          "name": "Pipeline activity",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "1.46"
+        },
+        {
+          "name": "External pipeline activity",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "0.07"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_data_factory.example",
+      "costComponents": [
+        {
+          "name": "Read/Write operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Monitoring operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_vpn_gateway.vpn_gateway",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_vpn_gateway_connection.vpn_gateway_connection",
+      "costComponents": [
+        {
+          "name": "S2S Connections",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "36.50"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

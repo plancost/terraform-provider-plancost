@@ -1,0 +1,16 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_public_ip_prefix.example",
+      "costComponents": [
+        {
+          "name": "IP prefix",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "4.38"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

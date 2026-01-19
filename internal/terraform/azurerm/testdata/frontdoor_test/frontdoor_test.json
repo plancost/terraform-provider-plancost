@@ -1,0 +1,84 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_frontdoor.frontdoor_with_usage",
+      "costComponents": [
+        {
+          "name": "Routing rules (first 5 rules)",
+          "monthlyQuantity": "3,650",
+          "unit": "hours",
+          "monthlyCost": "109.50"
+        },
+        {
+          "name": "Routing rules (per additional rule)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "8.76"
+        },
+        {
+          "name": "Inbound data transfer",
+          "monthlyQuantity": "1,000",
+          "unit": "GB",
+          "monthlyCost": "10.00"
+        }
+      ],
+      "subResources": [
+        {
+          "name": "Outbound data transfer",
+          "costComponents": [
+            {
+              "name": "North America, Europe and Africa (first 10TB)",
+              "monthlyQuantity": "10,000",
+              "unit": "GB",
+              "monthlyCost": "1,700.00"
+            },
+            {
+              "name": "North America, Europe and Africa (next 40TB)",
+              "monthlyQuantity": "40,000",
+              "unit": "GB",
+              "monthlyCost": "6,000.00"
+            },
+            {
+              "name": "North America, Europe and Africa (over 50TB)",
+              "monthlyQuantity": "150,000",
+              "unit": "GB",
+              "monthlyCost": "19,500.00"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    },
+    {
+      "name": "azurerm_frontdoor.frontdoor_without_usage",
+      "costComponents": [
+        {
+          "name": "Routing rules (first 5 rules)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "21.90"
+        },
+        {
+          "name": "Inbound data transfer",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": [
+        {
+          "name": "Outbound data transfer",
+          "costComponents": [
+            {
+              "name": "North America, Europe and Africa (first 10TB)",
+              "monthlyQuantity": "0",
+              "unit": "usage_based",
+              "monthlyCost": "0.00"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_managed_disk.ultra",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_managed_disk.custom_size_ssd",
+      "costComponents": [
+        {
+          "name": "Storage (E30, LRS)",
+          "monthlyQuantity": "1",
+          "unit": "months",
+          "monthlyCost": "76.80"
+        },
+        {
+          "name": "Disk operations",
+          "monthlyQuantity": "2",
+          "unit": "10k operations",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_managed_disk.premium",
+      "costComponents": [
+        {
+          "name": "Storage (P4, LRS)",
+          "monthlyQuantity": "1",
+          "unit": "months",
+          "monthlyCost": "5.28"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_managed_disk.standard",
+      "costComponents": [
+        {
+          "name": "Storage (S4, LRS)",
+          "monthlyQuantity": "1",
+          "unit": "months",
+          "monthlyCost": "1.54"
+        },
+        {
+          "name": "Disk operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

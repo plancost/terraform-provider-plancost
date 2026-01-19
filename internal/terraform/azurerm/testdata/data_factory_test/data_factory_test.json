@@ -1,0 +1,27 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_data_factory.with_usage",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_data_factory.example",
+      "costComponents": [
+        {
+          "name": "Read/Write operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Monitoring operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

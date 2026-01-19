@@ -1,0 +1,100 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_key_vault_key.pr_hsm_rsa3072",
+      "costComponents": [
+        {
+          "name": "HSM-protected keys (first 250)",
+          "monthlyQuantity": "250",
+          "unit": "months",
+          "monthlyCost": "1,250.00"
+        },
+        {
+          "name": "HSM-protected keys (next 1250)",
+          "monthlyQuantity": "1,250",
+          "unit": "months",
+          "monthlyCost": "3,125.00"
+        },
+        {
+          "name": "HSM-protected keys (next 2500)",
+          "monthlyQuantity": "2,500",
+          "unit": "months",
+          "monthlyCost": "2,250.00"
+        },
+        {
+          "name": "HSM-protected keys (over 4000)",
+          "monthlyQuantity": "1,000",
+          "unit": "months",
+          "monthlyCost": "400.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_key_vault_key.pr_hsm_rsa2048",
+      "costComponents": [
+        {
+          "name": "HSM-protected keys",
+          "monthlyQuantity": "5,000",
+          "unit": "months",
+          "monthlyCost": "5,000.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_key_vault_key.std_rsa2048",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_key_vault_key.std_rsa3072",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_key_vault_key.std_hsm_rsa3072",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_key_vault_key.pr_ec",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_key_vault_key.pr_rsa3072",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_key_vault_key.pr_rsa2048",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_key_vault_key.no_usage",
+      "costComponents": [
+        {
+          "name": "Secrets operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Storage key rotations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Software-protected keys",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

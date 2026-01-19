@@ -1,0 +1,38 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_signalr_service.example_with_usage[\"Premium_P1\"]",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_signalr_service.example_with_usage[\"Standard_S1\"]",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_signalr_service.example[\"Premium_P1\"]",
+      "costComponents": [
+        {
+          "name": "Additional messages (Premium)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_signalr_service.example[\"Standard_S1\"]",
+      "costComponents": [
+        {
+          "name": "Additional messages (Standard)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

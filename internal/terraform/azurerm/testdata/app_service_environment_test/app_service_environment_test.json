@@ -1,0 +1,112 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_app_service_environment.example_I2",
+      "costComponents": [
+        {
+          "name": "Stamp fee",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "991.34"
+        },
+        {
+          "name": "Instance usage (I2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "416.10"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_app_service_environment.linux_I2",
+      "costComponents": [
+        {
+          "name": "Stamp fee",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "991.34"
+        },
+        {
+          "name": "Instance usage (I2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "416.10"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_app_service_environment.windows_I2",
+      "costComponents": [
+        {
+          "name": "Stamp fee",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "991.34"
+        },
+        {
+          "name": "Instance usage (I2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "416.10"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_app_service_environment.example_I1",
+      "costComponents": [
+        {
+          "name": "Stamp fee",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "991.34"
+        },
+        {
+          "name": "Instance usage (I1)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "208.05"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_app_service_environment.linux_I1",
+      "costComponents": [
+        {
+          "name": "Stamp fee",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "991.34"
+        },
+        {
+          "name": "Instance usage (I1)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "208.05"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_app_service_environment.windows_I1",
+      "costComponents": [
+        {
+          "name": "Stamp fee",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "991.34"
+        },
+        {
+          "name": "Instance usage (I1)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "208.05"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

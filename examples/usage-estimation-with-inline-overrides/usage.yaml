@@ -1,0 +1,7 @@
+version: 0.1
+resource_type_default_usage:
+  azurerm_storage_account:
+    storage_gb: 50
+resource_usage:
+  azurerm_storage_account.large_app:
+    storage_gb: 500

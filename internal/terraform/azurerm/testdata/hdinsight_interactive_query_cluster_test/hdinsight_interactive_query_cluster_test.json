@@ -1,0 +1,82 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_hdinsight_interactive_query_cluster.example",
+      "costComponents": [
+        {
+          "name": "Head node (Standard_E2_V3)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "277.40"
+        },
+        {
+          "name": "Worker node (Standard_E16_V3)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "3,328.80"
+        },
+        {
+          "name": "Zookeeper node (Standard_E64i_V3)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "12,246.48"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.example",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "List and create container operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Data retrieval",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Blob index",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Early deletion",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

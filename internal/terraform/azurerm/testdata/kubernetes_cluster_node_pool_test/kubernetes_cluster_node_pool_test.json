@@ -1,0 +1,227 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_kubernetes_cluster_node_pool.Standard_DS2_v2",
+      "costComponents": [
+        {
+          "name": "Instance usage (Linux, pay as you go, Standard_DS2_v2)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "213.16"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_kubernetes_cluster_node_pool.with_min_count",
+      "costComponents": [
+        {
+          "name": "Instance usage (Linux, pay as you go, Standard_DS2_v2)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "213.16"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_kubernetes_cluster_node_pool.windows_sku",
+      "costComponents": [
+        {
+          "name": "Instance usage (Windows, pay as you go, Standard_DS2_v2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "173.74"
+        }
+      ],
+      "subResources": [
+        {
+          "name": "os_disk",
+          "costComponents": [
+            {
+              "name": "Storage (P10, LRS)",
+              "monthlyQuantity": "1",
+              "unit": "months",
+              "monthlyCost": "19.71"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    },
+    {
+      "name": "azurerm_kubernetes_cluster_node_pool.example",
+      "costComponents": [
+        {
+          "name": "Instance usage (Linux, pay as you go, Standard_DS2_v2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "106.58"
+        }
+      ],
+      "subResources": [
+        {
+          "name": "os_disk",
+          "costComponents": [
+            {
+              "name": "Storage (P10, LRS)",
+              "monthlyQuantity": "1",
+              "unit": "months",
+              "monthlyCost": "19.71"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    },
+    {
+      "name": "azurerm_kubernetes_cluster_node_pool.zero_min_count_default_node_count",
+      "costComponents": [
+        {
+          "name": "Instance usage (Linux, pay as you go, Standard_DS2_v2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "106.58"
+        }
+      ],
+      "subResources": [
+        {
+          "name": "os_disk",
+          "costComponents": [
+            {
+              "name": "Storage (P10, LRS)",
+              "monthlyQuantity": "1",
+              "unit": "months",
+              "monthlyCost": "19.71"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    },
+    {
+      "name": "azurerm_kubernetes_cluster.example",
+      "costComponents": [],
+      "subResources": [
+        {
+          "name": "default_node_pool",
+          "costComponents": [
+            {
+              "name": "Instance usage (Linux, pay as you go, Standard_D2_v2)",
+              "monthlyQuantity": "730",
+              "unit": "hours",
+              "monthlyCost": "106.58"
+            },
+            {
+              "name": "Storage (S10, LRS)",
+              "monthlyQuantity": "1",
+              "unit": "months",
+              "monthlyCost": "5.89"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    },
+    {
+      "name": "azurerm_kubernetes_cluster_node_pool.windows",
+      "costComponents": [
+        {
+          "name": "Instance usage (Windows, pay as you go, Basic_A2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "97.09"
+        }
+      ],
+      "subResources": [
+        {
+          "name": "os_disk",
+          "costComponents": [
+            {
+              "name": "Storage (S10, LRS)",
+              "monthlyQuantity": "1",
+              "unit": "months",
+              "monthlyCost": "5.89"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    },
+    {
+      "name": "azurerm_kubernetes_cluster_node_pool.usage_basic_A2",
+      "costComponents": [
+        {
+          "name": "Instance usage (Linux, pay as you go, Basic_A2)",
+          "monthlyQuantity": "900",
+          "unit": "hours",
+          "monthlyCost": "71.10"
+        }
+      ],
+      "subResources": [
+        {
+          "name": "os_disk",
+          "costComponents": [
+            {
+              "name": "Storage (S10, LRS)",
+              "monthlyQuantity": "2",
+              "unit": "months",
+              "monthlyCost": "11.78"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    },
+    {
+      "name": "azurerm_kubernetes_cluster_node_pool.non_premium",
+      "costComponents": [
+        {
+          "name": "Instance usage (Linux, pay as you go, Standard_D2_v3)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "70.08"
+        }
+      ],
+      "subResources": [
+        {
+          "name": "os_disk",
+          "costComponents": [
+            {
+              "name": "Storage (S10, LRS)",
+              "monthlyQuantity": "1",
+              "unit": "months",
+              "monthlyCost": "5.89"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    },
+    {
+      "name": "azurerm_kubernetes_cluster_node_pool.basic_A2",
+      "costComponents": [
+        {
+          "name": "Instance usage (Linux, pay as you go, Basic_A2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "57.67"
+        }
+      ],
+      "subResources": [
+        {
+          "name": "os_disk",
+          "costComponents": [
+            {
+              "name": "Storage (S10, LRS)",
+              "monthlyQuantity": "1",
+              "unit": "months",
+              "monthlyCost": "5.89"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    }
+  ]
+}

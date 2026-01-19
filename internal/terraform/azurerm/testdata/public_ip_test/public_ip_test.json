@@ -1,0 +1,40 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_public_ip.global",
+      "costComponents": [
+        {
+          "name": "IP address (static, global)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "7.30"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_public_ip.example",
+      "costComponents": [
+        {
+          "name": "IP address (static, regional)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "3.65"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_public_ip.example1",
+      "costComponents": [
+        {
+          "name": "IP address (dynamic, regional)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "2.92"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

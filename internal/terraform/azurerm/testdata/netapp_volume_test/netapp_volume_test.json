@@ -1,0 +1,64 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_netapp_pool.example",
+      "costComponents": [
+        {
+          "name": "Storage (standard)",
+          "monthlyQuantity": "4,096",
+          "unit": "GiB",
+          "monthlyCost": "604.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_netapp_volume.replicated_10min",
+      "costComponents": [
+        {
+          "name": "Replication (10minutes)",
+          "monthlyQuantity": "1,000",
+          "unit": "GiB",
+          "monthlyCost": "154.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_netapp_volume.replicated_hourly",
+      "costComponents": [
+        {
+          "name": "Replication (hourly)",
+          "monthlyQuantity": "1,000",
+          "unit": "GiB",
+          "monthlyCost": "132.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_netapp_volume.replicated_daily",
+      "costComponents": [
+        {
+          "name": "Replication (daily)",
+          "monthlyQuantity": "1,000",
+          "unit": "GiB",
+          "monthlyCost": "121.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_netapp_volume.with_usage",
+      "costComponents": [
+        {
+          "name": "Replication (daily)",
+          "monthlyQuantity": "860",
+          "unit": "GiB",
+          "monthlyCost": "104.06"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

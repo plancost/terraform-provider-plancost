@@ -1,0 +1,308 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_virtual_machine.example[\"data_disk\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (Linux, pay as you go, Standard_DS1_v2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "49.57"
+        },
+        {
+          "name": "Ultra disk reservation (if unattached)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": [
+        {
+          "name": "storage_os_disk",
+          "costComponents": [
+            {
+              "name": "Storage (P4, LRS)",
+              "monthlyQuantity": "1",
+              "unit": "months",
+              "monthlyCost": "5.81"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "storage_data_disk",
+          "costComponents": [
+            {
+              "name": "Storage (P4, LRS)",
+              "monthlyQuantity": "1",
+              "unit": "months",
+              "monthlyCost": "5.81"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "storage_data_disk",
+          "costComponents": [
+            {
+              "name": "Storage (P4, LRS)",
+              "monthlyQuantity": "1",
+              "unit": "months",
+              "monthlyCost": "5.81"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    },
+    {
+      "name": "azurerm_virtual_machine.example[\"md\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (Linux, pay as you go, Standard_DS1_v2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "49.57"
+        },
+        {
+          "name": "Ultra disk reservation (if unattached)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": [
+        {
+          "name": "storage_os_disk",
+          "costComponents": [
+            {
+              "name": "Storage (P4, LRS)",
+              "monthlyQuantity": "1",
+              "unit": "months",
+              "monthlyCost": "5.81"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    },
+    {
+      "name": "azurerm_virtual_machine.example[\"premium\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (Linux, pay as you go, Standard_DS1_v2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "49.57"
+        },
+        {
+          "name": "Ultra disk reservation (if unattached)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": [
+        {
+          "name": "storage_os_disk",
+          "costComponents": [
+            {
+              "name": "Storage (P4, LRS)",
+              "monthlyQuantity": "1",
+              "unit": "months",
+              "monthlyCost": "5.81"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    },
+    {
+      "name": "azurerm_virtual_machine.example[\"standard\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (Linux, pay as you go, Standard_D1_v2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "49.57"
+        },
+        {
+          "name": "Ultra disk reservation (if unattached)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": [
+        {
+          "name": "storage_os_disk",
+          "costComponents": [
+            {
+              "name": "Storage (E4, LRS)",
+              "monthlyQuantity": "1",
+              "unit": "months",
+              "monthlyCost": "2.40"
+            },
+            {
+              "name": "Disk operations",
+              "monthlyQuantity": "0",
+              "unit": "usage_based",
+              "monthlyCost": "0.00"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    },
+    {
+      "name": "azurerm_image.vm_usage[\"data_disk\"]",
+      "costComponents": [
+        {
+          "name": "Storage",
+          "monthlyQuantity": "300",
+          "unit": "GB",
+          "monthlyCost": "15.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_image.vm_usage[\"md\"]",
+      "costComponents": [
+        {
+          "name": "Storage",
+          "monthlyQuantity": "300",
+          "unit": "GB",
+          "monthlyCost": "15.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_image.vm_usage[\"premium\"]",
+      "costComponents": [
+        {
+          "name": "Storage",
+          "monthlyQuantity": "300",
+          "unit": "GB",
+          "monthlyCost": "15.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_image.vm_usage[\"standard\"]",
+      "costComponents": [
+        {
+          "name": "Storage",
+          "monthlyQuantity": "300",
+          "unit": "GB",
+          "monthlyCost": "15.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_image.vm[\"data_disk\"]",
+      "costComponents": [
+        {
+          "name": "Storage",
+          "monthlyQuantity": "158",
+          "unit": "GB",
+          "monthlyCost": "7.90"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_image.disk[\"managed\"]",
+      "costComponents": [
+        {
+          "name": "Storage",
+          "monthlyQuantity": "140",
+          "unit": "GB",
+          "monthlyCost": "7.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_image.vm[\"md\"]",
+      "costComponents": [
+        {
+          "name": "Storage",
+          "monthlyQuantity": "128",
+          "unit": "GB",
+          "monthlyCost": "6.40"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_image.vm[\"premium\"]",
+      "costComponents": [
+        {
+          "name": "Storage",
+          "monthlyQuantity": "128",
+          "unit": "GB",
+          "monthlyCost": "6.40"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_image.vm[\"standard\"]",
+      "costComponents": [
+        {
+          "name": "Storage",
+          "monthlyQuantity": "128",
+          "unit": "GB",
+          "monthlyCost": "6.40"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_managed_disk.example",
+      "costComponents": [
+        {
+          "name": "Storage (S10, LRS)",
+          "monthlyQuantity": "1",
+          "unit": "months",
+          "monthlyCost": "5.89"
+        },
+        {
+          "name": "Disk operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_image.disk[\"data\"]",
+      "costComponents": [
+        {
+          "name": "Storage",
+          "monthlyQuantity": "60",
+          "unit": "GB",
+          "monthlyCost": "3.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_image.disk[\"spec\"]",
+      "costComponents": [
+        {
+          "name": "Storage",
+          "monthlyQuantity": "30",
+          "unit": "GB",
+          "monthlyCost": "1.50"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

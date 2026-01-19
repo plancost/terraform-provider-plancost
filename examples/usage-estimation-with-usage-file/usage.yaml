@@ -1,0 +1,9 @@
+version: 0.1
+resource_usage:
+  azurerm_storage_account.example:
+    storage_gb: 100
+  azurerm_function_app.example:
+    monthly_executions: 100000
+    execution_duration_ms: 500
+    memory_mb: 128
+    instances: 1

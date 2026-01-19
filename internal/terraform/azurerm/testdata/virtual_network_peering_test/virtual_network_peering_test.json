@@ -1,0 +1,112 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_virtual_network_peering.inter_zonal_with_usage",
+      "costComponents": [
+        {
+          "name": "Inbound data transfer",
+          "monthlyQuantity": "1,000",
+          "unit": "GB",
+          "monthlyCost": "90.00"
+        },
+        {
+          "name": "Outbound data transfer",
+          "monthlyQuantity": "1,000",
+          "unit": "GB",
+          "monthlyCost": "35.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_virtual_network_peering.intra_zonal_with_usage",
+      "costComponents": [
+        {
+          "name": "Inbound data transfer",
+          "monthlyQuantity": "1,000",
+          "unit": "GB",
+          "monthlyCost": "35.00"
+        },
+        {
+          "name": "Outbound data transfer",
+          "monthlyQuantity": "1,000",
+          "unit": "GB",
+          "monthlyCost": "35.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_virtual_network_peering.intra_region_with_usage",
+      "costComponents": [
+        {
+          "name": "Inbound data transfer",
+          "monthlyQuantity": "1,000",
+          "unit": "GB",
+          "monthlyCost": "10.00"
+        },
+        {
+          "name": "Outbound data transfer",
+          "monthlyQuantity": "1,000",
+          "unit": "GB",
+          "monthlyCost": "10.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_virtual_network_peering.inter_zonal",
+      "costComponents": [
+        {
+          "name": "Inbound data transfer",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Outbound data transfer",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_virtual_network_peering.intra_region",
+      "costComponents": [
+        {
+          "name": "Inbound data transfer",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Outbound data transfer",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_virtual_network_peering.intra_zonal",
+      "costComponents": [
+        {
+          "name": "Inbound data transfer",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Outbound data transfer",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_private_dns_resolver_outbound_endpoint.example",
+      "costComponents": [
+        {
+          "name": "Outbound endpoint",
+          "monthlyQuantity": "1",
+          "unit": "months",
+          "monthlyCost": "180.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

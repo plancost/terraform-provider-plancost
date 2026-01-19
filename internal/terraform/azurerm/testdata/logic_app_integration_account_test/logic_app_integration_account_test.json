@@ -1,0 +1,28 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_logic_app_integration_account.example[\"Standard\"]",
+      "costComponents": [
+        {
+          "name": "Integration Account (Standard)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "1,000.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_logic_app_integration_account.example[\"Basic\"]",
+      "costComponents": [
+        {
+          "name": "Integration Account (Basic)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "300.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

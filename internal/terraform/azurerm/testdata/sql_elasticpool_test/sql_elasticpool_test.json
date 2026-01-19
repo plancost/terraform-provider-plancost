@@ -1,0 +1,52 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_sql_elasticpool.premium_500",
+      "costComponents": [
+        {
+          "name": "Compute (Premium, 500 DTUs)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "2,737.50"
+        },
+        {
+          "name": "Extra data storage",
+          "monthlyQuantity": "274",
+          "unit": "GB",
+          "monthlyCost": "121.11"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_sql_elasticpool.standard_200",
+      "costComponents": [
+        {
+          "name": "Compute (Standard, 200 DTUs)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "441.04"
+        },
+        {
+          "name": "Extra data storage",
+          "monthlyQuantity": "100",
+          "unit": "GB",
+          "monthlyCost": "22.10"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_sql_elasticpool.basic_100",
+      "costComponents": [
+        {
+          "name": "Compute (Basic, 100 DTUs)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "147.22"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

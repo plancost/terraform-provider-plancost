@@ -1,0 +1,196 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_logic_app_standard.logic_app_standard_unknown_sku_with_usage",
+      "costComponents": [
+        {
+          "name": "Workflow memory (WS1)",
+          "monthlyQuantity": "3.5",
+          "unit": "GB",
+          "monthlyCost": "36.03"
+        },
+        {
+          "name": "Standard connectors",
+          "monthlyQuantity": "2,000,000",
+          "unit": "calls",
+          "monthlyCost": "250.00"
+        },
+        {
+          "name": "Enterprise connectors",
+          "monthlyQuantity": "1,000,000",
+          "unit": "calls",
+          "monthlyCost": "1,000.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_logic_app_standard.logic_app_standard_with_usage",
+      "costComponents": [
+        {
+          "name": "Workflow memory (WS1)",
+          "monthlyQuantity": "3.5",
+          "unit": "GB",
+          "monthlyCost": "36.03"
+        },
+        {
+          "name": "Standard connectors",
+          "monthlyQuantity": "2,000,000",
+          "unit": "calls",
+          "monthlyCost": "250.00"
+        },
+        {
+          "name": "Enterprise connectors",
+          "monthlyQuantity": "1,000,000",
+          "unit": "calls",
+          "monthlyCost": "1,000.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_logic_app_standard.logic_app_standard[\"WS3\"]",
+      "costComponents": [
+        {
+          "name": "Workflow memory (WS3)",
+          "monthlyQuantity": "14",
+          "unit": "GB",
+          "monthlyCost": "144.10"
+        },
+        {
+          "name": "Standard connectors",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Enterprise connectors",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_logic_app_standard.logic_app_standard[\"WS2\"]",
+      "costComponents": [
+        {
+          "name": "Workflow memory (WS2)",
+          "monthlyQuantity": "7",
+          "unit": "GB",
+          "monthlyCost": "72.05"
+        },
+        {
+          "name": "Standard connectors",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Enterprise connectors",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_logic_app_standard.logic_app_standard[\"WS1\"]",
+      "costComponents": [
+        {
+          "name": "Workflow memory (WS1)",
+          "monthlyQuantity": "3.5",
+          "unit": "GB",
+          "monthlyCost": "36.03"
+        },
+        {
+          "name": "Standard connectors",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Enterprise connectors",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_logic_app_standard.logic_app_standard_unknown_sku",
+      "costComponents": [
+        {
+          "name": "Workflow vCore (unknown SKU)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Workflow memory (unknown SKU)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Standard connectors",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Enterprise connectors",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.storage_account",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "List and create container operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Blob index",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

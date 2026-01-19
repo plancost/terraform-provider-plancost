@@ -1,0 +1,46 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_bastion_host.example",
+      "costComponents": [
+        {
+          "name": "Bastion host",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "138.70"
+        },
+        {
+          "name": "Outbound data transfer (first 10TB)",
+          "monthlyQuantity": "9,995",
+          "unit": "GB",
+          "monthlyCost": "1,199.40"
+        },
+        {
+          "name": "Outbound data transfer (next 40TB)",
+          "monthlyQuantity": "40,000",
+          "unit": "GB",
+          "monthlyCost": "3,400.00"
+        },
+        {
+          "name": "Outbound data transfer (next 100TB)",
+          "monthlyQuantity": "50,000",
+          "unit": "GB",
+          "monthlyCost": "4,100.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_public_ip.deploy",
+      "costComponents": [
+        {
+          "name": "IP address (static, regional)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "3.65"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

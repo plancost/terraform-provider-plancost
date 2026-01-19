@@ -1,0 +1,100 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_network_watcher_flow_log.network_watcher_flow_log[\"traffic-analytics-interval-60\"]",
+      "costComponents": [
+        {
+          "name": "Network logs collected (over 5GB)",
+          "monthlyQuantity": "25",
+          "unit": "GB",
+          "monthlyCost": "12.50"
+        },
+        {
+          "name": "Traffic Analytics data processed (60 min interval)",
+          "monthlyQuantity": "30",
+          "unit": "GB",
+          "monthlyCost": "69.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_network_watcher_flow_log.network_watcher_flow_log[\"traffic-analytics-interval-10\"]",
+      "costComponents": [
+        {
+          "name": "Network logs collected (over 5GB)",
+          "monthlyQuantity": "15",
+          "unit": "GB",
+          "monthlyCost": "7.50"
+        },
+        {
+          "name": "Traffic Analytics data processed (10 min interval)",
+          "monthlyQuantity": "20",
+          "unit": "GB",
+          "monthlyCost": "70.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_network_watcher_flow_log.network_watcher_flow_log[\"traffic-analytics-disabled\"]",
+      "costComponents": [
+        {
+          "name": "Network logs collected (over 5GB)",
+          "monthlyQuantity": "5",
+          "unit": "GB",
+          "monthlyCost": "2.50"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_network_watcher_flow_log.network_watcher_flow_log_with_usage[\"traffic-analytics-disabled\"]",
+      "costComponents": [
+        {
+          "name": "Network logs collected (over 5GB)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_network_watcher_flow_log.network_watcher_flow_log_with_usage[\"traffic-analytics-interval-10\"]",
+      "costComponents": [
+        {
+          "name": "Network logs collected (over 5GB)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Traffic Analytics data processed (10 min interval)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_network_watcher_flow_log.network_watcher_flow_log_with_usage[\"traffic-analytics-interval-60\"]",
+      "costComponents": [
+        {
+          "name": "Network logs collected (over 5GB)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Traffic Analytics data processed (60 min interval)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

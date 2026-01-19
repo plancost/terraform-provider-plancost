@@ -1,0 +1,40 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_frontdoor_firewall_policy.firewall_policy_with_usage",
+      "costComponents": [
+        {
+          "name": "Policy",
+          "monthlyQuantity": "1",
+          "unit": "months",
+          "monthlyCost": "5.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_frontdoor_firewall_policy.firewall_policy_example",
+      "costComponents": [
+        {
+          "name": "Policy",
+          "monthlyQuantity": "1",
+          "unit": "months",
+          "monthlyCost": "5.00"
+        },
+        {
+          "name": "Custom rule requests",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Managed ruleset requests",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

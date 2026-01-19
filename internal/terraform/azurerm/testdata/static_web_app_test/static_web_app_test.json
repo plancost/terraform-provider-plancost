@@ -1,0 +1,40 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_static_web_app.usage_standard",
+      "costComponents": [
+        {
+          "name": "Standard plan",
+          "monthlyQuantity": "1",
+          "unit": "app",
+          "monthlyCost": "9.00"
+        },
+        {
+          "name": "Data transfer (over 100GB)",
+          "monthlyQuantity": "50",
+          "unit": "GB",
+          "monthlyCost": "10.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_static_web_app.standard",
+      "costComponents": [
+        {
+          "name": "Standard plan",
+          "monthlyQuantity": "1",
+          "unit": "app",
+          "monthlyCost": "9.00"
+        },
+        {
+          "name": "Data transfer (over 100GB)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

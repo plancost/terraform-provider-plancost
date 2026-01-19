@@ -1,0 +1,221 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_windows_virtual_machine.Standard_E16-8as_v4",
+      "costComponents": [
+        {
+          "name": "Instance usage (Windows, dev/test, Standard_E16-8as_v4)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "735.84"
+        }
+      ],
+      "subResources": [
+        {
+          "name": "os_disk",
+          "costComponents": [
+            {
+              "name": "Storage (S4, LRS)",
+              "monthlyQuantity": "1",
+              "unit": "months",
+              "monthlyCost": "1.54"
+            },
+            {
+              "name": "Disk operations",
+              "monthlyQuantity": "0",
+              "unit": "usage_based",
+              "monthlyCost": "0.00"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    },
+    {
+      "name": "azurerm_windows_virtual_machine.standard_d2_v4_hybrid_benefit",
+      "costComponents": [
+        {
+          "name": "Instance usage (Windows, dev/test, Standard_D2_v4)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "70.08"
+        }
+      ],
+      "subResources": [
+        {
+          "name": "os_disk",
+          "costComponents": [
+            {
+              "name": "Storage (E30, LRS)",
+              "monthlyQuantity": "1",
+              "unit": "months",
+              "monthlyCost": "76.80"
+            },
+            {
+              "name": "Disk operations",
+              "monthlyQuantity": "0",
+              "unit": "usage_based",
+              "monthlyCost": "0.00"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    },
+    {
+      "name": "azurerm_windows_virtual_machine.standard_a2_v2_custom_disk",
+      "costComponents": [
+        {
+          "name": "Instance usage (Windows, dev/test, Standard_A2_v2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "65.92"
+        }
+      ],
+      "subResources": [
+        {
+          "name": "os_disk",
+          "costComponents": [
+            {
+              "name": "Storage (E30, LRS)",
+              "monthlyQuantity": "1",
+              "unit": "months",
+              "monthlyCost": "76.80"
+            },
+            {
+              "name": "Disk operations",
+              "monthlyQuantity": "2",
+              "unit": "10k operations",
+              "monthlyCost": "0.00"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    },
+    {
+      "name": "azurerm_windows_virtual_machine.standard_f2_premium_disk",
+      "costComponents": [
+        {
+          "name": "Instance usage (Windows, dev/test, Standard_F2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "72.27"
+        }
+      ],
+      "subResources": [
+        {
+          "name": "os_disk",
+          "costComponents": [
+            {
+              "name": "Storage (P4, LRS)",
+              "monthlyQuantity": "1",
+              "unit": "months",
+              "monthlyCost": "5.28"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    },
+    {
+      "name": "azurerm_windows_virtual_machine.standard_a2_ultra_enabled",
+      "costComponents": [
+        {
+          "name": "Instance usage (Windows, dev/test, Standard_A2_v2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "65.92"
+        },
+        {
+          "name": "Ultra disk reservation (if unattached)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": [
+        {
+          "name": "os_disk",
+          "costComponents": [
+            {
+              "name": "Storage (E4, LRS)",
+              "monthlyQuantity": "1",
+              "unit": "months",
+              "monthlyCost": "2.40"
+            },
+            {
+              "name": "Disk operations",
+              "monthlyQuantity": "0",
+              "unit": "usage_based",
+              "monthlyCost": "0.00"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    },
+    {
+      "name": "azurerm_windows_virtual_machine.basic_a2",
+      "costComponents": [
+        {
+          "name": "Instance usage (Windows, dev/test, Basic_A2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "57.67"
+        }
+      ],
+      "subResources": [
+        {
+          "name": "os_disk",
+          "costComponents": [
+            {
+              "name": "Storage (S4, LRS)",
+              "monthlyQuantity": "1",
+              "unit": "months",
+              "monthlyCost": "1.54"
+            },
+            {
+              "name": "Disk operations",
+              "monthlyQuantity": "0",
+              "unit": "usage_based",
+              "monthlyCost": "0.00"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    },
+    {
+      "name": "azurerm_windows_virtual_machine.basic_a2_withMonthlyHours",
+      "costComponents": [
+        {
+          "name": "Instance usage (Windows, dev/test, Basic_A2)",
+          "monthlyQuantity": "100",
+          "unit": "hours",
+          "monthlyCost": "7.90"
+        }
+      ],
+      "subResources": [
+        {
+          "name": "os_disk",
+          "costComponents": [
+            {
+              "name": "Storage (S4, LRS)",
+              "monthlyQuantity": "1",
+              "unit": "months",
+              "monthlyCost": "1.54"
+            },
+            {
+              "name": "Disk operations",
+              "monthlyQuantity": "0",
+              "unit": "usage_based",
+              "monthlyCost": "0.00"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    }
+  ]
+}

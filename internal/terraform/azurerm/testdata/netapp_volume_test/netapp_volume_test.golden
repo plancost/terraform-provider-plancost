@@ -1,0 +1,32 @@
+
+ Name                                     Monthly Qty  Unit  Monthly Cost    
+                                                                             
+ azurerm_netapp_pool.example                                                 
+ └─ Storage (standard)                          4,096  GiB        $604.00    
+                                                                             
+ azurerm_netapp_volume.replicated_10min                                      
+ └─ Replication (10minutes)                     1,000  GiB        $154.00  * 
+                                                                             
+ azurerm_netapp_volume.replicated_hourly                                     
+ └─ Replication (hourly)                        1,000  GiB        $132.00  * 
+                                                                             
+ azurerm_netapp_volume.replicated_daily                                      
+ └─ Replication (daily)                         1,000  GiB        $121.00  * 
+                                                                             
+ azurerm_netapp_volume.with_usage                                            
+ └─ Replication (daily)                           860  GiB        $104.06  * 
+                                                                             
+ OVERALL TOTAL                                                  $1,115.06 
+
+*Usage costs can be estimated by updating Infracost Cloud settings, see docs for other options.
+
+──────────────────────────────────
+10 cloud resources were detected:
+∙ 6 were estimated
+∙ 4 were free
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━┳━━━━━━━━━━━━┓
+┃ Project                                            ┃ Baseline cost ┃ Usage cost* ┃ Total cost ┃
+┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━┫
+┃ main                                               ┃          $604 ┃        $511 ┃     $1,115 ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━┻━━━━━━━━━━━━┛

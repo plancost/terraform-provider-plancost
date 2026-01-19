@@ -1,0 +1,28 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_active_directory_domain_service.example",
+      "costComponents": [
+        {
+          "name": "Active directory domain service (Enterprise)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "292.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_active_directory_domain_service_replica_set.replica",
+      "costComponents": [
+        {
+          "name": "Active directory domain service replica set (Enterprise)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "292.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_function_app.elasticFunctionWithUsage",
+      "costComponents": [
+        {
+          "name": "vCPU (EP2)",
+          "monthlyQuantity": "4",
+          "unit": "vCPU",
+          "monthlyCost": "505.16"
+        },
+        {
+          "name": "Memory (EP2)",
+          "monthlyQuantity": "14",
+          "unit": "GB",
+          "monthlyCost": "125.71"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_function_app.elasticFunction",
+      "costComponents": [
+        {
+          "name": "vCPU (EP2)",
+          "monthlyQuantity": "2",
+          "unit": "vCPU",
+          "monthlyCost": "252.58"
+        },
+        {
+          "name": "Memory (EP2)",
+          "monthlyQuantity": "7",
+          "unit": "GB",
+          "monthlyCost": "62.85"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_function_app.elasticPremiumFunction",
+      "costComponents": [
+        {
+          "name": "vCPU (EP1)",
+          "monthlyQuantity": "1",
+          "unit": "vCPU",
+          "monthlyCost": "126.29"
+        },
+        {
+          "name": "Memory (EP1)",
+          "monthlyQuantity": "3.5",
+          "unit": "GB",
+          "monthlyCost": "31.43"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_function_app.functionAppNoAvailableServicePlanButHasUsage",
+      "costComponents": [
+        {
+          "name": "Execution time",
+          "monthlyQuantity": "876,180.4425",
+          "unit": "GB-seconds",
+          "monthlyCost": "14.02"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_function_app.functionAppWithAllUsage",
+      "costComponents": [
+        {
+          "name": "Execution time",
+          "monthlyQuantity": "876,180.4425",
+          "unit": "GB-seconds",
+          "monthlyCost": "14.02"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_function_app.functionAppWithLessThanMins",
+      "costComponents": [
+        {
+          "name": "Execution time",
+          "monthlyQuantity": "37,500",
+          "unit": "GB-seconds",
+          "monthlyCost": "0.60"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_function_app.functionAppWithOnlyExecutions",
+      "costComponents": [
+        {
+          "name": "Execution time",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_function_app.functionApp",
+      "costComponents": [
+        {
+          "name": "Execution time",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Executions",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_function_app.functionAppNoAvailableServicePlan",
+      "costComponents": [
+        {
+          "name": "Execution time",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Executions",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_function_app.functionAppWithMissingExecutions",
+      "costComponents": [
+        {
+          "name": "Execution time",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Executions",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.example",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "List and create container operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Data retrieval",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Blob index",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Early deletion",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

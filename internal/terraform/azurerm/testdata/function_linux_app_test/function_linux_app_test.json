@@ -1,0 +1,730 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_linux_function_app.function_with_usage[\"plan-Linux-EP3\"]",
+      "costComponents": [
+        {
+          "name": "vCPU (EP3)",
+          "monthlyQuantity": "8",
+          "unit": "vCPU",
+          "monthlyCost": "1,010.32"
+        },
+        {
+          "name": "Memory (EP3)",
+          "monthlyQuantity": "28",
+          "unit": "GB",
+          "monthlyCost": "251.41"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_linux_function_app.legacy_service_plan_function_with_usage[\"legacy-plan-ElasticPremium-EP3-FunctionApp\"]",
+      "costComponents": [
+        {
+          "name": "vCPU (EP3)",
+          "monthlyQuantity": "8",
+          "unit": "vCPU",
+          "monthlyCost": "1,010.32"
+        },
+        {
+          "name": "Memory (EP3)",
+          "monthlyQuantity": "28",
+          "unit": "GB",
+          "monthlyCost": "251.41"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_linux_function_app.legacy_service_plan_function_with_usage[\"legacy-plan-ElasticPremium-EP3-elastic\"]",
+      "costComponents": [
+        {
+          "name": "vCPU (EP3)",
+          "monthlyQuantity": "8",
+          "unit": "vCPU",
+          "monthlyCost": "1,010.32"
+        },
+        {
+          "name": "Memory (EP3)",
+          "monthlyQuantity": "28",
+          "unit": "GB",
+          "monthlyCost": "251.41"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_linux_function_app.legacy_service_plan_function_with_usage[\"legacy-plan-Standard-EP3-elastic\"]",
+      "costComponents": [
+        {
+          "name": "vCPU (EP3)",
+          "monthlyQuantity": "8",
+          "unit": "vCPU",
+          "monthlyCost": "1,010.32"
+        },
+        {
+          "name": "Memory (EP3)",
+          "monthlyQuantity": "28",
+          "unit": "GB",
+          "monthlyCost": "251.41"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_linux_function_app.function[\"plan-Linux-EP3\"]",
+      "costComponents": [
+        {
+          "name": "vCPU (EP3)",
+          "monthlyQuantity": "4",
+          "unit": "vCPU",
+          "monthlyCost": "505.16"
+        },
+        {
+          "name": "Memory (EP3)",
+          "monthlyQuantity": "14",
+          "unit": "GB",
+          "monthlyCost": "125.71"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_linux_function_app.function_with_usage[\"plan-Linux-EP2\"]",
+      "costComponents": [
+        {
+          "name": "vCPU (EP2)",
+          "monthlyQuantity": "4",
+          "unit": "vCPU",
+          "monthlyCost": "505.16"
+        },
+        {
+          "name": "Memory (EP2)",
+          "monthlyQuantity": "14",
+          "unit": "GB",
+          "monthlyCost": "125.71"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_linux_function_app.legacy_service_plan_function[\"legacy-plan-ElasticPremium-EP3-FunctionApp\"]",
+      "costComponents": [
+        {
+          "name": "vCPU (EP3)",
+          "monthlyQuantity": "4",
+          "unit": "vCPU",
+          "monthlyCost": "505.16"
+        },
+        {
+          "name": "Memory (EP3)",
+          "monthlyQuantity": "14",
+          "unit": "GB",
+          "monthlyCost": "125.71"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_linux_function_app.legacy_service_plan_function[\"legacy-plan-ElasticPremium-EP3-elastic\"]",
+      "costComponents": [
+        {
+          "name": "vCPU (EP3)",
+          "monthlyQuantity": "4",
+          "unit": "vCPU",
+          "monthlyCost": "505.16"
+        },
+        {
+          "name": "Memory (EP3)",
+          "monthlyQuantity": "14",
+          "unit": "GB",
+          "monthlyCost": "125.71"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_linux_function_app.legacy_service_plan_function[\"legacy-plan-Standard-EP3-elastic\"]",
+      "costComponents": [
+        {
+          "name": "vCPU (EP3)",
+          "monthlyQuantity": "4",
+          "unit": "vCPU",
+          "monthlyCost": "505.16"
+        },
+        {
+          "name": "Memory (EP3)",
+          "monthlyQuantity": "14",
+          "unit": "GB",
+          "monthlyCost": "125.71"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_linux_function_app.legacy_service_plan_function_with_usage[\"legacy-plan-ElasticPremium-EP2-FunctionApp\"]",
+      "costComponents": [
+        {
+          "name": "vCPU (EP2)",
+          "monthlyQuantity": "4",
+          "unit": "vCPU",
+          "monthlyCost": "505.16"
+        },
+        {
+          "name": "Memory (EP2)",
+          "monthlyQuantity": "14",
+          "unit": "GB",
+          "monthlyCost": "125.71"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_linux_function_app.legacy_service_plan_function_with_usage[\"legacy-plan-ElasticPremium-EP2-elastic\"]",
+      "costComponents": [
+        {
+          "name": "vCPU (EP2)",
+          "monthlyQuantity": "4",
+          "unit": "vCPU",
+          "monthlyCost": "505.16"
+        },
+        {
+          "name": "Memory (EP2)",
+          "monthlyQuantity": "14",
+          "unit": "GB",
+          "monthlyCost": "125.71"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_linux_function_app.legacy_service_plan_function_with_usage[\"legacy-plan-Standard-EP2-elastic\"]",
+      "costComponents": [
+        {
+          "name": "vCPU (EP2)",
+          "monthlyQuantity": "4",
+          "unit": "vCPU",
+          "monthlyCost": "505.16"
+        },
+        {
+          "name": "Memory (EP2)",
+          "monthlyQuantity": "14",
+          "unit": "GB",
+          "monthlyCost": "125.71"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_linux_function_app.function[\"plan-Linux-EP2\"]",
+      "costComponents": [
+        {
+          "name": "vCPU (EP2)",
+          "monthlyQuantity": "2",
+          "unit": "vCPU",
+          "monthlyCost": "252.58"
+        },
+        {
+          "name": "Memory (EP2)",
+          "monthlyQuantity": "7",
+          "unit": "GB",
+          "monthlyCost": "62.85"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_linux_function_app.function_with_usage[\"plan-Linux-EP1\"]",
+      "costComponents": [
+        {
+          "name": "vCPU (EP1)",
+          "monthlyQuantity": "2",
+          "unit": "vCPU",
+          "monthlyCost": "252.58"
+        },
+        {
+          "name": "Memory (EP1)",
+          "monthlyQuantity": "7",
+          "unit": "GB",
+          "monthlyCost": "62.85"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_linux_function_app.legacy_service_plan_function[\"legacy-plan-ElasticPremium-EP2-FunctionApp\"]",
+      "costComponents": [
+        {
+          "name": "vCPU (EP2)",
+          "monthlyQuantity": "2",
+          "unit": "vCPU",
+          "monthlyCost": "252.58"
+        },
+        {
+          "name": "Memory (EP2)",
+          "monthlyQuantity": "7",
+          "unit": "GB",
+          "monthlyCost": "62.85"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_linux_function_app.legacy_service_plan_function[\"legacy-plan-ElasticPremium-EP2-elastic\"]",
+      "costComponents": [
+        {
+          "name": "vCPU (EP2)",
+          "monthlyQuantity": "2",
+          "unit": "vCPU",
+          "monthlyCost": "252.58"
+        },
+        {
+          "name": "Memory (EP2)",
+          "monthlyQuantity": "7",
+          "unit": "GB",
+          "monthlyCost": "62.85"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_linux_function_app.legacy_service_plan_function[\"legacy-plan-Standard-EP2-elastic\"]",
+      "costComponents": [
+        {
+          "name": "vCPU (EP2)",
+          "monthlyQuantity": "2",
+          "unit": "vCPU",
+          "monthlyCost": "252.58"
+        },
+        {
+          "name": "Memory (EP2)",
+          "monthlyQuantity": "7",
+          "unit": "GB",
+          "monthlyCost": "62.85"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_linux_function_app.legacy_service_plan_function_with_usage[\"legacy-plan-ElasticPremium-EP1-FunctionApp\"]",
+      "costComponents": [
+        {
+          "name": "vCPU (EP1)",
+          "monthlyQuantity": "2",
+          "unit": "vCPU",
+          "monthlyCost": "252.58"
+        },
+        {
+          "name": "Memory (EP1)",
+          "monthlyQuantity": "7",
+          "unit": "GB",
+          "monthlyCost": "62.85"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_linux_function_app.legacy_service_plan_function_with_usage[\"legacy-plan-ElasticPremium-EP1-elastic\"]",
+      "costComponents": [
+        {
+          "name": "vCPU (EP1)",
+          "monthlyQuantity": "2",
+          "unit": "vCPU",
+          "monthlyCost": "252.58"
+        },
+        {
+          "name": "Memory (EP1)",
+          "monthlyQuantity": "7",
+          "unit": "GB",
+          "monthlyCost": "62.85"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_linux_function_app.legacy_service_plan_function_with_usage[\"legacy-plan-Standard-EP1-elastic\"]",
+      "costComponents": [
+        {
+          "name": "vCPU (EP1)",
+          "monthlyQuantity": "2",
+          "unit": "vCPU",
+          "monthlyCost": "252.58"
+        },
+        {
+          "name": "Memory (EP1)",
+          "monthlyQuantity": "7",
+          "unit": "GB",
+          "monthlyCost": "62.85"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_linux_function_app.function[\"plan-Linux-EP1\"]",
+      "costComponents": [
+        {
+          "name": "vCPU (EP1)",
+          "monthlyQuantity": "1",
+          "unit": "vCPU",
+          "monthlyCost": "126.29"
+        },
+        {
+          "name": "Memory (EP1)",
+          "monthlyQuantity": "3.5",
+          "unit": "GB",
+          "monthlyCost": "31.43"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_linux_function_app.legacy_service_plan_function[\"legacy-plan-ElasticPremium-EP1-FunctionApp\"]",
+      "costComponents": [
+        {
+          "name": "vCPU (EP1)",
+          "monthlyQuantity": "1",
+          "unit": "vCPU",
+          "monthlyCost": "126.29"
+        },
+        {
+          "name": "Memory (EP1)",
+          "monthlyQuantity": "3.5",
+          "unit": "GB",
+          "monthlyCost": "31.43"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_linux_function_app.legacy_service_plan_function[\"legacy-plan-ElasticPremium-EP1-elastic\"]",
+      "costComponents": [
+        {
+          "name": "vCPU (EP1)",
+          "monthlyQuantity": "1",
+          "unit": "vCPU",
+          "monthlyCost": "126.29"
+        },
+        {
+          "name": "Memory (EP1)",
+          "monthlyQuantity": "3.5",
+          "unit": "GB",
+          "monthlyCost": "31.43"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_linux_function_app.legacy_service_plan_function[\"legacy-plan-Standard-EP1-elastic\"]",
+      "costComponents": [
+        {
+          "name": "vCPU (EP1)",
+          "monthlyQuantity": "1",
+          "unit": "vCPU",
+          "monthlyCost": "126.29"
+        },
+        {
+          "name": "Memory (EP1)",
+          "monthlyQuantity": "3.5",
+          "unit": "GB",
+          "monthlyCost": "31.43"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_linux_function_app.function_with_usage[\"plan-Linux-Y1\"]",
+      "costComponents": [
+        {
+          "name": "Execution time",
+          "monthlyQuantity": "876,180.4425",
+          "unit": "GB-seconds",
+          "monthlyCost": "14.02"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_linux_function_app.legacy_service_plan_function_with_usage[\"legacy-plan-ElasticPremium-Y1-FunctionApp\"]",
+      "costComponents": [
+        {
+          "name": "Execution time",
+          "monthlyQuantity": "876,180.4425",
+          "unit": "GB-seconds",
+          "monthlyCost": "14.02"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_linux_function_app.legacy_service_plan_function_with_usage[\"legacy-plan-ElasticPremium-Y1-elastic\"]",
+      "costComponents": [
+        {
+          "name": "Execution time",
+          "monthlyQuantity": "876,180.4425",
+          "unit": "GB-seconds",
+          "monthlyCost": "14.02"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_linux_function_app.legacy_service_plan_function_with_usage[\"legacy-plan-Standard-EP1-FunctionApp\"]",
+      "costComponents": [
+        {
+          "name": "Execution time",
+          "monthlyQuantity": "876,180.4425",
+          "unit": "GB-seconds",
+          "monthlyCost": "14.02"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_linux_function_app.legacy_service_plan_function_with_usage[\"legacy-plan-Standard-EP2-FunctionApp\"]",
+      "costComponents": [
+        {
+          "name": "Execution time",
+          "monthlyQuantity": "876,180.4425",
+          "unit": "GB-seconds",
+          "monthlyCost": "14.02"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_linux_function_app.legacy_service_plan_function_with_usage[\"legacy-plan-Standard-EP3-FunctionApp\"]",
+      "costComponents": [
+        {
+          "name": "Execution time",
+          "monthlyQuantity": "876,180.4425",
+          "unit": "GB-seconds",
+          "monthlyCost": "14.02"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_linux_function_app.legacy_service_plan_function_with_usage[\"legacy-plan-Standard-Y1-FunctionApp\"]",
+      "costComponents": [
+        {
+          "name": "Execution time",
+          "monthlyQuantity": "876,180.4425",
+          "unit": "GB-seconds",
+          "monthlyCost": "14.02"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_linux_function_app.legacy_service_plan_function_with_usage[\"legacy-plan-Standard-Y1-elastic\"]",
+      "costComponents": [
+        {
+          "name": "Execution time",
+          "monthlyQuantity": "876,180.4425",
+          "unit": "GB-seconds",
+          "monthlyCost": "14.02"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_linux_function_app.function[\"plan-Linux-Y1\"]",
+      "costComponents": [
+        {
+          "name": "Execution time",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Executions",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_linux_function_app.legacy_service_plan_function[\"legacy-plan-ElasticPremium-Y1-FunctionApp\"]",
+      "costComponents": [
+        {
+          "name": "Execution time",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Executions",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_linux_function_app.legacy_service_plan_function[\"legacy-plan-ElasticPremium-Y1-elastic\"]",
+      "costComponents": [
+        {
+          "name": "Execution time",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Executions",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_linux_function_app.legacy_service_plan_function[\"legacy-plan-Standard-EP1-FunctionApp\"]",
+      "costComponents": [
+        {
+          "name": "Execution time",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Executions",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_linux_function_app.legacy_service_plan_function[\"legacy-plan-Standard-EP2-FunctionApp\"]",
+      "costComponents": [
+        {
+          "name": "Execution time",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Executions",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_linux_function_app.legacy_service_plan_function[\"legacy-plan-Standard-EP3-FunctionApp\"]",
+      "costComponents": [
+        {
+          "name": "Execution time",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Executions",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_linux_function_app.legacy_service_plan_function[\"legacy-plan-Standard-Y1-FunctionApp\"]",
+      "costComponents": [
+        {
+          "name": "Execution time",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Executions",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_linux_function_app.legacy_service_plan_function[\"legacy-plan-Standard-Y1-elastic\"]",
+      "costComponents": [
+        {
+          "name": "Execution time",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Executions",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.example",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "List and create container operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Data retrieval",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Blob index",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Early deletion",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

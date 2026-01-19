@@ -1,0 +1,118 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_notification_hub_namespace.stdabove100M",
+      "costComponents": [
+        {
+          "name": "Namespace usage (Standard)",
+          "monthlyQuantity": "1",
+          "unit": "months",
+          "monthlyCost": "200.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_notification_hub_namespace.stdabove10M",
+      "costComponents": [
+        {
+          "name": "Namespace usage (Standard)",
+          "monthlyQuantity": "1",
+          "unit": "months",
+          "monthlyCost": "200.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_notification_hub_namespace.basicabove100M",
+      "costComponents": [
+        {
+          "name": "Namespace usage (Basic)",
+          "monthlyQuantity": "1",
+          "unit": "months",
+          "monthlyCost": "10.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_notification_hub_namespace.standardwithoutUsage",
+      "costComponents": [
+        {
+          "name": "Namespace usage (Standard)",
+          "monthlyQuantity": "1",
+          "unit": "months",
+          "monthlyCost": "200.00"
+        },
+        {
+          "name": "Pushes (10-100M)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Pushes (over 100M)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_notification_hub_namespace.stdbelow10M",
+      "costComponents": [
+        {
+          "name": "Namespace usage (Standard)",
+          "monthlyQuantity": "1",
+          "unit": "months",
+          "monthlyCost": "200.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_notification_hub_namespace.basicabove10M",
+      "costComponents": [
+        {
+          "name": "Namespace usage (Basic)",
+          "monthlyQuantity": "1",
+          "unit": "months",
+          "monthlyCost": "10.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_notification_hub_namespace.basicbelow10M",
+      "costComponents": [
+        {
+          "name": "Namespace usage (Basic)",
+          "monthlyQuantity": "1",
+          "unit": "months",
+          "monthlyCost": "10.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_notification_hub_namespace.basicwithoutUsage",
+      "costComponents": [
+        {
+          "name": "Namespace usage (Basic)",
+          "monthlyQuantity": "1",
+          "unit": "months",
+          "monthlyCost": "10.00"
+        },
+        {
+          "name": "Pushes (over 10M)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

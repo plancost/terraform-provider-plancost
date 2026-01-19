@@ -1,0 +1,124 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_postgresql_server.without_geo",
+      "costComponents": [
+        {
+          "name": "Compute (MO_Gen5_16)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "1,379.41"
+        },
+        {
+          "name": "Storage",
+          "monthlyQuantity": "5",
+          "unit": "GB",
+          "monthlyCost": "0.58"
+        },
+        {
+          "name": "Additional backup storage",
+          "monthlyQuantity": "2,000",
+          "unit": "GB",
+          "monthlyCost": "200.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_postgresql_server.mo_16core",
+      "costComponents": [
+        {
+          "name": "Compute (MO_Gen5_16)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "1,379.41"
+        },
+        {
+          "name": "Storage",
+          "monthlyQuantity": "5",
+          "unit": "GB",
+          "monthlyCost": "0.58"
+        },
+        {
+          "name": "Additional backup storage",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_postgresql_server.with_geo",
+      "costComponents": [
+        {
+          "name": "Compute (GP_Gen5_4)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "255.79"
+        },
+        {
+          "name": "Storage",
+          "monthlyQuantity": "4,000",
+          "unit": "GB",
+          "monthlyCost": "460.00"
+        },
+        {
+          "name": "Additional backup storage",
+          "monthlyQuantity": "3,000",
+          "unit": "GB",
+          "monthlyCost": "600.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_postgresql_server.gp_4core",
+      "costComponents": [
+        {
+          "name": "Compute (GP_Gen5_4)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "255.79"
+        },
+        {
+          "name": "Storage",
+          "monthlyQuantity": "4,000",
+          "unit": "GB",
+          "monthlyCost": "460.00"
+        },
+        {
+          "name": "Additional backup storage",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_postgresql_server.basic_2core",
+      "costComponents": [
+        {
+          "name": "Compute (B_Gen5_2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "49.64"
+        },
+        {
+          "name": "Storage",
+          "monthlyQuantity": "5",
+          "unit": "GB",
+          "monthlyCost": "0.50"
+        },
+        {
+          "name": "Additional backup storage",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_application_gateway.waf_with_autoscaling",
+      "costComponents": [
+        {
+          "name": "Gateway usage (WAF, medium)",
+          "monthlyQuantity": "14,600",
+          "unit": "hours",
+          "monthlyCost": "1,839.60"
+        },
+        {
+          "name": "Data processing (10-40TB)",
+          "monthlyQuantity": "30,720",
+          "unit": "GB",
+          "monthlyCost": "215.04"
+        },
+        {
+          "name": "Data processing (over 40TB)",
+          "monthlyQuantity": "59,040",
+          "unit": "GB",
+          "monthlyCost": "413.28"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_application_gateway.standard",
+      "costComponents": [
+        {
+          "name": "Gateway usage (basic, small)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "36.50"
+        },
+        {
+          "name": "Data processing (0-10TB)",
+          "monthlyQuantity": "10,240",
+          "unit": "GB",
+          "monthlyCost": "81.92"
+        },
+        {
+          "name": "Data processing (10-40TB)",
+          "monthlyQuantity": "30,720",
+          "unit": "GB",
+          "monthlyCost": "245.76"
+        },
+        {
+          "name": "Data processing (over 40TB)",
+          "monthlyQuantity": "59,040",
+          "unit": "GB",
+          "monthlyCost": "472.32"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_application_gateway.waf",
+      "costComponents": [
+        {
+          "name": "Gateway usage (WAF, medium)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "183.96"
+        },
+        {
+          "name": "Data processing (10-40TB)",
+          "monthlyQuantity": "30,720",
+          "unit": "GB",
+          "monthlyCost": "215.04"
+        },
+        {
+          "name": "Data processing (over 40TB)",
+          "monthlyQuantity": "59,040",
+          "unit": "GB",
+          "monthlyCost": "413.28"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_application_gateway.wafv2_with_autoscaling",
+      "costComponents": [
+        {
+          "name": "Gateway usage (WAF v2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "262.80"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_application_gateway.wafv2_with_autoscaling_without_usage",
+      "costComponents": [
+        {
+          "name": "Gateway usage (WAF v2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "262.80"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_application_gateway.wafv2",
+      "costComponents": [
+        {
+          "name": "Gateway usage (WAF v2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "262.80"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_application_gateway.wafv2_without_usage",
+      "costComponents": [
+        {
+          "name": "Gateway usage (WAF v2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "262.80"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_application_gateway.waf_with_autoscaling_without_usage",
+      "costComponents": [
+        {
+          "name": "Gateway usage (WAF, medium)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "275.94"
+        },
+        {
+          "name": "Data processing (0-10TB)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_application_gateway.waf_without_usage",
+      "costComponents": [
+        {
+          "name": "Gateway usage (WAF, medium)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "183.96"
+        },
+        {
+          "name": "Data processing (0-10TB)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_public_ip.example",
+      "costComponents": [
+        {
+          "name": "IP address (dynamic, regional)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "2.92"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

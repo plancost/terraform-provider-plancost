@@ -1,0 +1,1960 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_storage_account.storagev2[\"StorageV2.Premium.ZRS.Cool\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "4,000,000",
+          "unit": "GB",
+          "monthlyCost": "1,036,000.00"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "400",
+          "unit": "10k operations",
+          "monthlyCost": "12.12"
+        },
+        {
+          "name": "List and create container operations",
+          "monthlyQuantity": "400",
+          "unit": "10k operations",
+          "monthlyCost": "34.40"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "40",
+          "unit": "10k operations",
+          "monthlyCost": "0.10"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "400",
+          "unit": "10k operations",
+          "monthlyCost": "0.97"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.storagev2[\"StorageV2.Premium.ZRS.Hot\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "4,000,000",
+          "unit": "GB",
+          "monthlyCost": "1,036,000.00"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "400",
+          "unit": "10k operations",
+          "monthlyCost": "12.12"
+        },
+        {
+          "name": "List and create container operations",
+          "monthlyQuantity": "400",
+          "unit": "10k operations",
+          "monthlyCost": "34.40"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "40",
+          "unit": "10k operations",
+          "monthlyCost": "0.10"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "400",
+          "unit": "10k operations",
+          "monthlyCost": "0.97"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.storagev2[\"StorageV2.Premium.LRS.Cool\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "4,000,000",
+          "unit": "GB",
+          "monthlyCost": "780,000.00"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "400",
+          "unit": "10k operations",
+          "monthlyCost": "9.12"
+        },
+        {
+          "name": "List and create container operations",
+          "monthlyQuantity": "400",
+          "unit": "10k operations",
+          "monthlyCost": "26.00"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "40",
+          "unit": "10k operations",
+          "monthlyCost": "0.07"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "400",
+          "unit": "10k operations",
+          "monthlyCost": "0.73"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.storagev2[\"StorageV2.Premium.LRS.Hot\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "4,000,000",
+          "unit": "GB",
+          "monthlyCost": "780,000.00"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "400",
+          "unit": "10k operations",
+          "monthlyCost": "9.12"
+        },
+        {
+          "name": "List and create container operations",
+          "monthlyQuantity": "400",
+          "unit": "10k operations",
+          "monthlyCost": "26.00"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "40",
+          "unit": "10k operations",
+          "monthlyCost": "0.07"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "400",
+          "unit": "10k operations",
+          "monthlyCost": "0.73"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.blob[\"BlobStorage.Premium.ZRS.Cool\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "2,000,000",
+          "unit": "GB",
+          "monthlyCost": "518,000.00"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "200",
+          "unit": "10k operations",
+          "monthlyCost": "6.06"
+        },
+        {
+          "name": "List and create container operations",
+          "monthlyQuantity": "200",
+          "unit": "10k operations",
+          "monthlyCost": "17.20"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "20",
+          "unit": "10k operations",
+          "monthlyCost": "0.05"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "200",
+          "unit": "10k operations",
+          "monthlyCost": "0.48"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.blob[\"BlobStorage.Premium.ZRS.Hot\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "2,000,000",
+          "unit": "GB",
+          "monthlyCost": "518,000.00"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "200",
+          "unit": "10k operations",
+          "monthlyCost": "6.06"
+        },
+        {
+          "name": "List and create container operations",
+          "monthlyQuantity": "200",
+          "unit": "10k operations",
+          "monthlyCost": "17.20"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "20",
+          "unit": "10k operations",
+          "monthlyCost": "0.05"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "200",
+          "unit": "10k operations",
+          "monthlyCost": "0.48"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.blob[\"BlobStorage.Premium.LRS.Cool\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "2,000,000",
+          "unit": "GB",
+          "monthlyCost": "390,000.00"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "200",
+          "unit": "10k operations",
+          "monthlyCost": "4.56"
+        },
+        {
+          "name": "List and create container operations",
+          "monthlyQuantity": "200",
+          "unit": "10k operations",
+          "monthlyCost": "13.00"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "20",
+          "unit": "10k operations",
+          "monthlyCost": "0.04"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "200",
+          "unit": "10k operations",
+          "monthlyCost": "0.36"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.blob[\"BlobStorage.Premium.LRS.Hot\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "2,000,000",
+          "unit": "GB",
+          "monthlyCost": "390,000.00"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "200",
+          "unit": "10k operations",
+          "monthlyCost": "4.56"
+        },
+        {
+          "name": "List and create container operations",
+          "monthlyQuantity": "200",
+          "unit": "10k operations",
+          "monthlyCost": "13.00"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "20",
+          "unit": "10k operations",
+          "monthlyCost": "0.04"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "200",
+          "unit": "10k operations",
+          "monthlyCost": "0.36"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.blockblob[\"BlockBlobStorage.Premium.ZRS\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "1,000,000",
+          "unit": "GB",
+          "monthlyCost": "259,000.00"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "100",
+          "unit": "10k operations",
+          "monthlyCost": "3.03"
+        },
+        {
+          "name": "List and create container operations",
+          "monthlyQuantity": "100",
+          "unit": "10k operations",
+          "monthlyCost": "8.60"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "10",
+          "unit": "10k operations",
+          "monthlyCost": "0.02"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "100",
+          "unit": "10k operations",
+          "monthlyCost": "0.24"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.blockblob[\"BlockBlobStorage.Premium.LRS\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "1,000,000",
+          "unit": "GB",
+          "monthlyCost": "195,000.00"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "100",
+          "unit": "10k operations",
+          "monthlyCost": "2.28"
+        },
+        {
+          "name": "List and create container operations",
+          "monthlyQuantity": "100",
+          "unit": "10k operations",
+          "monthlyCost": "6.50"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "10",
+          "unit": "10k operations",
+          "monthlyCost": "0.02"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "100",
+          "unit": "10k operations",
+          "monthlyCost": "0.18"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.storagev1[\"Storage.Standard.RAGRS\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "3,000,000",
+          "unit": "GB",
+          "monthlyCost": "183,000.00"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "300",
+          "unit": "10k operations",
+          "monthlyCost": "0.11"
+        },
+        {
+          "name": "List and create container operations",
+          "monthlyQuantity": "300",
+          "unit": "10k operations",
+          "monthlyCost": "0.11"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "30",
+          "unit": "10k operations",
+          "monthlyCost": "0.01"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "300",
+          "unit": "10k operations",
+          "monthlyCost": "0.11"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.storagev2[\"StorageV2.Standard.RAGRS.Hot\"]",
+      "costComponents": [
+        {
+          "name": "Capacity (first 50TB)",
+          "monthlyQuantity": "51,200",
+          "unit": "GB",
+          "monthlyCost": "2,447.36"
+        },
+        {
+          "name": "Capacity (next 450TB)",
+          "monthlyQuantity": "512,000",
+          "unit": "GB",
+          "monthlyCost": "23,494.66"
+        },
+        {
+          "name": "Capacity (over 500TB)",
+          "monthlyQuantity": "3,436,800",
+          "unit": "GB",
+          "monthlyCost": "151,136.72"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "400",
+          "unit": "10k operations",
+          "monthlyCost": "44.00"
+        },
+        {
+          "name": "List and create container operations",
+          "monthlyQuantity": "400",
+          "unit": "10k operations",
+          "monthlyCost": "44.00"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "40",
+          "unit": "10k operations",
+          "monthlyCost": "0.18"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "400",
+          "unit": "10k operations",
+          "monthlyCost": "1.76"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.storagev2[\"StorageV2.Standard.GRS.Hot\"]",
+      "costComponents": [
+        {
+          "name": "Capacity (first 50TB)",
+          "monthlyQuantity": "51,200",
+          "unit": "GB",
+          "monthlyCost": "2,344.96"
+        },
+        {
+          "name": "Capacity (next 450TB)",
+          "monthlyQuantity": "512,000",
+          "unit": "GB",
+          "monthlyCost": "22,511.62"
+        },
+        {
+          "name": "Capacity (over 500TB)",
+          "monthlyQuantity": "3,436,800",
+          "unit": "GB",
+          "monthlyCost": "144,813.00"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "400",
+          "unit": "10k operations",
+          "monthlyCost": "44.00"
+        },
+        {
+          "name": "List and create container operations",
+          "monthlyQuantity": "400",
+          "unit": "10k operations",
+          "monthlyCost": "44.00"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "40",
+          "unit": "10k operations",
+          "monthlyCost": "0.18"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "400",
+          "unit": "10k operations",
+          "monthlyCost": "1.76"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.storagev1[\"Storage.Standard.GRS\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "3,000,000",
+          "unit": "GB",
+          "monthlyCost": "144,000.00"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "300",
+          "unit": "10k operations",
+          "monthlyCost": "0.11"
+        },
+        {
+          "name": "List and create container operations",
+          "monthlyQuantity": "300",
+          "unit": "10k operations",
+          "monthlyCost": "0.11"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "30",
+          "unit": "10k operations",
+          "monthlyCost": "0.01"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "300",
+          "unit": "10k operations",
+          "monthlyCost": "0.11"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.storagev2[\"StorageV2.Standard.RAGRS.Cool\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "4,000,000",
+          "unit": "GB",
+          "monthlyCost": "115,200.00"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "400",
+          "unit": "10k operations",
+          "monthlyCost": "80.00"
+        },
+        {
+          "name": "List and create container operations",
+          "monthlyQuantity": "400",
+          "unit": "10k operations",
+          "monthlyCost": "44.00"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "40",
+          "unit": "10k operations",
+          "monthlyCost": "0.40"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "400",
+          "unit": "10k operations",
+          "monthlyCost": "1.76"
+        },
+        {
+          "name": "Data retrieval",
+          "monthlyQuantity": "4,000",
+          "unit": "GB",
+          "monthlyCost": "40.00"
+        },
+        {
+          "name": "Early deletion",
+          "monthlyQuantity": "4,000",
+          "unit": "GB",
+          "monthlyCost": "140.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.storagev2[\"StorageV2.Standard.ZRS.Hot\"]",
+      "costComponents": [
+        {
+          "name": "Capacity (first 50TB)",
+          "monthlyQuantity": "51,200",
+          "unit": "GB",
+          "monthlyCost": "1,331.20"
+        },
+        {
+          "name": "Capacity (next 450TB)",
+          "monthlyQuantity": "512,000",
+          "unit": "GB",
+          "monthlyCost": "12,779.52"
+        },
+        {
+          "name": "Capacity (over 500TB)",
+          "monthlyQuantity": "3,436,800",
+          "unit": "GB",
+          "monthlyCost": "82,208.26"
+        },
+        {
+          "name": "List and create container operations",
+          "monthlyQuantity": "400",
+          "unit": "10k operations",
+          "monthlyCost": "27.50"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "40",
+          "unit": "10k operations",
+          "monthlyCost": "0.18"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "400",
+          "unit": "10k operations",
+          "monthlyCost": "1.76"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.storagev2[\"StorageV2.Standard.GRS.Cool\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "4,000,000",
+          "unit": "GB",
+          "monthlyCost": "92,000.00"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "400",
+          "unit": "10k operations",
+          "monthlyCost": "80.00"
+        },
+        {
+          "name": "List and create container operations",
+          "monthlyQuantity": "400",
+          "unit": "10k operations",
+          "monthlyCost": "44.00"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "40",
+          "unit": "10k operations",
+          "monthlyCost": "0.40"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "400",
+          "unit": "10k operations",
+          "monthlyCost": "1.76"
+        },
+        {
+          "name": "Data retrieval",
+          "monthlyQuantity": "4,000",
+          "unit": "GB",
+          "monthlyCost": "40.00"
+        },
+        {
+          "name": "Early deletion",
+          "monthlyQuantity": "4,000",
+          "unit": "GB",
+          "monthlyCost": "133.60"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.storagev1[\"Storage.Standard.ZRS\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "3,000,000",
+          "unit": "GB",
+          "monthlyCost": "90,000.00"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "300",
+          "unit": "10k operations",
+          "monthlyCost": "0.11"
+        },
+        {
+          "name": "List and create container operations",
+          "monthlyQuantity": "300",
+          "unit": "10k operations",
+          "monthlyCost": "0.11"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "30",
+          "unit": "10k operations",
+          "monthlyCost": "0.01"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "300",
+          "unit": "10k operations",
+          "monthlyCost": "0.11"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.blob[\"BlobStorage.Standard.GRS.Hot\"]",
+      "costComponents": [
+        {
+          "name": "Capacity (first 50TB)",
+          "monthlyQuantity": "51,200",
+          "unit": "GB",
+          "monthlyCost": "2,344.96"
+        },
+        {
+          "name": "Capacity (next 450TB)",
+          "monthlyQuantity": "512,000",
+          "unit": "GB",
+          "monthlyCost": "22,511.62"
+        },
+        {
+          "name": "Capacity (over 500TB)",
+          "monthlyQuantity": "1,436,800",
+          "unit": "GB",
+          "monthlyCost": "60,541.00"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "200",
+          "unit": "10k operations",
+          "monthlyCost": "22.00"
+        },
+        {
+          "name": "List and create container operations",
+          "monthlyQuantity": "200",
+          "unit": "10k operations",
+          "monthlyCost": "22.00"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "20",
+          "unit": "10k operations",
+          "monthlyCost": "0.09"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "200",
+          "unit": "10k operations",
+          "monthlyCost": "0.88"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.storagev2[\"StorageV2.Standard.LRS.Hot\"]",
+      "costComponents": [
+        {
+          "name": "Capacity (first 50TB)",
+          "monthlyQuantity": "51,200",
+          "unit": "GB",
+          "monthlyCost": "1,064.96"
+        },
+        {
+          "name": "Capacity (next 450TB)",
+          "monthlyQuantity": "512,000",
+          "unit": "GB",
+          "monthlyCost": "10,223.62"
+        },
+        {
+          "name": "Capacity (over 500TB)",
+          "monthlyQuantity": "3,436,800",
+          "unit": "GB",
+          "monthlyCost": "65,766.60"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "400",
+          "unit": "10k operations",
+          "monthlyCost": "22.00"
+        },
+        {
+          "name": "List and create container operations",
+          "monthlyQuantity": "400",
+          "unit": "10k operations",
+          "monthlyCost": "22.00"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "40",
+          "unit": "10k operations",
+          "monthlyCost": "0.18"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "400",
+          "unit": "10k operations",
+          "monthlyCost": "1.76"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.storagev1[\"Storage.Standard.LRS\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "3,000,000",
+          "unit": "GB",
+          "monthlyCost": "72,000.00"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "300",
+          "unit": "10k operations",
+          "monthlyCost": "0.11"
+        },
+        {
+          "name": "List and create container operations",
+          "monthlyQuantity": "300",
+          "unit": "10k operations",
+          "monthlyCost": "0.11"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "30",
+          "unit": "10k operations",
+          "monthlyCost": "0.01"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "300",
+          "unit": "10k operations",
+          "monthlyCost": "0.11"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.storagev2[\"StorageV2.Standard.ZRS.Cool\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "4,000,000",
+          "unit": "GB",
+          "monthlyCost": "57,600.00"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "400",
+          "unit": "10k operations",
+          "monthlyCost": "40.00"
+        },
+        {
+          "name": "List and create container operations",
+          "monthlyQuantity": "400",
+          "unit": "10k operations",
+          "monthlyCost": "27.50"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "40",
+          "unit": "10k operations",
+          "monthlyCost": "0.40"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "400",
+          "unit": "10k operations",
+          "monthlyCost": "1.76"
+        },
+        {
+          "name": "Data retrieval",
+          "monthlyQuantity": "4,000",
+          "unit": "GB",
+          "monthlyCost": "40.00"
+        },
+        {
+          "name": "Early deletion",
+          "monthlyQuantity": "4,000",
+          "unit": "GB",
+          "monthlyCost": "76.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.storagev2[\"StorageV2.Standard.LRS.Cool\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "4,000,000",
+          "unit": "GB",
+          "monthlyCost": "46,000.00"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "400",
+          "unit": "10k operations",
+          "monthlyCost": "40.00"
+        },
+        {
+          "name": "List and create container operations",
+          "monthlyQuantity": "400",
+          "unit": "10k operations",
+          "monthlyCost": "22.00"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "40",
+          "unit": "10k operations",
+          "monthlyCost": "0.40"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "400",
+          "unit": "10k operations",
+          "monthlyCost": "1.76"
+        },
+        {
+          "name": "Data retrieval",
+          "monthlyQuantity": "4,000",
+          "unit": "GB",
+          "monthlyCost": "40.00"
+        },
+        {
+          "name": "Early deletion",
+          "monthlyQuantity": "4,000",
+          "unit": "GB",
+          "monthlyCost": "60.80"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.blob[\"BlobStorage.Standard.GRS.Cool\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "2,000,000",
+          "unit": "GB",
+          "monthlyCost": "46,000.00"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "200",
+          "unit": "10k operations",
+          "monthlyCost": "40.00"
+        },
+        {
+          "name": "List and create container operations",
+          "monthlyQuantity": "200",
+          "unit": "10k operations",
+          "monthlyCost": "22.00"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "20",
+          "unit": "10k operations",
+          "monthlyCost": "0.20"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "200",
+          "unit": "10k operations",
+          "monthlyCost": "0.88"
+        },
+        {
+          "name": "Data retrieval",
+          "monthlyQuantity": "2,000",
+          "unit": "GB",
+          "monthlyCost": "20.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.blockblob[\"BlockBlobStorage.Standard.RAGRS\"]",
+      "costComponents": [
+        {
+          "name": "Capacity (first 50TB)",
+          "monthlyQuantity": "51,200",
+          "unit": "GB",
+          "monthlyCost": "2,447.36"
+        },
+        {
+          "name": "Capacity (next 450TB)",
+          "monthlyQuantity": "512,000",
+          "unit": "GB",
+          "monthlyCost": "23,494.66"
+        },
+        {
+          "name": "Capacity (over 500TB)",
+          "monthlyQuantity": "436,800",
+          "unit": "GB",
+          "monthlyCost": "19,208.72"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "100",
+          "unit": "10k operations",
+          "monthlyCost": "11.00"
+        },
+        {
+          "name": "List and create container operations",
+          "monthlyQuantity": "100",
+          "unit": "10k operations",
+          "monthlyCost": "11.00"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "10",
+          "unit": "10k operations",
+          "monthlyCost": "0.04"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "100",
+          "unit": "10k operations",
+          "monthlyCost": "0.44"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.blockblob[\"BlockBlobStorage.Standard.GRS\"]",
+      "costComponents": [
+        {
+          "name": "Capacity (first 50TB)",
+          "monthlyQuantity": "51,200",
+          "unit": "GB",
+          "monthlyCost": "2,344.96"
+        },
+        {
+          "name": "Capacity (next 450TB)",
+          "monthlyQuantity": "512,000",
+          "unit": "GB",
+          "monthlyCost": "22,511.62"
+        },
+        {
+          "name": "Capacity (over 500TB)",
+          "monthlyQuantity": "436,800",
+          "unit": "GB",
+          "monthlyCost": "18,405.00"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "100",
+          "unit": "10k operations",
+          "monthlyCost": "11.00"
+        },
+        {
+          "name": "List and create container operations",
+          "monthlyQuantity": "100",
+          "unit": "10k operations",
+          "monthlyCost": "11.00"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "10",
+          "unit": "10k operations",
+          "monthlyCost": "0.04"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "100",
+          "unit": "10k operations",
+          "monthlyCost": "0.44"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.blob[\"BlobStorage.Standard.LRS.Hot\"]",
+      "costComponents": [
+        {
+          "name": "Capacity (first 50TB)",
+          "monthlyQuantity": "51,200",
+          "unit": "GB",
+          "monthlyCost": "1,064.96"
+        },
+        {
+          "name": "Capacity (next 450TB)",
+          "monthlyQuantity": "512,000",
+          "unit": "GB",
+          "monthlyCost": "10,223.62"
+        },
+        {
+          "name": "Capacity (over 500TB)",
+          "monthlyQuantity": "1,436,800",
+          "unit": "GB",
+          "monthlyCost": "27,494.60"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "200",
+          "unit": "10k operations",
+          "monthlyCost": "11.00"
+        },
+        {
+          "name": "List and create container operations",
+          "monthlyQuantity": "200",
+          "unit": "10k operations",
+          "monthlyCost": "11.00"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "20",
+          "unit": "10k operations",
+          "monthlyCost": "0.09"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "200",
+          "unit": "10k operations",
+          "monthlyCost": "0.88"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.blob[\"BlobStorage.Standard.LRS.Cool\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "2,000,000",
+          "unit": "GB",
+          "monthlyCost": "23,000.00"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "200",
+          "unit": "10k operations",
+          "monthlyCost": "20.00"
+        },
+        {
+          "name": "List and create container operations",
+          "monthlyQuantity": "200",
+          "unit": "10k operations",
+          "monthlyCost": "11.00"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "20",
+          "unit": "10k operations",
+          "monthlyCost": "0.20"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "200",
+          "unit": "10k operations",
+          "monthlyCost": "0.88"
+        },
+        {
+          "name": "Data retrieval",
+          "monthlyQuantity": "2,000",
+          "unit": "GB",
+          "monthlyCost": "20.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.file[\"FileStorage.Premium.ZRS.Cool\"]",
+      "costComponents": [
+        {
+          "name": "Data at rest",
+          "monthlyQuantity": "50,000",
+          "unit": "GB",
+          "monthlyCost": "11,000.00"
+        },
+        {
+          "name": "Snapshots",
+          "monthlyQuantity": "50,000",
+          "unit": "GB",
+          "monthlyCost": "9,350.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.file[\"FileStorage.Premium.ZRS.Hot\"]",
+      "costComponents": [
+        {
+          "name": "Data at rest",
+          "monthlyQuantity": "50,000",
+          "unit": "GB",
+          "monthlyCost": "11,000.00"
+        },
+        {
+          "name": "Snapshots",
+          "monthlyQuantity": "50,000",
+          "unit": "GB",
+          "monthlyCost": "9,350.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.blockblob[\"BlockBlobStorage.Standard.LRS\"]",
+      "costComponents": [
+        {
+          "name": "Capacity (first 50TB)",
+          "monthlyQuantity": "51,200",
+          "unit": "GB",
+          "monthlyCost": "1,064.96"
+        },
+        {
+          "name": "Capacity (next 450TB)",
+          "monthlyQuantity": "512,000",
+          "unit": "GB",
+          "monthlyCost": "10,223.62"
+        },
+        {
+          "name": "Capacity (over 500TB)",
+          "monthlyQuantity": "436,800",
+          "unit": "GB",
+          "monthlyCost": "8,358.60"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "100",
+          "unit": "10k operations",
+          "monthlyCost": "5.50"
+        },
+        {
+          "name": "List and create container operations",
+          "monthlyQuantity": "100",
+          "unit": "10k operations",
+          "monthlyCost": "5.50"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "10",
+          "unit": "10k operations",
+          "monthlyCost": "0.04"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "100",
+          "unit": "10k operations",
+          "monthlyCost": "0.44"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.file[\"FileStorage.Premium.LRS.Cool\"]",
+      "costComponents": [
+        {
+          "name": "Data at rest",
+          "monthlyQuantity": "50,000",
+          "unit": "GB",
+          "monthlyCost": "8,800.00"
+        },
+        {
+          "name": "Snapshots",
+          "monthlyQuantity": "50,000",
+          "unit": "GB",
+          "monthlyCost": "7,500.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.file[\"FileStorage.Premium.LRS.Hot\"]",
+      "costComponents": [
+        {
+          "name": "Data at rest",
+          "monthlyQuantity": "50,000",
+          "unit": "GB",
+          "monthlyCost": "8,800.00"
+        },
+        {
+          "name": "Snapshots",
+          "monthlyQuantity": "50,000",
+          "unit": "GB",
+          "monthlyCost": "7,500.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.file[\"FileStorage.Standard.GRS.Hot\"]",
+      "costComponents": [
+        {
+          "name": "Data at rest",
+          "monthlyQuantity": "50,000",
+          "unit": "GB",
+          "monthlyCost": "3,160.00"
+        },
+        {
+          "name": "Snapshots",
+          "monthlyQuantity": "50,000",
+          "unit": "GB",
+          "monthlyCost": "3,160.00"
+        },
+        {
+          "name": "Metadata at rest",
+          "monthlyQuantity": "50,000",
+          "unit": "GB",
+          "monthlyCost": "3,275.00"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "600",
+          "unit": "10k operations",
+          "monthlyCost": "85.80"
+        },
+        {
+          "name": "List operations",
+          "monthlyQuantity": "500",
+          "unit": "10k operations",
+          "monthlyCost": "71.50"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "50",
+          "unit": "10k operations",
+          "monthlyCost": "0.29"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "500",
+          "unit": "10k operations",
+          "monthlyCost": "2.86"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.file[\"FileStorage.Standard.GRS.Cool\"]",
+      "costComponents": [
+        {
+          "name": "Data at rest",
+          "monthlyQuantity": "50,000",
+          "unit": "GB",
+          "monthlyCost": "2,505.00"
+        },
+        {
+          "name": "Snapshots",
+          "monthlyQuantity": "50,000",
+          "unit": "GB",
+          "monthlyCost": "2,505.00"
+        },
+        {
+          "name": "Metadata at rest",
+          "monthlyQuantity": "50,000",
+          "unit": "GB",
+          "monthlyCost": "3,275.00"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "600",
+          "unit": "10k operations",
+          "monthlyCost": "156.00"
+        },
+        {
+          "name": "List operations",
+          "monthlyQuantity": "500",
+          "unit": "10k operations",
+          "monthlyCost": "71.50"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "50",
+          "unit": "10k operations",
+          "monthlyCost": "0.65"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "500",
+          "unit": "10k operations",
+          "monthlyCost": "2.86"
+        },
+        {
+          "name": "Data retrieval",
+          "monthlyQuantity": "5,000",
+          "unit": "GB",
+          "monthlyCost": "50.00"
+        },
+        {
+          "name": "Early deletion",
+          "monthlyQuantity": "5,000",
+          "unit": "GB",
+          "monthlyCost": "250.50"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.file[\"FileStorage.Standard.ZRS.Hot\"]",
+      "costComponents": [
+        {
+          "name": "Data at rest",
+          "monthlyQuantity": "50,000",
+          "unit": "GB",
+          "monthlyCost": "1,800.00"
+        },
+        {
+          "name": "Snapshots",
+          "monthlyQuantity": "50,000",
+          "unit": "GB",
+          "monthlyCost": "1,800.00"
+        },
+        {
+          "name": "Metadata at rest",
+          "monthlyQuantity": "50,000",
+          "unit": "GB",
+          "monthlyCost": "1,855.00"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "600",
+          "unit": "10k operations",
+          "monthlyCost": "53.64"
+        },
+        {
+          "name": "List operations",
+          "monthlyQuantity": "500",
+          "unit": "10k operations",
+          "monthlyCost": "44.70"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "50",
+          "unit": "10k operations",
+          "monthlyCost": "0.29"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "500",
+          "unit": "10k operations",
+          "monthlyCost": "2.86"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.file[\"FileStorage.Standard.ZRS.Cool\"]",
+      "costComponents": [
+        {
+          "name": "Data at rest",
+          "monthlyQuantity": "50,000",
+          "unit": "GB",
+          "monthlyCost": "1,425.00"
+        },
+        {
+          "name": "Snapshots",
+          "monthlyQuantity": "50,000",
+          "unit": "GB",
+          "monthlyCost": "1,425.00"
+        },
+        {
+          "name": "Metadata at rest",
+          "monthlyQuantity": "50,000",
+          "unit": "GB",
+          "monthlyCost": "1,855.00"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "600",
+          "unit": "10k operations",
+          "monthlyCost": "78.00"
+        },
+        {
+          "name": "List operations",
+          "monthlyQuantity": "500",
+          "unit": "10k operations",
+          "monthlyCost": "44.70"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "50",
+          "unit": "10k operations",
+          "monthlyCost": "0.65"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "500",
+          "unit": "10k operations",
+          "monthlyCost": "2.86"
+        },
+        {
+          "name": "Data retrieval",
+          "monthlyQuantity": "5,000",
+          "unit": "GB",
+          "monthlyCost": "50.00"
+        },
+        {
+          "name": "Early deletion",
+          "monthlyQuantity": "5,000",
+          "unit": "GB",
+          "monthlyCost": "142.50"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.file[\"FileStorage.Standard.LRS.Hot\"]",
+      "costComponents": [
+        {
+          "name": "Data at rest",
+          "monthlyQuantity": "50,000",
+          "unit": "GB",
+          "monthlyCost": "1,435.00"
+        },
+        {
+          "name": "Snapshots",
+          "monthlyQuantity": "50,000",
+          "unit": "GB",
+          "monthlyCost": "1,435.00"
+        },
+        {
+          "name": "Metadata at rest",
+          "monthlyQuantity": "50,000",
+          "unit": "GB",
+          "monthlyCost": "1,485.00"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "600",
+          "unit": "10k operations",
+          "monthlyCost": "42.90"
+        },
+        {
+          "name": "List operations",
+          "monthlyQuantity": "500",
+          "unit": "10k operations",
+          "monthlyCost": "35.75"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "50",
+          "unit": "10k operations",
+          "monthlyCost": "0.29"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "500",
+          "unit": "10k operations",
+          "monthlyCost": "2.86"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.file[\"FileStorage.Standard.LRS.Cool\"]",
+      "costComponents": [
+        {
+          "name": "Data at rest",
+          "monthlyQuantity": "50,000",
+          "unit": "GB",
+          "monthlyCost": "1,140.00"
+        },
+        {
+          "name": "Snapshots",
+          "monthlyQuantity": "50,000",
+          "unit": "GB",
+          "monthlyCost": "1,140.00"
+        },
+        {
+          "name": "Metadata at rest",
+          "monthlyQuantity": "50,000",
+          "unit": "GB",
+          "monthlyCost": "1,485.00"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "600",
+          "unit": "10k operations",
+          "monthlyCost": "78.00"
+        },
+        {
+          "name": "List operations",
+          "monthlyQuantity": "500",
+          "unit": "10k operations",
+          "monthlyCost": "35.75"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "50",
+          "unit": "10k operations",
+          "monthlyCost": "0.65"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "500",
+          "unit": "10k operations",
+          "monthlyCost": "2.86"
+        },
+        {
+          "name": "Data retrieval",
+          "monthlyQuantity": "5,000",
+          "unit": "GB",
+          "monthlyCost": "50.00"
+        },
+        {
+          "name": "Early deletion",
+          "monthlyQuantity": "5,000",
+          "unit": "GB",
+          "monthlyCost": "114.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.storagev2[\"StorageV2.Standard.GZRS.Cool\"]",
+      "costComponents": [
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "40",
+          "unit": "10k operations",
+          "monthlyCost": "0.40"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "400",
+          "unit": "10k operations",
+          "monthlyCost": "1.76"
+        },
+        {
+          "name": "Data retrieval",
+          "monthlyQuantity": "4,000",
+          "unit": "GB",
+          "monthlyCost": "40.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.storagev2[\"StorageV2.Standard.RAGZRS.Cool\"]",
+      "costComponents": [
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "40",
+          "unit": "10k operations",
+          "monthlyCost": "0.40"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "400",
+          "unit": "10k operations",
+          "monthlyCost": "1.76"
+        },
+        {
+          "name": "Data retrieval",
+          "monthlyQuantity": "4,000",
+          "unit": "GB",
+          "monthlyCost": "40.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.storagev2[\"StorageV2.Standard.RAGZRS.Hot\"]",
+      "costComponents": [
+        {
+          "name": "List and create container operations",
+          "monthlyQuantity": "400",
+          "unit": "10k operations",
+          "monthlyCost": "27.14"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "40",
+          "unit": "10k operations",
+          "monthlyCost": "0.18"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "400",
+          "unit": "10k operations",
+          "monthlyCost": "1.76"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.storagev2[\"StorageV2.Standard.GZRS.Hot\"]",
+      "costComponents": [
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "40",
+          "unit": "10k operations",
+          "monthlyCost": "0.18"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "400",
+          "unit": "10k operations",
+          "monthlyCost": "1.76"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.nfsv3_blockblob[\"BlockBlobStorage.Premium.LRS\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "List and create container operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.nfsv3_blockblob[\"BlockBlobStorage.Premium.ZRS\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "List and create container operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.nfsv3_storagev2[\"StorageV2.Standard.GRS.Cool\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Iterative write operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Iterative read operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Data retrieval",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Early deletion",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.nfsv3_storagev2[\"StorageV2.Standard.GRS.Hot\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Iterative write operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Iterative read operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.nfsv3_storagev2[\"StorageV2.Standard.LRS.Cool\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Iterative write operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Iterative read operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Data retrieval",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Early deletion",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.nfsv3_storagev2[\"StorageV2.Standard.LRS.Hot\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Iterative write operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Iterative read operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

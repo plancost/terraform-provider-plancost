@@ -1,0 +1,148 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_netapp_pool.double_encryption_ultra",
+      "costComponents": [
+        {
+          "name": "Storage (ultra, double encryption)",
+          "monthlyQuantity": "4,096",
+          "unit": "GiB",
+          "monthlyCost": "2,541.57"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_netapp_pool.double_encryption_premium",
+      "costComponents": [
+        {
+          "name": "Storage (premium, double encryption)",
+          "monthlyQuantity": "4,096",
+          "unit": "GiB",
+          "monthlyCost": "1,865.81"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_netapp_pool.ultra",
+      "costComponents": [
+        {
+          "name": "Storage (ultra)",
+          "monthlyQuantity": "4,096",
+          "unit": "GiB",
+          "monthlyCost": "1,608.66"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_netapp_pool.premium",
+      "costComponents": [
+        {
+          "name": "Storage (premium)",
+          "monthlyQuantity": "4,096",
+          "unit": "GiB",
+          "monthlyCost": "1,205.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_netapp_pool.double_encryption_standard",
+      "costComponents": [
+        {
+          "name": "Storage (standard, double encryption)",
+          "monthlyQuantity": "4,096",
+          "unit": "GiB",
+          "monthlyCost": "932.90"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_netapp_pool.flexible_overage",
+      "costComponents": [
+        {
+          "name": "Storage (flexible)",
+          "monthlyQuantity": "4,096",
+          "unit": "GiB",
+          "monthlyCost": "645.86"
+        },
+        {
+          "name": "Throughput (overage)",
+          "monthlyQuantity": "72",
+          "unit": "MiB/s",
+          "monthlyCost": "231.63"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_netapp_pool.flexible",
+      "costComponents": [
+        {
+          "name": "Storage (flexible)",
+          "monthlyQuantity": "4,096",
+          "unit": "GiB",
+          "monthlyCost": "645.86"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_netapp_pool.flexible_under_limit",
+      "costComponents": [
+        {
+          "name": "Storage (flexible)",
+          "monthlyQuantity": "4,096",
+          "unit": "GiB",
+          "monthlyCost": "645.86"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_netapp_pool.example",
+      "costComponents": [
+        {
+          "name": "Storage (standard)",
+          "monthlyQuantity": "4,096",
+          "unit": "GiB",
+          "monthlyCost": "604.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_netapp_pool.cool_access",
+      "costComponents": [
+        {
+          "name": "Storage (standard)",
+          "monthlyQuantity": "1,228.8",
+          "unit": "GiB",
+          "monthlyCost": "181.20"
+        },
+        {
+          "name": "Storage (cool access)",
+          "monthlyQuantity": "2,867.2",
+          "unit": "GiB",
+          "monthlyCost": "182.10"
+        },
+        {
+          "name": "Initial data transfer to cool access",
+          "monthlyQuantity": "2,867.2",
+          "unit": "GiB",
+          "monthlyCost": "61.07"
+        },
+        {
+          "name": "Recurring data transfer (cool access)",
+          "monthlyQuantity": "860.16",
+          "unit": "GiB",
+          "monthlyCost": "18.32"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

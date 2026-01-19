@@ -1,0 +1,10 @@
+version: 0.1
+resource_usage:
+  azurerm_cdn_frontdoor_profile.standard:
+    monthly_outbound_data_transfer_gb: 1000
+    monthly_outbound_data_transfer_to_origin_gb: 100
+    monthly_requests_millions: 10
+  azurerm_cdn_frontdoor_profile.premium:
+    monthly_outbound_data_transfer_gb: 50000
+    monthly_outbound_data_transfer_to_origin_gb: 500
+    monthly_requests_millions: 50

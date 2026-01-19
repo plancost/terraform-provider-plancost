@@ -1,0 +1,24 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_monitor_metric_alert.example-dynamic-multi",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_monitor_metric_alert.example-multi",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_monitor_metric_alert.example-dynamic",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_monitor_metric_alert.example-single",
+      "costComponents": [],
+      "subResources": []
+    }
+  ]
+}

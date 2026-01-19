@@ -1,0 +1,38 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_private_dns_cname_record.over1B",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_private_dns_cname_record.first1B",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_private_dns_zone.example",
+      "costComponents": [
+        {
+          "name": "Hosted zone",
+          "monthlyQuantity": "1",
+          "unit": "months",
+          "monthlyCost": "0.50"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_private_dns_cname_record.withoutUsage",
+      "costComponents": [
+        {
+          "name": "DNS queries (first 1B)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_api_management.premium",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_api_management.premium_non_usage",
+      "costComponents": [
+        {
+          "name": "Self hosted gateway",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_api_management.std3",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_api_management.basic2",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_api_management.developer1",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_api_management.consumption",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_api_management.consumption_non_usage",
+      "costComponents": [
+        {
+          "name": "API management (consumption)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

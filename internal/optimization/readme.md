@@ -1,0 +1,39 @@
+# Optimization Tasks
+
+- [x] App Service - consider upgrading Isolated service plans to v2
+- [x] App Service - consider upgrading Premium service plans to v3
+- [x] App Service - consider upgrading Standard service plans to Basic or Premium v3
+- [ ] Cosmos DB - consider disabling multiple write locations for non-production projects
+- [x] Database - consider removing geo-redundant backups in non-production projects
+- [x] Disk Storage - consider updating Premium SSD disk to v2
+- [ ] Firewall - consider downgrading firewall policy SKU
+- [ ] General - consider using preferred regions
+- [x] Monitor - consider using a retention policy to reduce storage costs
+- [ ] OpenAI Service - Consider using latest models
+- [ ] OpenAI Service - Consider using preferred SKUs
+- [ ] OpenAI Service - Consider using preferred Tokens-Per-Minute (TPM) limits
+- [ ] OpenAI Service - Consider using preferred Tokens-Per-Minute (TPM) limits for non-production projects
+- [ ] PostgreSQL - consider enabling autogrow on non-production projects
+- [ ] PostgreSQL - consider using backup retention in non-production projects
+- [ ] SQL - consider limiting vCores and capacity in non-production projects
+- [x] SQL - consider using Azure Hybrid Benefit for SQL Server
+- [x] SQL - consider using serverless with auto-pause in non-production
+- [x] Storage Accounts - consider upgrading account kind to StorageV2
+- [ ] Storage Accounts - consider using a lifecycle policy for blob storage
+- [x] Storage Accounts - consider using a preferred access tier
+- [x] Storage Accounts - consider using preferred replication type
+- [x] Virtual Machines - consider upgrading G series machines to Ev5
+- [x] Virtual Machines - consider upgrading GS series machines to Esv5 or Mv3
+- [x] Virtual Machines - consider upgrading ND series machines to NCas T4 v3 or NDamsr A100 v4
+- [ ] Virtual Machines - Consider using a preferred instance type
+- [ ] Virtual Machines - Consider using a preferred instance type in non-production projects
+- [x] Virtual Machines - consider using Azure Hybrid Benefit for Windows VMs
+- [x] Virtual Machines - consider using the latest generation of A series instances
+- [x] Virtual Machines - consider using the latest generation of A series instances
+- [x] Virtual Machines - consider using the latest generation of D series instances
+- [x] Virtual Machines - consider using the latest generation of Da series instances
+- [x] Virtual Machines - consider using the latest generation of DC series instances
+- [x] Virtual Machines - consider using the latest generation of DS series instances
+- [x] Virtual Machines - consider using the latest generation of E series instances
+- [x] Virtual Machines - consider using the latest generation of F series instances
+- [x] Virtual Machines - consider using the latest generation of Ls series instances

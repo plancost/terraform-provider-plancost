@@ -1,0 +1,21 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_monitor_data_collection_rule.example[\"with_usage\"]",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_monitor_data_collection_rule.example[\"without_usage\"]",
+      "costComponents": [
+        {
+          "name": "Metrics ingestion",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

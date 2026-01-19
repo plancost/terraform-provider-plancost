@@ -1,0 +1,28 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_app_service_plan.example",
+      "costComponents": [
+        {
+          "name": "Instance usage (S1)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "73.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_app_service_custom_hostname_binding.example",
+      "costComponents": [
+        {
+          "name": "IP SSL certificate",
+          "monthlyQuantity": "1",
+          "unit": "months",
+          "monthlyCost": "39.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

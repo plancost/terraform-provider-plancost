@@ -1,0 +1,39 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_traffic_manager_profile.example_with_usage",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_traffic_manager_profile.example",
+      "costComponents": [
+        {
+          "name": "DNS queries (first 1B)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_traffic_manager_profile.example_with_traffic_view",
+      "costComponents": [
+        {
+          "name": "DNS queries (first 1B)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Traffic view",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

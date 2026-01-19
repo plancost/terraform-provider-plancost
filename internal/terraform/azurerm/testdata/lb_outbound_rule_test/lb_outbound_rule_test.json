@@ -1,0 +1,40 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_lb_outbound_rule.rules",
+      "costComponents": [
+        {
+          "name": "Rule usage",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "7.30"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_public_ip.example",
+      "costComponents": [
+        {
+          "name": "IP address (static, regional)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "3.65"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_lb.example",
+      "costComponents": [
+        {
+          "name": "Data processed",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

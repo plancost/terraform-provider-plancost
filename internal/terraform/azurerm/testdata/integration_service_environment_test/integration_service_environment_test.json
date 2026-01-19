@@ -1,0 +1,46 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_integration_service_environment.example",
+      "costComponents": [
+        {
+          "name": "Base units",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "4,847.20"
+        },
+        {
+          "name": "Scale units",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "7,270.80"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_integration_service_environment.example1",
+      "costComponents": [
+        {
+          "name": "Base units",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "4,847.20"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_integration_service_environment.example2",
+      "costComponents": [
+        {
+          "name": "Base units",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "749.71"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

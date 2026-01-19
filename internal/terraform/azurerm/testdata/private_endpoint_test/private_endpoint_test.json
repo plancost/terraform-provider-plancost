@@ -1,0 +1,160 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_private_endpoint.with_multiple_tiers",
+      "costComponents": [
+        {
+          "name": "Inbound data processed (first 1PB)",
+          "monthlyQuantity": "1,000,000",
+          "unit": "GB",
+          "monthlyCost": "10,000.00"
+        },
+        {
+          "name": "Inbound data processed (next 4PB)",
+          "monthlyQuantity": "4,000,000",
+          "unit": "GB",
+          "monthlyCost": "24,000.00"
+        },
+        {
+          "name": "Inbound data processed (over 5PB)",
+          "monthlyQuantity": "120,000",
+          "unit": "GB",
+          "monthlyCost": "480.00"
+        },
+        {
+          "name": "Outbound data processed (first 1PB)",
+          "monthlyQuantity": "1,000,000",
+          "unit": "GB",
+          "monthlyCost": "10,000.00"
+        },
+        {
+          "name": "Outbound data processed (next 4PB)",
+          "monthlyQuantity": "4,000,000",
+          "unit": "GB",
+          "monthlyCost": "24,000.00"
+        },
+        {
+          "name": "Outbound data processed (over 5PB)",
+          "monthlyQuantity": "120,000",
+          "unit": "GB",
+          "monthlyCost": "480.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_private_endpoint.with_inbound",
+      "costComponents": [
+        {
+          "name": "Inbound data processed (first 1PB)",
+          "monthlyQuantity": "100",
+          "unit": "GB",
+          "monthlyCost": "1.00"
+        },
+        {
+          "name": "Outbound data processed (first 1PB)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_private_endpoint.with_outbound",
+      "costComponents": [
+        {
+          "name": "Inbound data processed (first 1PB)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Outbound data processed (first 1PB)",
+          "monthlyQuantity": "100",
+          "unit": "GB",
+          "monthlyCost": "1.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_private_endpoint.without_usage_file",
+      "costComponents": [
+        {
+          "name": "Inbound data processed (first 1PB)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Outbound data processed (first 1PB)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.example",
+      "costComponents": [
+        {
+          "name": "Data at rest",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Snapshots",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Metadata at rest",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "List operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Data retrieval",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Early deletion",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

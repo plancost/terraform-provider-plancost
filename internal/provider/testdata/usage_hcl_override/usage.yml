@@ -1,0 +1,7 @@
+version: 0.1
+resource_type_default_usage:
+  azurerm_storage_account:
+    storage_gb: 100
+resource_usage:
+  azurerm_storage_account.example:
+    storage_gb: 200

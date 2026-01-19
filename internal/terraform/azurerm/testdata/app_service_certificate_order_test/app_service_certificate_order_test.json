@@ -1,0 +1,14 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_app_service_certificate_order.wildcard_cert",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_app_service_certificate_order.standard_cert",
+      "costComponents": [],
+      "subResources": []
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_mssql_elasticpool.bc_dc",
+      "costComponents": [
+        {
+          "name": "Compute (BC_DC, 8 vCore)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "4,625.28"
+        },
+        {
+          "name": "Storage",
+          "monthlyQuantity": "100",
+          "unit": "GB",
+          "monthlyCost": "29.75"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_mssql_elasticpool.bc_dc_zone_redundant",
+      "costComponents": [
+        {
+          "name": "Compute (BC_DC, 8 vCore)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "4,625.28"
+        },
+        {
+          "name": "Storage",
+          "monthlyQuantity": "100",
+          "unit": "GB",
+          "monthlyCost": "29.75"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_mssql_elasticpool.premium_500",
+      "costComponents": [
+        {
+          "name": "Compute (Premium, 500 DTUs)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "2,737.50"
+        },
+        {
+          "name": "Extra data storage",
+          "monthlyQuantity": "274",
+          "unit": "GB",
+          "monthlyCost": "121.11"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_mssql_elasticpool.gp_gen5_zone_redundant",
+      "costComponents": [
+        {
+          "name": "Compute (GP_Gen5, 4 vCore)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "488.92"
+        },
+        {
+          "name": "Zone redundancy (GP_Gen5, 4 vCore)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "293.35"
+        },
+        {
+          "name": "Storage",
+          "monthlyQuantity": "100",
+          "unit": "GB",
+          "monthlyCost": "27.40"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_mssql_elasticpool.gp_gen5",
+      "costComponents": [
+        {
+          "name": "Compute (GP_Gen5, 4 vCore)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "488.92"
+        },
+        {
+          "name": "Storage",
+          "monthlyQuantity": "100",
+          "unit": "GB",
+          "monthlyCost": "13.69"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_mssql_elasticpool.gp_gen5_zone_no_license",
+      "costComponents": [
+        {
+          "name": "Compute (GP_Gen5, 4 vCore)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "488.92"
+        },
+        {
+          "name": "Storage",
+          "monthlyQuantity": "100",
+          "unit": "GB",
+          "monthlyCost": "13.69"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_mssql_elasticpool.standard_200",
+      "costComponents": [
+        {
+          "name": "Compute (Standard, 200 DTUs)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "441.04"
+        },
+        {
+          "name": "Extra data storage",
+          "monthlyQuantity": "100",
+          "unit": "GB",
+          "monthlyCost": "22.10"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_mssql_elasticpool.basic_100",
+      "costComponents": [
+        {
+          "name": "Compute (Basic, 100 DTUs)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "147.22"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

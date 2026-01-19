@@ -1,0 +1,70 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_cdn_frontdoor_profile.premium",
+      "costComponents": [
+        {
+          "name": "Base fee (Premium)",
+          "monthlyQuantity": "1",
+          "unit": "months",
+          "monthlyCost": "330.00"
+        },
+        {
+          "name": "Outbound data transfer (first 10TB)",
+          "monthlyQuantity": "10,000",
+          "unit": "GB",
+          "monthlyCost": "825.00"
+        },
+        {
+          "name": "Outbound data transfer (next 40TB)",
+          "monthlyQuantity": "40,000",
+          "unit": "GB",
+          "monthlyCost": "2,600.08"
+        },
+        {
+          "name": "Outbound data transfer to origin",
+          "monthlyQuantity": "500",
+          "unit": "GB",
+          "monthlyCost": "10.00"
+        },
+        {
+          "name": "Requests (first 250M)",
+          "monthlyQuantity": "5,000",
+          "unit": "10k requests",
+          "monthlyCost": "75.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_cdn_frontdoor_profile.standard",
+      "costComponents": [
+        {
+          "name": "Base fee (Standard)",
+          "monthlyQuantity": "1",
+          "unit": "months",
+          "monthlyCost": "35.00"
+        },
+        {
+          "name": "Outbound data transfer (first 10TB)",
+          "monthlyQuantity": "1,000",
+          "unit": "GB",
+          "monthlyCost": "82.50"
+        },
+        {
+          "name": "Outbound data transfer to origin",
+          "monthlyQuantity": "100",
+          "unit": "GB",
+          "monthlyCost": "2.00"
+        },
+        {
+          "name": "Requests (first 250M)",
+          "monthlyQuantity": "1,000",
+          "unit": "10k requests",
+          "monthlyCost": "9.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

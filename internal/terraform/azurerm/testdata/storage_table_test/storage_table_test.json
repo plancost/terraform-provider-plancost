@@ -1,0 +1,514 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_storage_table.storagev2-table-encrypted[\"StorageV2.Standard.RAGZRS\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "2000",
+          "unit": "GB",
+          "monthlyCost": "279.00"
+        },
+        {
+          "name": "Batch write operations",
+          "monthlyQuantity": "50",
+          "unit": "10k operations",
+          "monthlyCost": "8.63"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "100",
+          "unit": "10k operations",
+          "monthlyCost": "5.75"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "200",
+          "unit": "10k operations",
+          "monthlyCost": "1.00"
+        },
+        {
+          "name": "Scan operations",
+          "monthlyQuantity": "100",
+          "unit": "10k operations",
+          "monthlyCost": "9.00"
+        },
+        {
+          "name": "List operations",
+          "monthlyQuantity": "20",
+          "unit": "10k operations",
+          "monthlyCost": "1.80"
+        },
+        {
+          "name": "Delete operations",
+          "monthlyQuantity": "10",
+          "unit": "10k operations",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Geo-replication data transfer",
+          "monthlyQuantity": "6000",
+          "unit": "GB",
+          "monthlyCost": "120.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_table.storagev2-table[\"StorageV2.Standard.RAGZRS\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "2000",
+          "unit": "GB",
+          "monthlyCost": "253.00"
+        },
+        {
+          "name": "Transactions",
+          "monthlyQuantity": "600",
+          "unit": "10k operations",
+          "monthlyCost": "0.22"
+        },
+        {
+          "name": "Geo-replication data transfer",
+          "monthlyQuantity": "6000",
+          "unit": "GB",
+          "monthlyCost": "120.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_table.storagev2-table-encrypted[\"StorageV2.Standard.GZRS\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "2000",
+          "unit": "GB",
+          "monthlyCost": "223.20"
+        },
+        {
+          "name": "Batch write operations",
+          "monthlyQuantity": "50",
+          "unit": "10k operations",
+          "monthlyCost": "8.63"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "100",
+          "unit": "10k operations",
+          "monthlyCost": "5.75"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "200",
+          "unit": "10k operations",
+          "monthlyCost": "1.00"
+        },
+        {
+          "name": "Scan operations",
+          "monthlyQuantity": "100",
+          "unit": "10k operations",
+          "monthlyCost": "9.00"
+        },
+        {
+          "name": "List operations",
+          "monthlyQuantity": "20",
+          "unit": "10k operations",
+          "monthlyCost": "1.80"
+        },
+        {
+          "name": "Delete operations",
+          "monthlyQuantity": "10",
+          "unit": "10k operations",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Geo-replication data transfer",
+          "monthlyQuantity": "6000",
+          "unit": "GB",
+          "monthlyCost": "120.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_table.storagev2-table-encrypted[\"StorageV2.Standard.RAGRS\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "2000",
+          "unit": "GB",
+          "monthlyCost": "225.00"
+        },
+        {
+          "name": "Batch write operations",
+          "monthlyQuantity": "50",
+          "unit": "10k operations",
+          "monthlyCost": "7.50"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "100",
+          "unit": "10k operations",
+          "monthlyCost": "5.00"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "200",
+          "unit": "10k operations",
+          "monthlyCost": "1.00"
+        },
+        {
+          "name": "Scan operations",
+          "monthlyQuantity": "100",
+          "unit": "10k operations",
+          "monthlyCost": "9.00"
+        },
+        {
+          "name": "List operations",
+          "monthlyQuantity": "20",
+          "unit": "10k operations",
+          "monthlyCost": "1.80"
+        },
+        {
+          "name": "Delete operations",
+          "monthlyQuantity": "10",
+          "unit": "10k operations",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Geo-replication data transfer",
+          "monthlyQuantity": "6000",
+          "unit": "GB",
+          "monthlyCost": "120.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_table.storagev2-table-encrypted[\"StorageV2.Standard.GRS\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "2000",
+          "unit": "GB",
+          "monthlyCost": "180.00"
+        },
+        {
+          "name": "Batch write operations",
+          "monthlyQuantity": "50",
+          "unit": "10k operations",
+          "monthlyCost": "7.50"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "100",
+          "unit": "10k operations",
+          "monthlyCost": "5.00"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "200",
+          "unit": "10k operations",
+          "monthlyCost": "1.00"
+        },
+        {
+          "name": "Scan operations",
+          "monthlyQuantity": "100",
+          "unit": "10k operations",
+          "monthlyCost": "9.00"
+        },
+        {
+          "name": "List operations",
+          "monthlyQuantity": "20",
+          "unit": "10k operations",
+          "monthlyCost": "1.80"
+        },
+        {
+          "name": "Delete operations",
+          "monthlyQuantity": "10",
+          "unit": "10k operations",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Geo-replication data transfer",
+          "monthlyQuantity": "6000",
+          "unit": "GB",
+          "monthlyCost": "120.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_table.storagev2-table[\"StorageV2.Standard.GZRS\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "2000",
+          "unit": "GB",
+          "monthlyCost": "202.40"
+        },
+        {
+          "name": "Transactions",
+          "monthlyQuantity": "600",
+          "unit": "10k operations",
+          "monthlyCost": "0.22"
+        },
+        {
+          "name": "Geo-replication data transfer",
+          "monthlyQuantity": "6000",
+          "unit": "GB",
+          "monthlyCost": "120.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_table.storagev2-table[\"StorageV2.Standard.RAGRS\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "2000",
+          "unit": "GB",
+          "monthlyCost": "150.00"
+        },
+        {
+          "name": "Transactions",
+          "monthlyQuantity": "600",
+          "unit": "10k operations",
+          "monthlyCost": "0.22"
+        },
+        {
+          "name": "Geo-replication data transfer",
+          "monthlyQuantity": "6000",
+          "unit": "GB",
+          "monthlyCost": "120.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_table.storagev2-table[\"StorageV2.Standard.GRS\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "2000",
+          "unit": "GB",
+          "monthlyCost": "120.00"
+        },
+        {
+          "name": "Transactions",
+          "monthlyQuantity": "600",
+          "unit": "10k operations",
+          "monthlyCost": "0.22"
+        },
+        {
+          "name": "Geo-replication data transfer",
+          "monthlyQuantity": "6000",
+          "unit": "GB",
+          "monthlyCost": "120.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_table.storagev1-table[\"Storage.Standard.RAGRS\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "1000",
+          "unit": "GB",
+          "monthlyCost": "75.00"
+        },
+        {
+          "name": "Transactions",
+          "monthlyQuantity": "300",
+          "unit": "10k operations",
+          "monthlyCost": "0.11"
+        },
+        {
+          "name": "Geo-replication data transfer",
+          "monthlyQuantity": "5000",
+          "unit": "GB",
+          "monthlyCost": "100.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_table.storagev1-table[\"Storage.Standard.GRS\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "1000",
+          "unit": "GB",
+          "monthlyCost": "60.00"
+        },
+        {
+          "name": "Transactions",
+          "monthlyQuantity": "300",
+          "unit": "10k operations",
+          "monthlyCost": "0.11"
+        },
+        {
+          "name": "Geo-replication data transfer",
+          "monthlyQuantity": "5000",
+          "unit": "GB",
+          "monthlyCost": "100.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_table.storagev2-table-encrypted[\"StorageV2.Standard.ZRS\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "2000",
+          "unit": "GB",
+          "monthlyCost": "112.50"
+        },
+        {
+          "name": "Batch write operations",
+          "monthlyQuantity": "50",
+          "unit": "10k operations",
+          "monthlyCost": "3.75"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "100",
+          "unit": "10k operations",
+          "monthlyCost": "2.50"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "200",
+          "unit": "10k operations",
+          "monthlyCost": "1.00"
+        },
+        {
+          "name": "Scan operations",
+          "monthlyQuantity": "100",
+          "unit": "10k operations",
+          "monthlyCost": "9.00"
+        },
+        {
+          "name": "List operations",
+          "monthlyQuantity": "20",
+          "unit": "10k operations",
+          "monthlyCost": "1.80"
+        },
+        {
+          "name": "Delete operations",
+          "monthlyQuantity": "10",
+          "unit": "10k operations",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_table.storagev2-table[\"StorageV2.Standard.ZRS\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "2000",
+          "unit": "GB",
+          "monthlyCost": "112.40"
+        },
+        {
+          "name": "Transactions",
+          "monthlyQuantity": "600",
+          "unit": "10k operations",
+          "monthlyCost": "0.22"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_table.storagev2-table-encrypted[\"StorageV2.Standard.LRS\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "2000",
+          "unit": "GB",
+          "monthlyCost": "90.00"
+        },
+        {
+          "name": "Batch write operations",
+          "monthlyQuantity": "50",
+          "unit": "10k operations",
+          "monthlyCost": "3.75"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "100",
+          "unit": "10k operations",
+          "monthlyCost": "2.50"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "200",
+          "unit": "10k operations",
+          "monthlyCost": "1.00"
+        },
+        {
+          "name": "Scan operations",
+          "monthlyQuantity": "100",
+          "unit": "10k operations",
+          "monthlyCost": "9.00"
+        },
+        {
+          "name": "List operations",
+          "monthlyQuantity": "20",
+          "unit": "10k operations",
+          "monthlyCost": "1.80"
+        },
+        {
+          "name": "Delete operations",
+          "monthlyQuantity": "10",
+          "unit": "10k operations",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_table.storagev2-table[\"StorageV2.Standard.LRS\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "2000",
+          "unit": "GB",
+          "monthlyCost": "90.00"
+        },
+        {
+          "name": "Transactions",
+          "monthlyQuantity": "600",
+          "unit": "10k operations",
+          "monthlyCost": "0.22"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_table.storagev1-table[\"Storage.Standard.LRS\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "1000",
+          "unit": "GB",
+          "monthlyCost": "45.00"
+        },
+        {
+          "name": "Transactions",
+          "monthlyQuantity": "300",
+          "unit": "10k operations",
+          "monthlyCost": "0.11"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

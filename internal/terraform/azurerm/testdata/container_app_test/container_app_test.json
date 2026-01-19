@@ -1,0 +1,130 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_container_app.example",
+      "costComponents": [
+        {
+          "name": "vCPU (active)",
+          "monthlyQuantity": "2320000",
+          "unit": "vCPU-seconds",
+          "monthlyCost": "78.88"
+        },
+        {
+          "name": "Memory (active)",
+          "monthlyQuantity": "4640000",
+          "unit": "GiB-seconds",
+          "monthlyCost": "18.56"
+        },
+        {
+          "name": "vCPU (idle)",
+          "monthlyQuantity": "3942000",
+          "unit": "vCPU-seconds",
+          "monthlyCost": "15.77"
+        },
+        {
+          "name": "Memory (idle)",
+          "monthlyQuantity": "7884000",
+          "unit": "GiB-seconds",
+          "monthlyCost": "31.54"
+        },
+        {
+          "name": "Requests",
+          "monthlyQuantity": "3",
+          "unit": "1M requests",
+          "monthlyCost": "1.68"
+        },
+        {
+          "name": "vCPU (free)",
+          "monthlyQuantity": "180000",
+          "unit": "vCPU-seconds",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Memory (free)",
+          "monthlyQuantity": "360000",
+          "unit": "GiB-seconds",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Requests (free)",
+          "monthlyQuantity": "2",
+          "unit": "1M requests",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_container_app.example_free",
+      "costComponents": [
+        {
+          "name": "vCPU (free)",
+          "monthlyQuantity": "2500",
+          "unit": "vCPU-seconds",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Memory (free)",
+          "monthlyQuantity": "5000",
+          "unit": "GiB-seconds",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Requests (free)",
+          "monthlyQuantity": "0.1",
+          "unit": "1M requests",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_log_analytics_workspace.example",
+      "costComponents": [
+        {
+          "name": "Log data ingestion",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Log data export",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Basic log data ingestion",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Basic log search queries",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Archive data",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Archive data restored",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Archive data searched",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+version: 0.1
+resource_usage:
+  azurerm_dashboard_grafana.standard:
+    active_users: 10
+
+  azurerm_dashboard_grafana.standard_redundant:
+    active_users: 20
+
+  azurerm_dashboard_grafana.essential:
+    active_users: 5

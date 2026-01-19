@@ -1,0 +1,556 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_storage_queue.storagev2-queue[\"StorageV2.Standard.RAGZRS\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "2,000",
+          "unit": "GB",
+          "monthlyCost": "254.00"
+        },
+        {
+          "name": "Class 2 operations",
+          "monthlyQuantity": "400",
+          "unit": "10k operations",
+          "monthlyCost": "1.60"
+        },
+        {
+          "name": "Geo-replication data transfer",
+          "monthlyQuantity": "6,000",
+          "unit": "GB",
+          "monthlyCost": "120.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_queue.storagev2-queue[\"StorageV2.Standard.GZRS\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "2,000",
+          "unit": "GB",
+          "monthlyCost": "202.00"
+        },
+        {
+          "name": "Class 2 operations",
+          "monthlyQuantity": "400",
+          "unit": "10k operations",
+          "monthlyCost": "1.60"
+        },
+        {
+          "name": "Geo-replication data transfer",
+          "monthlyQuantity": "6,000",
+          "unit": "GB",
+          "monthlyCost": "120.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_queue.storagev2-queue[\"StorageV2.Standard.RAGRS\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "2,000",
+          "unit": "GB",
+          "monthlyCost": "149.60"
+        },
+        {
+          "name": "Class 1 operations",
+          "monthlyQuantity": "200",
+          "unit": "10k operations",
+          "monthlyCost": "1.60"
+        },
+        {
+          "name": "Class 2 operations",
+          "monthlyQuantity": "400",
+          "unit": "10k operations",
+          "monthlyCost": "1.60"
+        },
+        {
+          "name": "Geo-replication data transfer",
+          "monthlyQuantity": "6,000",
+          "unit": "GB",
+          "monthlyCost": "120.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_queue.storagev2-queue[\"StorageV2.Standard.GRS\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "2,000",
+          "unit": "GB",
+          "monthlyCost": "119.60"
+        },
+        {
+          "name": "Class 1 operations",
+          "monthlyQuantity": "200",
+          "unit": "10k operations",
+          "monthlyCost": "1.60"
+        },
+        {
+          "name": "Class 2 operations",
+          "monthlyQuantity": "400",
+          "unit": "10k operations",
+          "monthlyCost": "1.60"
+        },
+        {
+          "name": "Geo-replication data transfer",
+          "monthlyQuantity": "6,000",
+          "unit": "GB",
+          "monthlyCost": "120.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_queue.storagev1-queue[\"Storage.Standard.RAGRS\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "1,000",
+          "unit": "GB",
+          "monthlyCost": "75.00"
+        },
+        {
+          "name": "Class 1 operations",
+          "monthlyQuantity": "100",
+          "unit": "10k operations",
+          "monthlyCost": "0.04"
+        },
+        {
+          "name": "Class 2 operations",
+          "monthlyQuantity": "300",
+          "unit": "10k operations",
+          "monthlyCost": "0.11"
+        },
+        {
+          "name": "Geo-replication data transfer",
+          "monthlyQuantity": "5,000",
+          "unit": "GB",
+          "monthlyCost": "100.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_queue.storagev1-queue[\"Storage.Standard.GRS\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "1,000",
+          "unit": "GB",
+          "monthlyCost": "60.00"
+        },
+        {
+          "name": "Class 1 operations",
+          "monthlyQuantity": "100",
+          "unit": "10k operations",
+          "monthlyCost": "0.04"
+        },
+        {
+          "name": "Class 2 operations",
+          "monthlyQuantity": "300",
+          "unit": "10k operations",
+          "monthlyCost": "0.11"
+        },
+        {
+          "name": "Geo-replication data transfer",
+          "monthlyQuantity": "5,000",
+          "unit": "GB",
+          "monthlyCost": "100.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_queue.storagev2-queue[\"StorageV2.Standard.ZRS\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "2,000",
+          "unit": "GB",
+          "monthlyCost": "112.50"
+        },
+        {
+          "name": "Class 1 operations",
+          "monthlyQuantity": "200",
+          "unit": "10k operations",
+          "monthlyCost": "0.80"
+        },
+        {
+          "name": "Class 2 operations",
+          "monthlyQuantity": "400",
+          "unit": "10k operations",
+          "monthlyCost": "1.60"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_queue.storagev2-queue[\"StorageV2.Standard.LRS\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "2,000",
+          "unit": "GB",
+          "monthlyCost": "90.00"
+        },
+        {
+          "name": "Class 1 operations",
+          "monthlyQuantity": "200",
+          "unit": "10k operations",
+          "monthlyCost": "0.80"
+        },
+        {
+          "name": "Class 2 operations",
+          "monthlyQuantity": "400",
+          "unit": "10k operations",
+          "monthlyCost": "1.60"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_queue.storagev1-queue[\"Storage.Standard.LRS\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "1,000",
+          "unit": "GB",
+          "monthlyCost": "45.00"
+        },
+        {
+          "name": "Class 1 operations",
+          "monthlyQuantity": "100",
+          "unit": "10k operations",
+          "monthlyCost": "0.04"
+        },
+        {
+          "name": "Class 2 operations",
+          "monthlyQuantity": "300",
+          "unit": "10k operations",
+          "monthlyCost": "0.11"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.storagev1[\"Storage.Standard.GRS\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "List and create container operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.storagev1[\"Storage.Standard.LRS\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "List and create container operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.storagev1[\"Storage.Standard.RAGRS\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "List and create container operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.storagev2[\"StorageV2.Standard.GRS\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "List and create container operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Blob index",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.storagev2[\"StorageV2.Standard.GZRS\"]",
+      "costComponents": [
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.storagev2[\"StorageV2.Standard.LRS\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "List and create container operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Blob index",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.storagev2[\"StorageV2.Standard.RAGRS\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "List and create container operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Blob index",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.storagev2[\"StorageV2.Standard.RAGZRS\"]",
+      "costComponents": [
+        {
+          "name": "List and create container operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.storagev2[\"StorageV2.Standard.ZRS\"]",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "List and create container operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Blob index",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

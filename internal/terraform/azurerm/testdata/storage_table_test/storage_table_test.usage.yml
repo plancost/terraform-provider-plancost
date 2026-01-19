@@ -1,0 +1,19 @@
+version: 0.1
+resource_usage:
+  azurerm_storage_table.storagev1-table[*]:
+    storage_gb: 1000
+    transactions: 3000000
+    monthly_geo_replication_data_transfer_gb: 5000
+  azurerm_storage_table.storagev2-table[*]:
+    storage_gb: 2000
+    transactions: 6000000
+    monthly_geo_replication_data_transfer_gb: 6000
+  azurerm_storage_table.storagev2-table-encrypted[*]:
+    storage_gb: 2000
+    write_operations: 1000000
+    batch_write_operations: 500000
+    read_operations: 2000000
+    scan_operations: 1000000
+    list_operations: 200000
+    delete_operations: 100000
+    monthly_geo_replication_data_transfer_gb: 6000

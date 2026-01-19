@@ -1,0 +1,376 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_sql_database.premium6",
+      "costComponents": [
+        {
+          "name": "Compute (P6)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "3,650.00"
+        },
+        {
+          "name": "Extra data storage",
+          "monthlyQuantity": "500",
+          "unit": "GB",
+          "monthlyCost": "170.00"
+        },
+        {
+          "name": "Long-term retention (RA-GRS)",
+          "monthlyQuantity": "1,000",
+          "unit": "GB",
+          "monthlyCost": "50.00"
+        },
+        {
+          "name": "PITR backup storage (RA-GRS)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_sql_database.backup",
+      "costComponents": [
+        {
+          "name": "Compute (provisioned, GP_Gen5_4)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "444.47"
+        },
+        {
+          "name": "Storage",
+          "monthlyQuantity": "5",
+          "unit": "GB",
+          "monthlyCost": "0.58"
+        },
+        {
+          "name": "Long-term retention (RA-GRS)",
+          "monthlyQuantity": "1,000",
+          "unit": "GB",
+          "monthlyCost": "50.00"
+        },
+        {
+          "name": "PITR backup storage (RA-GRS)",
+          "monthlyQuantity": "500",
+          "unit": "GB",
+          "monthlyCost": "100.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_sql_database.sql_database_with_edition_premium",
+      "costComponents": [
+        {
+          "name": "Compute (P1)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "456.25"
+        },
+        {
+          "name": "Long-term retention (RA-GRS)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "PITR backup storage (RA-GRS)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_sql_database.sql_database_with_edition_critical",
+      "costComponents": [
+        {
+          "name": "Compute (provisioned, BC_Gen5_2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "444.48"
+        },
+        {
+          "name": "Storage",
+          "monthlyQuantity": "5",
+          "unit": "GB",
+          "monthlyCost": "1.25"
+        },
+        {
+          "name": "Long-term retention (RA-GRS)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "PITR backup storage (RA-GRS)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_sql_database.sql_database_with_edition_critical_zone_redundant",
+      "costComponents": [
+        {
+          "name": "Compute (provisioned, BC_Gen5_2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "444.48"
+        },
+        {
+          "name": "Storage",
+          "monthlyQuantity": "5",
+          "unit": "GB",
+          "monthlyCost": "1.25"
+        },
+        {
+          "name": "Long-term retention (RA-GRS)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "PITR backup storage (RA-GRS)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_sql_database.sql_database_with_service_object_name",
+      "costComponents": [
+        {
+          "name": "Compute (provisioned, BC_Gen5_2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "444.48"
+        },
+        {
+          "name": "Storage",
+          "monthlyQuantity": "5",
+          "unit": "GB",
+          "monthlyCost": "1.25"
+        },
+        {
+          "name": "Long-term retention (RA-GRS)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "PITR backup storage (RA-GRS)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_sql_database.sql_database_with_edition_gen_zone_redundant",
+      "costComponents": [
+        {
+          "name": "Compute (provisioned, GP_Gen5_2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "222.24"
+        },
+        {
+          "name": "Zone redundancy (provisioned, GP_Gen5_2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "133.34"
+        },
+        {
+          "name": "Storage",
+          "monthlyQuantity": "5",
+          "unit": "GB",
+          "monthlyCost": "1.15"
+        },
+        {
+          "name": "Long-term retention (RA-GRS)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "PITR backup storage (RA-GRS)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_sql_database.sql_database_with_edition_hyper",
+      "costComponents": [
+        {
+          "name": "Compute (provisioned, HS_Gen5_2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "266.68"
+        },
+        {
+          "name": "Read replicas",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Storage",
+          "monthlyQuantity": "5",
+          "unit": "GB",
+          "monthlyCost": "1.25"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_sql_database.serverless",
+      "costComponents": [
+        {
+          "name": "Storage",
+          "monthlyQuantity": "5",
+          "unit": "GB",
+          "monthlyCost": "0.58"
+        },
+        {
+          "name": "Long-term retention (RA-GRS)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "PITR backup storage (RA-GRS)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_sql_database.sql_database_with_max_size",
+      "costComponents": [
+        {
+          "name": "Compute (provisioned, GP_Gen5_2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "222.24"
+        },
+        {
+          "name": "Storage",
+          "monthlyQuantity": "10",
+          "unit": "GB",
+          "monthlyCost": "1.15"
+        },
+        {
+          "name": "Long-term retention (RA-GRS)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "PITR backup storage (RA-GRS)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_sql_database.default_sql_database",
+      "costComponents": [
+        {
+          "name": "Compute (provisioned, GP_Gen5_2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "222.24"
+        },
+        {
+          "name": "Storage",
+          "monthlyQuantity": "5",
+          "unit": "GB",
+          "monthlyCost": "0.58"
+        },
+        {
+          "name": "Long-term retention (RA-GRS)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "PITR backup storage (RA-GRS)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_sql_database.sql_database_with_edition_gen",
+      "costComponents": [
+        {
+          "name": "Compute (provisioned, GP_Gen5_2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "222.24"
+        },
+        {
+          "name": "Storage",
+          "monthlyQuantity": "5",
+          "unit": "GB",
+          "monthlyCost": "0.58"
+        },
+        {
+          "name": "Long-term retention (RA-GRS)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "PITR backup storage (RA-GRS)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_sql_database.sql_database_with_edition_standard",
+      "costComponents": [
+        {
+          "name": "Compute (S0)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "14.72"
+        },
+        {
+          "name": "Long-term retention (RA-GRS)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "PITR backup storage (RA-GRS)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

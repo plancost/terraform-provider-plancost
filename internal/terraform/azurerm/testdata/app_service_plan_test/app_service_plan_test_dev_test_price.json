@@ -1,0 +1,124 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_app_service_plan.pc3",
+      "costComponents": [
+        {
+          "name": "Instance usage (PC3)",
+          "monthlyQuantity": "10,950",
+          "unit": "hours",
+          "monthlyCost": "3,557.57"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_app_service_plan.premium_v2",
+      "costComponents": [
+        {
+          "name": "Instance usage (P1v2)",
+          "monthlyQuantity": "7,300",
+          "unit": "hours",
+          "monthlyCost": "737.30"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_app_service_plan.isolated_v2",
+      "costComponents": [
+        {
+          "name": "Instance usage (I1v2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "281.78"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_app_service_plan.isolated",
+      "costComponents": [
+        {
+          "name": "Instance usage (I1)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "219.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_app_service_plan.premium_v1",
+      "costComponents": [
+        {
+          "name": "Instance usage (P1v1)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "219.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_app_service_plan.standard_s2",
+      "costComponents": [
+        {
+          "name": "Instance usage (dev/test, S1)",
+          "monthlyQuantity": "3,650",
+          "unit": "hours",
+          "monthlyCost": "219.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_app_service_plan.pc2",
+      "costComponents": [
+        {
+          "name": "Instance usage (PC2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "118.59"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_app_service_plan.standard_s1",
+      "costComponents": [
+        {
+          "name": "Instance usage (dev/test, S1)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "43.80"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_app_service_plan.basic",
+      "costComponents": [
+        {
+          "name": "Instance usage (B2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "24.82"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_app_service_plan.default_capacity",
+      "costComponents": [
+        {
+          "name": "Instance usage (B2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "24.82"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

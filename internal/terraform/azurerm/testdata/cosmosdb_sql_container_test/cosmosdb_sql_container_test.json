@@ -1,0 +1,244 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_cosmosdb_sql_container.autoscale",
+      "costComponents": [
+        {
+          "name": "Transactional storage (West US)",
+          "monthlyQuantity": "1,000",
+          "unit": "GB",
+          "monthlyCost": "250.00"
+        },
+        {
+          "name": "Transactional storage (Central US)",
+          "monthlyQuantity": "1,000",
+          "unit": "GB",
+          "monthlyCost": "250.00"
+        },
+        {
+          "name": "Continuous backup (West US)",
+          "monthlyQuantity": "1,000",
+          "unit": "GB",
+          "monthlyCost": "200.00"
+        },
+        {
+          "name": "Continuous backup (Central US)",
+          "monthlyQuantity": "1,000",
+          "unit": "GB",
+          "monthlyCost": "246.00"
+        },
+        {
+          "name": "Restored data",
+          "monthlyQuantity": "3,000",
+          "unit": "GB",
+          "monthlyCost": "450.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_cosmosdb_sql_container.provisioned",
+      "costComponents": [
+        {
+          "name": "Transactional storage (West US)",
+          "monthlyQuantity": "1,000",
+          "unit": "GB",
+          "monthlyCost": "250.00"
+        },
+        {
+          "name": "Transactional storage (Central US)",
+          "monthlyQuantity": "1,000",
+          "unit": "GB",
+          "monthlyCost": "250.00"
+        },
+        {
+          "name": "Continuous backup (West US)",
+          "monthlyQuantity": "1,000",
+          "unit": "GB",
+          "monthlyCost": "200.00"
+        },
+        {
+          "name": "Continuous backup (Central US)",
+          "monthlyQuantity": "1,000",
+          "unit": "GB",
+          "monthlyCost": "246.00"
+        },
+        {
+          "name": "Restored data",
+          "monthlyQuantity": "3,000",
+          "unit": "GB",
+          "monthlyCost": "450.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_cosmosdb_sql_container.serverless",
+      "costComponents": [
+        {
+          "name": "Transactional storage (West US)",
+          "monthlyQuantity": "1,000",
+          "unit": "GB",
+          "monthlyCost": "250.00"
+        },
+        {
+          "name": "Analytical storage (West US)",
+          "monthlyQuantity": "1,000",
+          "unit": "GB",
+          "monthlyCost": "30.00"
+        },
+        {
+          "name": "Periodic backup (West US)",
+          "monthlyQuantity": "2,000",
+          "unit": "GB",
+          "monthlyCost": "300.00"
+        },
+        {
+          "name": "Restored data",
+          "monthlyQuantity": "3,000",
+          "unit": "GB",
+          "monthlyCost": "450.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_cosmosdb_sql_container.mutli-master_backup2copies",
+      "costComponents": [
+        {
+          "name": "Transactional storage (West US)",
+          "monthlyQuantity": "1,000",
+          "unit": "GB",
+          "monthlyCost": "250.00"
+        },
+        {
+          "name": "Analytical storage (West US)",
+          "monthlyQuantity": "1,000",
+          "unit": "GB",
+          "monthlyCost": "30.00"
+        },
+        {
+          "name": "Analytical write operations (West US)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Analytical read operations (West US)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Periodic backup (West US)",
+          "monthlyQuantity": "2,000",
+          "unit": "GB",
+          "monthlyCost": "300.00"
+        },
+        {
+          "name": "Restored data",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_cosmosdb_sql_container.non-usage_autoscale",
+      "costComponents": [
+        {
+          "name": "Provisioned throughput (autoscale, West US)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Transactional storage (West US)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Analytical storage (West US)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Analytical write operations (West US)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Analytical read operations (West US)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Periodic backup (West US)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Restored data",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_cosmosdb_sql_database.example",
+      "costComponents": [
+        {
+          "name": "Provisioned throughput (autoscale, West US)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Transactional storage (West US)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Analytical storage (West US)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Analytical write operations (West US)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Analytical read operations (West US)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Periodic backup (West US)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Restored data",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

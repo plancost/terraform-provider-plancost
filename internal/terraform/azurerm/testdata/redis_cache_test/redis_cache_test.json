@@ -1,0 +1,39 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_redis_cache.premium_p3_replicas_per_primary",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_redis_cache.premium_p2_replicas_per_master",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_redis_cache.premium_p1",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_redis_cache.premium_p1_australiacentral",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_redis_cache.premium_zero_shards",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_redis_cache.standard_c3",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_redis_cache.basic_c2",
+      "costComponents": [],
+      "subResources": []
+    }
+  ]
+}

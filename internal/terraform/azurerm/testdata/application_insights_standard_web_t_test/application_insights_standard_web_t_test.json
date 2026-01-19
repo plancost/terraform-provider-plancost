@@ -1,0 +1,36 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_application_insights_standard_web_test.example-default-frequency",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_application_insights_standard_web_test.example[\"300\"]",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_application_insights_standard_web_test.example[\"600\"]",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_application_insights_standard_web_test.example[\"900\"]",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_application_insights.example",
+      "costComponents": [
+        {
+          "name": "Data ingested",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

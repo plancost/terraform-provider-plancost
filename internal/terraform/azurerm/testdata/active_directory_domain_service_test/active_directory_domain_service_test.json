@@ -1,0 +1,40 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_active_directory_domain_service.premium",
+      "costComponents": [
+        {
+          "name": "Active directory domain service (Premium)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "1,168.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_active_directory_domain_service.enterprise",
+      "costComponents": [
+        {
+          "name": "Active directory domain service (Enterprise)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "292.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_active_directory_domain_service.standard",
+      "costComponents": [
+        {
+          "name": "Active directory domain service (Standard)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "109.50"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

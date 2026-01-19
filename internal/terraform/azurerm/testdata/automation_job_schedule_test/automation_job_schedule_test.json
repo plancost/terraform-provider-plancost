@@ -1,0 +1,21 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_automation_job_schedule.fiveMinutes",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_automation_job_schedule.withoutUsage",
+      "costComponents": [
+        {
+          "name": "Job run time",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

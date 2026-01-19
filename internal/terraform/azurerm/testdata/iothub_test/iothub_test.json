@@ -1,0 +1,31 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_iothub.iothub_multiple",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_iothub.iothub_single",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_iothub_dps.dps_withUsage",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_iothub_dps.dps_withoutUsage",
+      "costComponents": [
+        {
+          "name": "Device provisioning",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

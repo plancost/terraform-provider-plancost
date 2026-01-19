@@ -1,0 +1,25 @@
+
+ Name                                     Monthly Qty  Unit            Monthly Cost    
+                                                                                       
+ azurerm_static_web_app.usage_standard                                                 
+ ├─ Standard plan                                   1  app                    $9.00    
+ └─ Data transfer (over 100GB)                     50  GB                    $10.00  * 
+                                                                                       
+ azurerm_static_web_app.standard                                                       
+ ├─ Standard plan                                   1  app                    $9.00    
+ └─ Data transfer (over 100GB)          Monthly cost depends on usage: $0.20 per GB    
+                                                                                       
+ OVERALL TOTAL                                                               $28.00 
+
+*Usage costs can be estimated by updating Infracost Cloud settings, see docs for other options.
+
+──────────────────────────────────
+4 cloud resources were detected:
+∙ 3 were estimated
+∙ 1 was free
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━┳━━━━━━━━━━━━┓
+┃ Project                                            ┃ Baseline cost ┃ Usage cost* ┃ Total cost ┃
+┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━┫
+┃ main                                               ┃           $18 ┃         $10 ┃        $28 ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━┻━━━━━━━━━━━━┛

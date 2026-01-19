@@ -1,0 +1,58 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_dashboard_grafana.essential",
+      "costComponents": [
+        {
+          "name": "Active users",
+          "unit": "users",
+          "monthlyQuantity": "5",
+          "monthlyCost": "30.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_dashboard_grafana.standard",
+      "costComponents": [
+        {
+          "name": "Instance (Standard)",
+          "unit": "hours",
+          "monthlyQuantity": "1460",
+          "monthlyCost": "49.93"
+        },
+        {
+          "name": "Active users",
+          "unit": "users",
+          "monthlyQuantity": "10",
+          "monthlyCost": "60.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_dashboard_grafana.standard_redundant",
+      "costComponents": [
+        {
+          "name": "Instance (Standard)",
+          "unit": "hours",
+          "monthlyQuantity": "1460",
+          "monthlyCost": "49.93"
+        },
+        {
+          "name": "Zone redundancy",
+          "unit": "hours",
+          "monthlyQuantity": "730",
+          "monthlyCost": "30.00"
+        },
+        {
+          "name": "Active users",
+          "unit": "users",
+          "monthlyQuantity": "20",
+          "monthlyCost": "120.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

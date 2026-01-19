@@ -1,0 +1,64 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_nat_gateway.my_gateway",
+      "costComponents": [
+        {
+          "name": "NAT gateway",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "32.85"
+        },
+        {
+          "name": "Data processed",
+          "monthlyQuantity": "10",
+          "unit": "GB",
+          "monthlyCost": "0.45"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_nat_gateway.my_gateway2",
+      "costComponents": [
+        {
+          "name": "NAT gateway",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "32.85"
+        },
+        {
+          "name": "Data processed",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_public_ip_prefix.example",
+      "costComponents": [
+        {
+          "name": "IP prefix",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "4.38"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_public_ip.example",
+      "costComponents": [
+        {
+          "name": "IP address (static, regional)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "3.65"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

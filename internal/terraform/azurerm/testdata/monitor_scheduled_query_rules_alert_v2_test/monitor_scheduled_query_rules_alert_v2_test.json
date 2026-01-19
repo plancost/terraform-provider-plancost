@@ -1,0 +1,54 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_monitor_scheduled_query_rules_alert_v2.example-multi[\"PT1M\"]",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_monitor_scheduled_query_rules_alert_v2.example[\"PT1M\"]",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_monitor_scheduled_query_rules_alert_v2.example-multi[\"PT5M\"]",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_monitor_scheduled_query_rules_alert_v2.example[\"PT5M\"]",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_monitor_scheduled_query_rules_alert_v2.example-multi[\"PT10M\"]",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_monitor_scheduled_query_rules_alert_v2.example[\"PT10M\"]",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_monitor_scheduled_query_rules_alert_v2.example-multi[\"P1D\"]",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_monitor_scheduled_query_rules_alert_v2.example-multi[\"PT15M\"]",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_monitor_scheduled_query_rules_alert_v2.example[\"P1D\"]",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_monitor_scheduled_query_rules_alert_v2.example[\"PT15M\"]",
+      "costComponents": [],
+      "subResources": []
+    }
+  ]
+}

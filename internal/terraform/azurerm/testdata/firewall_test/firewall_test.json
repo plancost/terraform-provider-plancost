@@ -1,0 +1,106 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_firewall.premium_virtual_hub",
+      "costComponents": [
+        {
+          "name": "Deployment (Premium Secured Virtual Hub)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "1,277.50"
+        },
+        {
+          "name": "Data processed",
+          "monthlyQuantity": "20,000",
+          "unit": "GB",
+          "monthlyCost": "320.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_firewall.premium",
+      "costComponents": [
+        {
+          "name": "Deployment (Premium)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "1,277.50"
+        },
+        {
+          "name": "Data processed",
+          "monthlyQuantity": "10,000",
+          "unit": "GB",
+          "monthlyCost": "160.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_firewall.standard_virtual_hub",
+      "costComponents": [
+        {
+          "name": "Deployment (Standard Secure Virtual Hub)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "912.50"
+        },
+        {
+          "name": "Data processed",
+          "monthlyQuantity": "20,000",
+          "unit": "GB",
+          "monthlyCost": "320.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_firewall.standard",
+      "costComponents": [
+        {
+          "name": "Deployment (Standard)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "912.50"
+        },
+        {
+          "name": "Data processed",
+          "monthlyQuantity": "10,000",
+          "unit": "GB",
+          "monthlyCost": "160.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_firewall.non_usage",
+      "costComponents": [
+        {
+          "name": "Deployment (Standard)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "912.50"
+        },
+        {
+          "name": "Data processed",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_public_ip.example",
+      "costComponents": [
+        {
+          "name": "IP address (static, regional)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "3.65"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

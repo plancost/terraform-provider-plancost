@@ -1,0 +1,224 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_monitor_action_group.partial_example[\"with_usage\"]",
+      "costComponents": [
+        {
+          "name": "Web hooks (1)",
+          "monthlyQuantity": "16,000",
+          "unit": "notifications",
+          "monthlyCost": "0.10"
+        }
+      ],
+      "subResources": [
+        {
+          "name": "SMS messages",
+          "costComponents": [
+            {
+              "name": "Country code 1 (1)",
+              "monthlyQuantity": "16,000",
+              "unit": "messages",
+              "monthlyCost": "103.20"
+            },
+            {
+              "name": "Country code 34 (1)",
+              "monthlyQuantity": "16,000",
+              "unit": "messages",
+              "monthlyCost": "1,408.00"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "Voice calls",
+          "costComponents": [
+            {
+              "name": "Country code 64 (1)",
+              "monthlyQuantity": "16,000",
+              "unit": "calls",
+              "monthlyCost": "1,280.00"
+            },
+            {
+              "name": "Country code 86 (1)",
+              "monthlyQuantity": "16,000",
+              "unit": "calls",
+              "monthlyCost": "960.00"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    },
+    {
+      "name": "azurerm_monitor_action_group.everything_example[\"with_usage\"]",
+      "costComponents": [
+        {
+          "name": "Email notifications (2)",
+          "monthlyQuantity": "26,000",
+          "unit": "emails",
+          "monthlyCost": "0.52"
+        },
+        {
+          "name": "ITSM connectors (1)",
+          "monthlyQuantity": "13,000",
+          "unit": "events",
+          "monthlyCost": "65.00"
+        },
+        {
+          "name": "Push notifications (1)",
+          "monthlyQuantity": "13,000",
+          "unit": "notifications",
+          "monthlyCost": "0.26"
+        },
+        {
+          "name": "Secure web hooks (1)",
+          "monthlyQuantity": "13,000",
+          "unit": "notifications",
+          "monthlyCost": "0.78"
+        },
+        {
+          "name": "Web hooks (2)",
+          "monthlyQuantity": "26,000",
+          "unit": "notifications",
+          "monthlyCost": "0.16"
+        }
+      ],
+      "subResources": [
+        {
+          "name": "SMS messages",
+          "costComponents": [
+            {
+              "name": "Country code 1 (1)",
+              "monthlyQuantity": "13,000",
+              "unit": "messages",
+              "monthlyCost": "83.85"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "Voice calls",
+          "costComponents": [
+            {
+              "name": "Country code 86 (1)",
+              "monthlyQuantity": "13,000",
+              "unit": "calls",
+              "monthlyCost": "780.00"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    },
+    {
+      "name": "azurerm_monitor_action_group.everything_example[\"without_usage\"]",
+      "costComponents": [
+        {
+          "name": "Email notifications (2)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "ITSM connectors (1)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Push notifications (1)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Secure web hooks (1)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Web hooks (2)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": [
+        {
+          "name": "SMS messages",
+          "costComponents": [
+            {
+              "name": "Country code 1 (1)",
+              "monthlyQuantity": "0",
+              "unit": "usage_based",
+              "monthlyCost": "0.00"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "Voice calls",
+          "costComponents": [
+            {
+              "name": "Country code 86 (1)",
+              "monthlyQuantity": "0",
+              "unit": "usage_based",
+              "monthlyCost": "0.00"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    },
+    {
+      "name": "azurerm_monitor_action_group.partial_example[\"without_usage\"]",
+      "costComponents": [
+        {
+          "name": "Web hooks (1)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": [
+        {
+          "name": "SMS messages",
+          "costComponents": [
+            {
+              "name": "Country code 1 (1)",
+              "monthlyQuantity": "0",
+              "unit": "usage_based",
+              "monthlyCost": "0.00"
+            },
+            {
+              "name": "Country code 34 (1)",
+              "monthlyQuantity": "0",
+              "unit": "usage_based",
+              "monthlyCost": "0.00"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "Voice calls",
+          "costComponents": [
+            {
+              "name": "Country code 64 (1)",
+              "monthlyQuantity": "0",
+              "unit": "usage_based",
+              "monthlyCost": "0.00"
+            },
+            {
+              "name": "Country code 86 (1)",
+              "monthlyQuantity": "0",
+              "unit": "usage_based",
+              "monthlyCost": "0.00"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    }
+  ]
+}

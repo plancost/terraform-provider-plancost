@@ -1,0 +1,28 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_monitor_diagnostic_setting.example_with_usage",
+      "costComponents": [
+        {
+          "name": "Platform logs processed",
+          "monthlyQuantity": "1,000",
+          "unit": "GB",
+          "monthlyCost": "325.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_monitor_diagnostic_setting.example",
+      "costComponents": [
+        {
+          "name": "Platform logs processed",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

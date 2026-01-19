@@ -1,0 +1,51 @@
+
+ Name                                            Monthly Qty  Unit   Monthly Cost    
+                                                                                     
+ azurerm_netapp_pool.double_encryption_ultra                                         
+ └─ Storage (ultra, double encryption)                 4,096  GiB       $2,541.57    
+                                                                                     
+ azurerm_netapp_pool.double_encryption_premium                                       
+ └─ Storage (premium, double encryption)               4,096  GiB       $1,865.81    
+                                                                                     
+ azurerm_netapp_pool.ultra                                                           
+ └─ Storage (ultra)                                    4,096  GiB       $1,608.66    
+                                                                                     
+ azurerm_netapp_pool.premium                                                         
+ └─ Storage (premium)                                  4,096  GiB       $1,205.00    
+                                                                                     
+ azurerm_netapp_pool.double_encryption_standard                                      
+ └─ Storage (standard, double encryption)              4,096  GiB         $932.90    
+                                                                                     
+ azurerm_netapp_pool.flexible_overage                                                
+ ├─ Storage (flexible)                                 4,096  GiB         $645.86    
+ └─ Throughput (overage)                                  72  MiB/s       $231.63    
+                                                                                     
+ azurerm_netapp_pool.flexible                                                        
+ └─ Storage (flexible)                                 4,096  GiB         $645.86    
+                                                                                     
+ azurerm_netapp_pool.flexible_under_limit                                            
+ └─ Storage (flexible)                                 4,096  GiB         $645.86    
+                                                                                     
+ azurerm_netapp_pool.example                                                         
+ └─ Storage (standard)                                 4,096  GiB         $604.00    
+                                                                                     
+ azurerm_netapp_pool.cool_access                                                     
+ ├─ Storage (standard)                               1,228.8  GiB         $181.20    
+ ├─ Storage (cool access)                            2,867.2  GiB         $182.10  * 
+ ├─ Initial data transfer to cool access             2,867.2  GiB          $61.07  * 
+ └─ Recurring data transfer (cool access)             860.16  GiB          $18.32  * 
+                                                                                     
+ OVERALL TOTAL                                                         $11,369.84 
+
+*Usage costs can be estimated by updating Infracost Cloud settings, see docs for other options.
+
+──────────────────────────────────
+12 cloud resources were detected:
+∙ 10 were estimated
+∙ 2 were free
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━┳━━━━━━━━━━━━┓
+┃ Project                                            ┃ Baseline cost ┃ Usage cost* ┃ Total cost ┃
+┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━┫
+┃ main                                               ┃       $11,108 ┃        $261 ┃    $11,370 ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━┻━━━━━━━━━━━━┛

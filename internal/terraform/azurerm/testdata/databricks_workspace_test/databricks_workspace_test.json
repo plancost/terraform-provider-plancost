@@ -1,0 +1,38 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_databricks_workspace.premium",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_databricks_workspace.standard",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_databricks_workspace.non_usage",
+      "costComponents": [
+        {
+          "name": "All-purpose compute DBUs",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Jobs compute DBUs",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Jobs light compute DBUs",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

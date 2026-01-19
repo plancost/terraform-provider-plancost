@@ -1,0 +1,52 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_automation_account.allUsageEx",
+      "costComponents": [
+        {
+          "name": "Watchers",
+          "monthlyQuantity": "10",
+          "unit": "hours",
+          "monthlyCost": "0.02"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_automation_account.someUsageEx",
+      "costComponents": [
+        {
+          "name": "Watchers",
+          "monthlyQuantity": "15",
+          "unit": "hours",
+          "monthlyCost": "0.03"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_automation_account.without_usage",
+      "costComponents": [
+        {
+          "name": "Job run time",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Non-azure config nodes",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Watchers",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

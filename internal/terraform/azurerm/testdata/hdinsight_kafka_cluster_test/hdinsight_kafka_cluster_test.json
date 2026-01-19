@@ -1,0 +1,154 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_hdinsight_kafka_cluster.standard",
+      "costComponents": [
+        {
+          "name": "Head node (Standard_E2s_V3)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "277.40"
+        },
+        {
+          "name": "Worker node (Standard_E64is_V3)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "8,164.32"
+        },
+        {
+          "name": "Zookeeper node (Standard_G2)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "3,232.44"
+        },
+        {
+          "name": "Managed OS disks",
+          "monthlyQuantity": "4",
+          "unit": "months",
+          "monthlyCost": "163.84"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_hdinsight_kafka_cluster.non_usage",
+      "costComponents": [
+        {
+          "name": "Head node (Standard_NC24)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "7,478.12"
+        },
+        {
+          "name": "Worker node (Standard_D3_V2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "215.35"
+        },
+        {
+          "name": "Zookeeper node (Standard_D3_V2)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "646.05"
+        },
+        {
+          "name": "Managed OS disks",
+          "monthlyQuantity": "3",
+          "unit": "months",
+          "monthlyCost": "446.04"
+        },
+        {
+          "name": "Disk operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_hdinsight_kafka_cluster.premium",
+      "costComponents": [
+        {
+          "name": "Head node (Standard_F2s_V2)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "197.10"
+        },
+        {
+          "name": "Worker node (Standard_D3_V2)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "646.05"
+        },
+        {
+          "name": "Zookeeper node (Standard_F32s_V2)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "4,730.40"
+        },
+        {
+          "name": "Managed OS disks",
+          "monthlyQuantity": "9",
+          "unit": "months",
+          "monthlyCost": "1,338.12"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.example",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "List and create container operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Data retrieval",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Blob index",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Early deletion",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

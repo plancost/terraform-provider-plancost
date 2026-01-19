@@ -1,0 +1,21 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_point_to_site_vpn_gateway.point_to_site_vpn_with_usage",
+      "costComponents": [
+        {
+          "name": "P2S connections",
+          "monthlyQuantity": "9",
+          "unit": "hours",
+          "monthlyCost": "0.11"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_point_to_site_vpn_gateway.point_to_site_vpn",
+      "costComponents": [],
+      "subResources": []
+    }
+  ]
+}

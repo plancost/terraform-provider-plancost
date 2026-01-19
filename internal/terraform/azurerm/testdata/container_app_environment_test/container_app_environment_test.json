@@ -1,0 +1,88 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_container_app_environment.example_dedicated",
+      "costComponents": [
+        {
+          "name": "Dedicated vCPU usage (D4)",
+          "monthlyQuantity": "2920",
+          "unit": "hours",
+          "monthlyCost": "236.11"
+        },
+        {
+          "name": "Dedicated memory usage (D4)",
+          "monthlyQuantity": "11680",
+          "unit": "GiB-hours",
+          "monthlyCost": "77.53"
+        },
+        {
+          "name": "Dedicated vCPU usage (E4)",
+          "monthlyQuantity": "2920",
+          "unit": "hours",
+          "monthlyCost": "236.11"
+        },
+        {
+          "name": "Dedicated memory usage (E4)",
+          "monthlyQuantity": "23360",
+          "unit": "GiB-hours",
+          "monthlyCost": "155.06"
+        },
+        {
+          "name": "Management fee",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "73.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_log_analytics_workspace.example",
+      "costComponents": [
+        {
+          "name": "Log data ingestion",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Log data export",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Basic log data ingestion",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Basic log search queries",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Archive data",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Archive data restored",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Archive data searched",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

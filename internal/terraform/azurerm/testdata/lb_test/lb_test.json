@@ -1,0 +1,28 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_lb.standard",
+      "costComponents": [
+        {
+          "name": "Data processed",
+          "monthlyQuantity": "100",
+          "unit": "GB",
+          "monthlyCost": "0.50"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_lb.withoutUsage",
+      "costComponents": [
+        {
+          "name": "Data processed",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

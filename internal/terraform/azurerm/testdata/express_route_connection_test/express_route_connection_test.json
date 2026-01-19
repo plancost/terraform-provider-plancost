@@ -1,0 +1,21 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_express_route_gateway.express_route",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_express_route_connection.express_route_conn",
+      "costComponents": [
+        {
+          "name": "ER Connections",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "36.50"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

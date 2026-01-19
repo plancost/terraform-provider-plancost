@@ -1,0 +1,87 @@
+// Copyright 2021 Infracost Inc.
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+package azure
+
+import (
+	"github.com/plancost/terraform-provider-plancost/internal/resources"
+	"github.com/plancost/terraform-provider-plancost/internal/schema"
+)
+
+// DataFactoryIntegrationRuntimeManaged struct represents Data Factory's Managed
+// VNET integration runtime.
+//
+// Resource information: https://azure.microsoft.com/en-us/services/data-factory/
+// Pricing information: https://azure.microsoft.com/en-us/pricing/details/data-factory/data-pipeline/
+type DataFactoryIntegrationRuntimeManaged struct {
+	Address string
+	Region  string
+
+	Instances       int64
+	InstanceType    string
+	Enterprise      bool
+	LicenseIncluded bool
+
+	// "usage" args
+	MonthlyOrchestrationRuns *int64 `infracost_usage:"monthly_orchestration_runs"`
+}
+
+func (r *DataFactoryIntegrationRuntimeManaged) CoreType() string {
+	return "DataFactoryIntegrationRuntimeManaged"
+}
+
+func (r *DataFactoryIntegrationRuntimeManaged) UsageSchema() []*schema.UsageItem {
+	return []*schema.UsageItem{
+		{Key: "monthly_orchestration_runs", DefaultValue: 0, ValueType: schema.Int64},
+	}
+}
+
+// PopulateUsage parses the u schema.UsageData into the DataFactoryIntegrationRuntimeManaged.
+// It uses the `infracost_usage` struct tags to populate data into the DataFactoryIntegrationRuntimeManaged.
+func (r *DataFactoryIntegrationRuntimeManaged) PopulateUsage(u *schema.UsageData) {
+	resources.PopulateArgsWithUsage(r, u)
+}
+
+// BuildResource builds a schema.Resource from a valid DataFactoryIntegrationRuntimeManaged struct.
+// This method is called after the resource is initialised by an IaC provider.
+// See providers folder for more information.
+func (r *DataFactoryIntegrationRuntimeManaged) BuildResource() *schema.Resource {
+	runtimeFilter := "Azure Managed VNET"
+
+	// SSIS and Managed runtime resources share the same compute configuration.
+	// Terraform provider has deprecated Managed VNET runtime resource in favor of
+	// SSIS one.
+	ssis := DataFactoryIntegrationRuntimeAzureSSIS{
+		Address:         r.Address,
+		Region:          r.Region,
+		Enterprise:      r.Enterprise,
+		LicenseIncluded: r.LicenseIncluded,
+		Instances:       r.Instances,
+		InstanceType:    r.InstanceType,
+	}
+
+	costComponents := []*schema.CostComponent{
+		ssis.computeCostComponent(),
+		dataFactoryOrchestrationCostComponent(r.Region, runtimeFilter, r.MonthlyOrchestrationRuns),
+		dataFactoryDataMovementCostComponent(r.Region, runtimeFilter),
+		dataFactoryPipelineCostComponent(r.Region, runtimeFilter),
+		dataFactoryExternalPipelineCostComponent(r.Region, runtimeFilter),
+	}
+
+	return &schema.Resource{
+		Name:           r.Address,
+		UsageSchema:    r.UsageSchema(),
+		CostComponents: costComponents,
+	}
+}

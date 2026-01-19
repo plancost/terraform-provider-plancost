@@ -1,0 +1,86 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_eventhub_namespace.dedicated",
+      "costComponents": [
+        {
+          "name": "Extended retention",
+          "monthlyQuantity": "100",
+          "unit": "GB",
+          "monthlyCost": "10.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_eventhub_namespace.premium",
+      "costComponents": [
+        {
+          "name": "Extended retention",
+          "monthlyQuantity": "12,100",
+          "unit": "GB",
+          "monthlyCost": "1,210.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_eventhub_namespace.dedicatedWithoutUsage",
+      "costComponents": [
+        {
+          "name": "Extended retention",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_eventhub_namespace.standard",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_eventhub_namespace.premiumWithoutUsage",
+      "costComponents": [
+        {
+          "name": "Extended retention",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_eventhub_namespace.standardWithoutUsage",
+      "costComponents": [
+        {
+          "name": "Ingress event (Standard)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_eventhub_namespace.basic",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_eventhub_namespace.basicWithoutUsage",
+      "costComponents": [
+        {
+          "name": "Ingress event (Basic)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

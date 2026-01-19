@@ -1,0 +1,1123 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_recovery_services_vault.example[\"GeoRedundant.RS0.true\"]",
+      "costComponents": [],
+      "subResources": [
+        {
+          "name": "azurerm_backup_protected_vm.large[\"policy-GeoRedundant-RS0-true\"]",
+          "costComponents": [
+            {
+              "name": "Instance backup (over 500 GB)",
+              "monthlyQuantity": "1",
+              "unit": "month",
+              "monthlyCost": "20.00"
+            },
+            {
+              "name": "RA-GRS data stored",
+              "monthlyQuantity": "1,128",
+              "unit": "GB",
+              "monthlyCost": "64.18"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "azurerm_backup_protected_vm.medium[\"policy-GeoRedundant-RS0-true\"]",
+          "costComponents": [
+            {
+              "name": "Instance backup (under 500 GB)",
+              "monthlyQuantity": "1",
+              "unit": "month",
+              "monthlyCost": "10.00"
+            },
+            {
+              "name": "RA-GRS data stored",
+              "monthlyQuantity": "178",
+              "unit": "GB",
+              "monthlyCost": "10.13"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "azurerm_backup_protected_vm.small[\"policy-GeoRedundant-RS0-true\"]",
+          "costComponents": [
+            {
+              "name": "Instance backup (under 50 GB)",
+              "monthlyQuantity": "1",
+              "unit": "month",
+              "monthlyCost": "5.00"
+            },
+            {
+              "name": "RA-GRS data stored",
+              "monthlyQuantity": "40",
+              "unit": "GB",
+              "monthlyCost": "2.28"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "azurerm_backup_protected_vm.with_usage[\"policy-GeoRedundant-RS0-true\"]",
+          "costComponents": [
+            {
+              "name": "Instance backup (under 500 GB)",
+              "monthlyQuantity": "1",
+              "unit": "month",
+              "monthlyCost": "10.00"
+            },
+            {
+              "name": "RA-GRS data stored",
+              "monthlyQuantity": "400",
+              "unit": "GB",
+              "monthlyCost": "22.76"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    },
+    {
+      "name": "azurerm_recovery_services_vault.example[\"GeoRedundant.Standard.true\"]",
+      "costComponents": [],
+      "subResources": [
+        {
+          "name": "azurerm_backup_protected_vm.large[\"policy-GeoRedundant-Standard-true\"]",
+          "costComponents": [
+            {
+              "name": "Instance backup (over 500 GB)",
+              "monthlyQuantity": "1",
+              "unit": "month",
+              "monthlyCost": "20.00"
+            },
+            {
+              "name": "RA-GRS data stored",
+              "monthlyQuantity": "1,128",
+              "unit": "GB",
+              "monthlyCost": "64.18"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "azurerm_backup_protected_vm.medium[\"policy-GeoRedundant-Standard-true\"]",
+          "costComponents": [
+            {
+              "name": "Instance backup (under 500 GB)",
+              "monthlyQuantity": "1",
+              "unit": "month",
+              "monthlyCost": "10.00"
+            },
+            {
+              "name": "RA-GRS data stored",
+              "monthlyQuantity": "178",
+              "unit": "GB",
+              "monthlyCost": "10.13"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "azurerm_backup_protected_vm.small[\"policy-GeoRedundant-Standard-true\"]",
+          "costComponents": [
+            {
+              "name": "Instance backup (under 50 GB)",
+              "monthlyQuantity": "1",
+              "unit": "month",
+              "monthlyCost": "5.00"
+            },
+            {
+              "name": "RA-GRS data stored",
+              "monthlyQuantity": "40",
+              "unit": "GB",
+              "monthlyCost": "2.28"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "azurerm_backup_protected_vm.with_usage[\"policy-GeoRedundant-Standard-true\"]",
+          "costComponents": [
+            {
+              "name": "Instance backup (under 500 GB)",
+              "monthlyQuantity": "1",
+              "unit": "month",
+              "monthlyCost": "10.00"
+            },
+            {
+              "name": "RA-GRS data stored",
+              "monthlyQuantity": "400",
+              "unit": "GB",
+              "monthlyCost": "22.76"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    },
+    {
+      "name": "azurerm_virtual_machine.large",
+      "costComponents": [
+        {
+          "name": "Instance usage (Linux, pay as you go, Standard_F2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "83.22"
+        },
+        {
+          "name": "Ultra disk reservation (if unattached)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": [
+        {
+          "name": "storage_os_disk",
+          "costComponents": [
+            {
+              "name": "Storage (S4, LRS)",
+              "monthlyQuantity": "1",
+              "unit": "months",
+              "monthlyCost": "1.54"
+            },
+            {
+              "name": "Disk operations",
+              "monthlyQuantity": "0",
+              "unit": "usage_based",
+              "monthlyCost": "0.00"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "storage_data_disk",
+          "costComponents": [
+            {
+              "name": "Storage (S20, LRS)",
+              "monthlyQuantity": "1",
+              "unit": "months",
+              "monthlyCost": "21.76"
+            },
+            {
+              "name": "Disk operations",
+              "monthlyQuantity": "0",
+              "unit": "usage_based",
+              "monthlyCost": "0.00"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "storage_data_disk",
+          "costComponents": [
+            {
+              "name": "Storage (S20, LRS)",
+              "monthlyQuantity": "1",
+              "unit": "months",
+              "monthlyCost": "21.76"
+            },
+            {
+              "name": "Disk operations",
+              "monthlyQuantity": "0",
+              "unit": "usage_based",
+              "monthlyCost": "0.00"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    },
+    {
+      "name": "azurerm_recovery_services_vault.example[\"GeoRedundant.RS0.false\"]",
+      "costComponents": [],
+      "subResources": [
+        {
+          "name": "azurerm_backup_protected_vm.large[\"policy-GeoRedundant-RS0-false\"]",
+          "costComponents": [
+            {
+              "name": "Instance backup (over 500 GB)",
+              "monthlyQuantity": "1",
+              "unit": "month",
+              "monthlyCost": "20.00"
+            },
+            {
+              "name": "GRS data stored",
+              "monthlyQuantity": "1,128",
+              "unit": "GB",
+              "monthlyCost": "50.53"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "azurerm_backup_protected_vm.medium[\"policy-GeoRedundant-RS0-false\"]",
+          "costComponents": [
+            {
+              "name": "Instance backup (under 500 GB)",
+              "monthlyQuantity": "1",
+              "unit": "month",
+              "monthlyCost": "10.00"
+            },
+            {
+              "name": "GRS data stored",
+              "monthlyQuantity": "178",
+              "unit": "GB",
+              "monthlyCost": "7.97"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "azurerm_backup_protected_vm.small[\"policy-GeoRedundant-RS0-false\"]",
+          "costComponents": [
+            {
+              "name": "Instance backup (under 50 GB)",
+              "monthlyQuantity": "1",
+              "unit": "month",
+              "monthlyCost": "5.00"
+            },
+            {
+              "name": "GRS data stored",
+              "monthlyQuantity": "40",
+              "unit": "GB",
+              "monthlyCost": "1.79"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "azurerm_backup_protected_vm.with_usage[\"policy-GeoRedundant-RS0-false\"]",
+          "costComponents": [
+            {
+              "name": "Instance backup (under 500 GB)",
+              "monthlyQuantity": "1",
+              "unit": "month",
+              "monthlyCost": "10.00"
+            },
+            {
+              "name": "GRS data stored",
+              "monthlyQuantity": "400",
+              "unit": "GB",
+              "monthlyCost": "17.92"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    },
+    {
+      "name": "azurerm_recovery_services_vault.example[\"GeoRedundant.Standard.false\"]",
+      "costComponents": [],
+      "subResources": [
+        {
+          "name": "azurerm_backup_protected_vm.large[\"policy-GeoRedundant-Standard-false\"]",
+          "costComponents": [
+            {
+              "name": "Instance backup (over 500 GB)",
+              "monthlyQuantity": "1",
+              "unit": "month",
+              "monthlyCost": "20.00"
+            },
+            {
+              "name": "GRS data stored",
+              "monthlyQuantity": "1,128",
+              "unit": "GB",
+              "monthlyCost": "50.53"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "azurerm_backup_protected_vm.medium[\"policy-GeoRedundant-Standard-false\"]",
+          "costComponents": [
+            {
+              "name": "Instance backup (under 500 GB)",
+              "monthlyQuantity": "1",
+              "unit": "month",
+              "monthlyCost": "10.00"
+            },
+            {
+              "name": "GRS data stored",
+              "monthlyQuantity": "178",
+              "unit": "GB",
+              "monthlyCost": "7.97"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "azurerm_backup_protected_vm.small[\"policy-GeoRedundant-Standard-false\"]",
+          "costComponents": [
+            {
+              "name": "Instance backup (under 50 GB)",
+              "monthlyQuantity": "1",
+              "unit": "month",
+              "monthlyCost": "5.00"
+            },
+            {
+              "name": "GRS data stored",
+              "monthlyQuantity": "40",
+              "unit": "GB",
+              "monthlyCost": "1.79"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "azurerm_backup_protected_vm.with_usage[\"policy-GeoRedundant-Standard-false\"]",
+          "costComponents": [
+            {
+              "name": "Instance backup (under 500 GB)",
+              "monthlyQuantity": "1",
+              "unit": "month",
+              "monthlyCost": "10.00"
+            },
+            {
+              "name": "GRS data stored",
+              "monthlyQuantity": "400",
+              "unit": "GB",
+              "monthlyCost": "17.92"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    },
+    {
+      "name": "azurerm_recovery_services_vault.example[\"ZoneRedundant.RS0.false\"]",
+      "costComponents": [],
+      "subResources": [
+        {
+          "name": "azurerm_backup_protected_vm.large[\"policy-ZoneRedundant-RS0-false\"]",
+          "costComponents": [
+            {
+              "name": "Instance backup (over 500 GB)",
+              "monthlyQuantity": "1",
+              "unit": "month",
+              "monthlyCost": "20.00"
+            },
+            {
+              "name": "ZRS data stored",
+              "monthlyQuantity": "1,128",
+              "unit": "GB",
+              "monthlyCost": "31.58"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "azurerm_backup_protected_vm.medium[\"policy-ZoneRedundant-RS0-false\"]",
+          "costComponents": [
+            {
+              "name": "Instance backup (under 500 GB)",
+              "monthlyQuantity": "1",
+              "unit": "month",
+              "monthlyCost": "10.00"
+            },
+            {
+              "name": "ZRS data stored",
+              "monthlyQuantity": "178",
+              "unit": "GB",
+              "monthlyCost": "4.98"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "azurerm_backup_protected_vm.small[\"policy-ZoneRedundant-RS0-false\"]",
+          "costComponents": [
+            {
+              "name": "Instance backup (under 50 GB)",
+              "monthlyQuantity": "1",
+              "unit": "month",
+              "monthlyCost": "5.00"
+            },
+            {
+              "name": "ZRS data stored",
+              "monthlyQuantity": "40",
+              "unit": "GB",
+              "monthlyCost": "1.12"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "azurerm_backup_protected_vm.with_usage[\"policy-ZoneRedundant-RS0-false\"]",
+          "costComponents": [
+            {
+              "name": "Instance backup (under 500 GB)",
+              "monthlyQuantity": "1",
+              "unit": "month",
+              "monthlyCost": "10.00"
+            },
+            {
+              "name": "ZRS data stored",
+              "monthlyQuantity": "400",
+              "unit": "GB",
+              "monthlyCost": "11.20"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    },
+    {
+      "name": "azurerm_recovery_services_vault.example[\"ZoneRedundant.RS0.true\"]",
+      "costComponents": [],
+      "subResources": [
+        {
+          "name": "azurerm_backup_protected_vm.large[\"policy-ZoneRedundant-RS0-true\"]",
+          "costComponents": [
+            {
+              "name": "Instance backup (over 500 GB)",
+              "monthlyQuantity": "1",
+              "unit": "month",
+              "monthlyCost": "20.00"
+            },
+            {
+              "name": "ZRS data stored",
+              "monthlyQuantity": "1,128",
+              "unit": "GB",
+              "monthlyCost": "31.58"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "azurerm_backup_protected_vm.medium[\"policy-ZoneRedundant-RS0-true\"]",
+          "costComponents": [
+            {
+              "name": "Instance backup (under 500 GB)",
+              "monthlyQuantity": "1",
+              "unit": "month",
+              "monthlyCost": "10.00"
+            },
+            {
+              "name": "ZRS data stored",
+              "monthlyQuantity": "178",
+              "unit": "GB",
+              "monthlyCost": "4.98"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "azurerm_backup_protected_vm.small[\"policy-ZoneRedundant-RS0-true\"]",
+          "costComponents": [
+            {
+              "name": "Instance backup (under 50 GB)",
+              "monthlyQuantity": "1",
+              "unit": "month",
+              "monthlyCost": "5.00"
+            },
+            {
+              "name": "ZRS data stored",
+              "monthlyQuantity": "40",
+              "unit": "GB",
+              "monthlyCost": "1.12"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "azurerm_backup_protected_vm.with_usage[\"policy-ZoneRedundant-RS0-true\"]",
+          "costComponents": [
+            {
+              "name": "Instance backup (under 500 GB)",
+              "monthlyQuantity": "1",
+              "unit": "month",
+              "monthlyCost": "10.00"
+            },
+            {
+              "name": "ZRS data stored",
+              "monthlyQuantity": "400",
+              "unit": "GB",
+              "monthlyCost": "11.20"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    },
+    {
+      "name": "azurerm_recovery_services_vault.example[\"ZoneRedundant.Standard.false\"]",
+      "costComponents": [],
+      "subResources": [
+        {
+          "name": "azurerm_backup_protected_vm.large[\"policy-ZoneRedundant-Standard-false\"]",
+          "costComponents": [
+            {
+              "name": "Instance backup (over 500 GB)",
+              "monthlyQuantity": "1",
+              "unit": "month",
+              "monthlyCost": "20.00"
+            },
+            {
+              "name": "ZRS data stored",
+              "monthlyQuantity": "1,128",
+              "unit": "GB",
+              "monthlyCost": "31.58"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "azurerm_backup_protected_vm.medium[\"policy-ZoneRedundant-Standard-false\"]",
+          "costComponents": [
+            {
+              "name": "Instance backup (under 500 GB)",
+              "monthlyQuantity": "1",
+              "unit": "month",
+              "monthlyCost": "10.00"
+            },
+            {
+              "name": "ZRS data stored",
+              "monthlyQuantity": "178",
+              "unit": "GB",
+              "monthlyCost": "4.98"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "azurerm_backup_protected_vm.small[\"policy-ZoneRedundant-Standard-false\"]",
+          "costComponents": [
+            {
+              "name": "Instance backup (under 50 GB)",
+              "monthlyQuantity": "1",
+              "unit": "month",
+              "monthlyCost": "5.00"
+            },
+            {
+              "name": "ZRS data stored",
+              "monthlyQuantity": "40",
+              "unit": "GB",
+              "monthlyCost": "1.12"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "azurerm_backup_protected_vm.with_usage[\"policy-ZoneRedundant-Standard-false\"]",
+          "costComponents": [
+            {
+              "name": "Instance backup (under 500 GB)",
+              "monthlyQuantity": "1",
+              "unit": "month",
+              "monthlyCost": "10.00"
+            },
+            {
+              "name": "ZRS data stored",
+              "monthlyQuantity": "400",
+              "unit": "GB",
+              "monthlyCost": "11.20"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    },
+    {
+      "name": "azurerm_recovery_services_vault.example[\"ZoneRedundant.Standard.true\"]",
+      "costComponents": [],
+      "subResources": [
+        {
+          "name": "azurerm_backup_protected_vm.large[\"policy-ZoneRedundant-Standard-true\"]",
+          "costComponents": [
+            {
+              "name": "Instance backup (over 500 GB)",
+              "monthlyQuantity": "1",
+              "unit": "month",
+              "monthlyCost": "20.00"
+            },
+            {
+              "name": "ZRS data stored",
+              "monthlyQuantity": "1,128",
+              "unit": "GB",
+              "monthlyCost": "31.58"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "azurerm_backup_protected_vm.medium[\"policy-ZoneRedundant-Standard-true\"]",
+          "costComponents": [
+            {
+              "name": "Instance backup (under 500 GB)",
+              "monthlyQuantity": "1",
+              "unit": "month",
+              "monthlyCost": "10.00"
+            },
+            {
+              "name": "ZRS data stored",
+              "monthlyQuantity": "178",
+              "unit": "GB",
+              "monthlyCost": "4.98"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "azurerm_backup_protected_vm.small[\"policy-ZoneRedundant-Standard-true\"]",
+          "costComponents": [
+            {
+              "name": "Instance backup (under 50 GB)",
+              "monthlyQuantity": "1",
+              "unit": "month",
+              "monthlyCost": "5.00"
+            },
+            {
+              "name": "ZRS data stored",
+              "monthlyQuantity": "40",
+              "unit": "GB",
+              "monthlyCost": "1.12"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "azurerm_backup_protected_vm.with_usage[\"policy-ZoneRedundant-Standard-true\"]",
+          "costComponents": [
+            {
+              "name": "Instance backup (under 500 GB)",
+              "monthlyQuantity": "1",
+              "unit": "month",
+              "monthlyCost": "10.00"
+            },
+            {
+              "name": "ZRS data stored",
+              "monthlyQuantity": "400",
+              "unit": "GB",
+              "monthlyCost": "11.20"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    },
+    {
+      "name": "azurerm_virtual_machine.medium",
+      "costComponents": [
+        {
+          "name": "Instance usage (Linux, pay as you go, Standard_F2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "83.22"
+        },
+        {
+          "name": "Ultra disk reservation (if unattached)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": [
+        {
+          "name": "storage_os_disk",
+          "costComponents": [
+            {
+              "name": "Storage (S4, LRS)",
+              "monthlyQuantity": "1",
+              "unit": "months",
+              "monthlyCost": "1.54"
+            },
+            {
+              "name": "Disk operations",
+              "monthlyQuantity": "0",
+              "unit": "usage_based",
+              "monthlyCost": "0.00"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "storage_data_disk",
+          "costComponents": [
+            {
+              "name": "Storage (S6, LRS)",
+              "monthlyQuantity": "1",
+              "unit": "months",
+              "monthlyCost": "3.01"
+            },
+            {
+              "name": "Disk operations",
+              "monthlyQuantity": "0",
+              "unit": "usage_based",
+              "monthlyCost": "0.00"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    },
+    {
+      "name": "azurerm_virtual_machine.small",
+      "costComponents": [
+        {
+          "name": "Instance usage (Linux, pay as you go, Standard_F2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "83.22"
+        },
+        {
+          "name": "Ultra disk reservation (if unattached)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": [
+        {
+          "name": "storage_os_disk",
+          "costComponents": [
+            {
+              "name": "Storage (S4, LRS)",
+              "monthlyQuantity": "1",
+              "unit": "months",
+              "monthlyCost": "1.54"
+            },
+            {
+              "name": "Disk operations",
+              "monthlyQuantity": "0",
+              "unit": "usage_based",
+              "monthlyCost": "0.00"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "storage_data_disk",
+          "costComponents": [
+            {
+              "name": "Storage (S4, LRS)",
+              "monthlyQuantity": "1",
+              "unit": "months",
+              "monthlyCost": "1.54"
+            },
+            {
+              "name": "Disk operations",
+              "monthlyQuantity": "0",
+              "unit": "usage_based",
+              "monthlyCost": "0.00"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    },
+    {
+      "name": "azurerm_recovery_services_vault.example[\"LocallyRedundant.RS0.false\"]",
+      "costComponents": [],
+      "subResources": [
+        {
+          "name": "azurerm_backup_protected_vm.large[\"policy-LocallyRedundant-RS0-false\"]",
+          "costComponents": [
+            {
+              "name": "Instance backup (over 500 GB)",
+              "monthlyQuantity": "1",
+              "unit": "month",
+              "monthlyCost": "20.00"
+            },
+            {
+              "name": "LRS data stored",
+              "monthlyQuantity": "1,128",
+              "unit": "GB",
+              "monthlyCost": "25.27"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "azurerm_backup_protected_vm.medium[\"policy-LocallyRedundant-RS0-false\"]",
+          "costComponents": [
+            {
+              "name": "Instance backup (under 500 GB)",
+              "monthlyQuantity": "1",
+              "unit": "month",
+              "monthlyCost": "10.00"
+            },
+            {
+              "name": "LRS data stored",
+              "monthlyQuantity": "178",
+              "unit": "GB",
+              "monthlyCost": "3.99"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "azurerm_backup_protected_vm.small[\"policy-LocallyRedundant-RS0-false\"]",
+          "costComponents": [
+            {
+              "name": "Instance backup (under 50 GB)",
+              "monthlyQuantity": "1",
+              "unit": "month",
+              "monthlyCost": "5.00"
+            },
+            {
+              "name": "LRS data stored",
+              "monthlyQuantity": "40",
+              "unit": "GB",
+              "monthlyCost": "0.90"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "azurerm_backup_protected_vm.with_usage[\"policy-LocallyRedundant-RS0-false\"]",
+          "costComponents": [
+            {
+              "name": "Instance backup (under 500 GB)",
+              "monthlyQuantity": "1",
+              "unit": "month",
+              "monthlyCost": "10.00"
+            },
+            {
+              "name": "LRS data stored",
+              "monthlyQuantity": "400",
+              "unit": "GB",
+              "monthlyCost": "8.96"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    },
+    {
+      "name": "azurerm_recovery_services_vault.example[\"LocallyRedundant.RS0.true\"]",
+      "costComponents": [],
+      "subResources": [
+        {
+          "name": "azurerm_backup_protected_vm.large[\"policy-LocallyRedundant-RS0-true\"]",
+          "costComponents": [
+            {
+              "name": "Instance backup (over 500 GB)",
+              "monthlyQuantity": "1",
+              "unit": "month",
+              "monthlyCost": "20.00"
+            },
+            {
+              "name": "LRS data stored",
+              "monthlyQuantity": "1,128",
+              "unit": "GB",
+              "monthlyCost": "25.27"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "azurerm_backup_protected_vm.medium[\"policy-LocallyRedundant-RS0-true\"]",
+          "costComponents": [
+            {
+              "name": "Instance backup (under 500 GB)",
+              "monthlyQuantity": "1",
+              "unit": "month",
+              "monthlyCost": "10.00"
+            },
+            {
+              "name": "LRS data stored",
+              "monthlyQuantity": "178",
+              "unit": "GB",
+              "monthlyCost": "3.99"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "azurerm_backup_protected_vm.small[\"policy-LocallyRedundant-RS0-true\"]",
+          "costComponents": [
+            {
+              "name": "Instance backup (under 50 GB)",
+              "monthlyQuantity": "1",
+              "unit": "month",
+              "monthlyCost": "5.00"
+            },
+            {
+              "name": "LRS data stored",
+              "monthlyQuantity": "40",
+              "unit": "GB",
+              "monthlyCost": "0.90"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "azurerm_backup_protected_vm.with_usage[\"policy-LocallyRedundant-RS0-true\"]",
+          "costComponents": [
+            {
+              "name": "Instance backup (under 500 GB)",
+              "monthlyQuantity": "1",
+              "unit": "month",
+              "monthlyCost": "10.00"
+            },
+            {
+              "name": "LRS data stored",
+              "monthlyQuantity": "400",
+              "unit": "GB",
+              "monthlyCost": "8.96"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    },
+    {
+      "name": "azurerm_recovery_services_vault.example[\"LocallyRedundant.Standard.false\"]",
+      "costComponents": [],
+      "subResources": [
+        {
+          "name": "azurerm_backup_protected_vm.large[\"policy-LocallyRedundant-Standard-false\"]",
+          "costComponents": [
+            {
+              "name": "Instance backup (over 500 GB)",
+              "monthlyQuantity": "1",
+              "unit": "month",
+              "monthlyCost": "20.00"
+            },
+            {
+              "name": "LRS data stored",
+              "monthlyQuantity": "1,128",
+              "unit": "GB",
+              "monthlyCost": "25.27"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "azurerm_backup_protected_vm.medium[\"policy-LocallyRedundant-Standard-false\"]",
+          "costComponents": [
+            {
+              "name": "Instance backup (under 500 GB)",
+              "monthlyQuantity": "1",
+              "unit": "month",
+              "monthlyCost": "10.00"
+            },
+            {
+              "name": "LRS data stored",
+              "monthlyQuantity": "178",
+              "unit": "GB",
+              "monthlyCost": "3.99"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "azurerm_backup_protected_vm.small[\"policy-LocallyRedundant-Standard-false\"]",
+          "costComponents": [
+            {
+              "name": "Instance backup (under 50 GB)",
+              "monthlyQuantity": "1",
+              "unit": "month",
+              "monthlyCost": "5.00"
+            },
+            {
+              "name": "LRS data stored",
+              "monthlyQuantity": "40",
+              "unit": "GB",
+              "monthlyCost": "0.90"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "azurerm_backup_protected_vm.with_usage[\"policy-LocallyRedundant-Standard-false\"]",
+          "costComponents": [
+            {
+              "name": "Instance backup (under 500 GB)",
+              "monthlyQuantity": "1",
+              "unit": "month",
+              "monthlyCost": "10.00"
+            },
+            {
+              "name": "LRS data stored",
+              "monthlyQuantity": "400",
+              "unit": "GB",
+              "monthlyCost": "8.96"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    },
+    {
+      "name": "azurerm_recovery_services_vault.example[\"LocallyRedundant.Standard.true\"]",
+      "costComponents": [],
+      "subResources": [
+        {
+          "name": "azurerm_backup_protected_vm.large[\"policy-LocallyRedundant-Standard-true\"]",
+          "costComponents": [
+            {
+              "name": "Instance backup (over 500 GB)",
+              "monthlyQuantity": "1",
+              "unit": "month",
+              "monthlyCost": "20.00"
+            },
+            {
+              "name": "LRS data stored",
+              "monthlyQuantity": "1,128",
+              "unit": "GB",
+              "monthlyCost": "25.27"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "azurerm_backup_protected_vm.medium[\"policy-LocallyRedundant-Standard-true\"]",
+          "costComponents": [
+            {
+              "name": "Instance backup (under 500 GB)",
+              "monthlyQuantity": "1",
+              "unit": "month",
+              "monthlyCost": "10.00"
+            },
+            {
+              "name": "LRS data stored",
+              "monthlyQuantity": "178",
+              "unit": "GB",
+              "monthlyCost": "3.99"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "azurerm_backup_protected_vm.small[\"policy-LocallyRedundant-Standard-true\"]",
+          "costComponents": [
+            {
+              "name": "Instance backup (under 50 GB)",
+              "monthlyQuantity": "1",
+              "unit": "month",
+              "monthlyCost": "5.00"
+            },
+            {
+              "name": "LRS data stored",
+              "monthlyQuantity": "40",
+              "unit": "GB",
+              "monthlyCost": "0.90"
+            }
+          ],
+          "subResources": []
+        },
+        {
+          "name": "azurerm_backup_protected_vm.with_usage[\"policy-LocallyRedundant-Standard-true\"]",
+          "costComponents": [
+            {
+              "name": "Instance backup (under 500 GB)",
+              "monthlyQuantity": "1",
+              "unit": "month",
+              "monthlyCost": "10.00"
+            },
+            {
+              "name": "LRS data stored",
+              "monthlyQuantity": "400",
+              "unit": "GB",
+              "monthlyCost": "8.96"
+            }
+          ],
+          "subResources": []
+        }
+      ]
+    }
+  ]
+}

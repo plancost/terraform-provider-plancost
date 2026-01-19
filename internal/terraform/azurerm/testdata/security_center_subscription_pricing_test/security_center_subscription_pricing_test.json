@@ -1,0 +1,261 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_security_center_subscription_pricing.standard_example_with_usage[\"OpenSourceRelationalDatabases\"]",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_security_center_subscription_pricing.standard_example_with_usage[\"AppServices\"]",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_security_center_subscription_pricing.standard_example_with_usage[\"StorageAccounts\"]",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_security_center_subscription_pricing.standard_example_with_usage[\"Arm\"]",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_security_center_subscription_pricing.standard_example_with_usage[\"SqlServerVirtualMachines\"]",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_security_center_subscription_pricing.standard_example_with_usage[\"SqlServers\"]",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_security_center_subscription_pricing.standard_example_with_usage[\"VirtualMachines\"]",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_security_center_subscription_pricing.standard_example_with_usage[\"KubernetesService\"]",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_security_center_subscription_pricing.standard_example_with_usage[\"Containers\"]",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_security_center_subscription_pricing.standard_example_with_usage[\"Dns\"]",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_security_center_subscription_pricing.standard_example_with_usage[\"CosmosDbs\"]",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_security_center_subscription_pricing.standard_example_with_usage[\"ContainerRegistry\"]",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_security_center_subscription_pricing.standard_example_with_usage[\"KeyVaults\"]",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_security_center_subscription_pricing.default_resource_type_example",
+      "costComponents": [
+        {
+          "name": "Defender for servers, plan 1",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Defender for servers, plan 2",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_security_center_subscription_pricing.standard_example[\"AppServices\"]",
+      "costComponents": [
+        {
+          "name": "Defender for app service",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_security_center_subscription_pricing.standard_example[\"Arm\"]",
+      "costComponents": [
+        {
+          "name": "Defender for ARM",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_security_center_subscription_pricing.standard_example[\"ContainerRegistry\"]",
+      "costComponents": [
+        {
+          "name": "Defender for container registries",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_security_center_subscription_pricing.standard_example[\"Containers\"]",
+      "costComponents": [
+        {
+          "name": "Defender for containers",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_security_center_subscription_pricing.standard_example[\"CosmosDbs\"]",
+      "costComponents": [
+        {
+          "name": "Defender for Cosmos DB",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_security_center_subscription_pricing.standard_example[\"Dns\"]",
+      "costComponents": [
+        {
+          "name": "Defender for DNS",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_security_center_subscription_pricing.standard_example[\"KeyVaults\"]",
+      "costComponents": [
+        {
+          "name": "Defender for Key Vault",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_security_center_subscription_pricing.standard_example[\"KubernetesService\"]",
+      "costComponents": [
+        {
+          "name": "Defender for kubernetes",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_security_center_subscription_pricing.standard_example[\"OpenSourceRelationalDatabases\"]",
+      "costComponents": [
+        {
+          "name": "Defender for MySQL",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Defender for PostgreSQL",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Defender for MariaDB",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_security_center_subscription_pricing.standard_example[\"SqlServerVirtualMachines\"]",
+      "costComponents": [
+        {
+          "name": "Defender for SQL, Azure-connected",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_security_center_subscription_pricing.standard_example[\"SqlServers\"]",
+      "costComponents": [
+        {
+          "name": "Defender for SQL, outside Azure",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_security_center_subscription_pricing.standard_example[\"StorageAccounts\"]",
+      "costComponents": [
+        {
+          "name": "Defender for storage",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_security_center_subscription_pricing.standard_example[\"VirtualMachines\"]",
+      "costComponents": [
+        {
+          "name": "Defender for servers, plan 1",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Defender for servers, plan 2",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

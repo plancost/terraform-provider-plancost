@@ -1,0 +1,58 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_search_service.optimized_l1",
+      "costComponents": [
+        {
+          "name": "Search usage (Storage Optimized L1, 1 unit)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "2,802.47"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_search_service.basic",
+      "costComponents": [
+        {
+          "name": "Search usage (Basic, 4 units)",
+          "monthlyQuantity": "2,920",
+          "unit": "hours",
+          "monthlyCost": "294.92"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_search_service.non_usage_l1",
+      "costComponents": [
+        {
+          "name": "Search usage (Storage Optimized L1, 1 unit)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "2,802.47"
+        },
+        {
+          "name": "Image extraction (first 1M)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_search_service.standard_s2",
+      "costComponents": [
+        {
+          "name": "Search usage (Standard S2, 1 unit)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "981.12"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

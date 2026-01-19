@@ -1,0 +1,4 @@
+version: 0.1
+resource_usage:
+  azurerm_netapp_volume.with_usage:
+    monthly_replicated_data_gb: 860

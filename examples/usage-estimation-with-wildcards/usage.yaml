@@ -1,0 +1,4 @@
+version: 0.1
+resource_usage:
+  azurerm_storage_account.large_app[*]:
+    storage_gb: 500

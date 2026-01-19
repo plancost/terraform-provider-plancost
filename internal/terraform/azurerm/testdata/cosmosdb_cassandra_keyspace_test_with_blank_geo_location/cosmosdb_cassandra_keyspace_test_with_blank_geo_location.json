@@ -1,0 +1,34 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_cosmosdb_cassandra_keyspace.with_blank_geo_location",
+      "costComponents": [
+        {
+          "name": "Provisioned throughput (autoscale, East US)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Transactional storage (East US)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Periodic backup (East US)",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Restored data",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

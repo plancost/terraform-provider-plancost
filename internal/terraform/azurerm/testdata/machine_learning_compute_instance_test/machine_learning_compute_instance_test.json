@@ -1,0 +1,262 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_machine_learning_compute_instance.example[\"Standard_NV24\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (Linux, pay as you go, Standard_NV24)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "3,328.80"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_machine_learning_compute_instance.example[\"Standard_NC24\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (Linux, pay as you go, Standard_NC24)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "2,628.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_machine_learning_compute_instance.example[\"Standard_NV12\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (Linux, pay as you go, Standard_NV12)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "1,664.40"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_machine_learning_compute_instance.example[\"Standard_NC12\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (Linux, pay as you go, Standard_NC12)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "1,314.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_machine_learning_compute_instance.example[\"Standard_NV6\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (Linux, pay as you go, Standard_NV6)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "832.20"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_machine_learning_compute_instance.example[\"Standard_E16s_v3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (Linux, pay as you go, Standard_E16s_v3)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "735.84"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_machine_learning_compute_instance.example[\"Standard_NC6\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (Linux, pay as you go, Standard_NC6)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "657.00"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_machine_learning_compute_instance.example[\"Standard_D16s_v3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (Linux, pay as you go, Standard_D16s_v3)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "560.64"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_machine_learning_compute_instance.example[\"Standard_F16s_v2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (Linux, pay as you go, Standard_F16s_v2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "494.21"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_machine_learning_compute_instance.example[\"Standard_E8s_v3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (Linux, pay as you go, Standard_E8s_v3)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "367.92"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_machine_learning_compute_instance.example[\"Standard_D8s_v3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (Linux, pay as you go, Standard_D8s_v3)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "280.32"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_machine_learning_compute_instance.example[\"Standard_DS12_v2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (Linux, pay as you go, Standard_DS12_v2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "270.83"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_machine_learning_compute_instance.example[\"Standard_F8s_v2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (Linux, pay as you go, Standard_F8s_v2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "246.74"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_machine_learning_compute_instance.example[\"Standard_E4s_v3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (Linux, pay as you go, Standard_E4s_v3)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "183.96"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_machine_learning_compute_instance.example[\"Standard_D4s_v3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (Linux, pay as you go, Standard_D4s_v3)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "140.16"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_machine_learning_compute_instance.example[\"Standard_F4s_v2\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (Linux, pay as you go, Standard_F4s_v2)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "123.37"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_machine_learning_compute_instance.example[\"Standard_D2s_v3\"]",
+      "costComponents": [
+        {
+          "name": "Instance usage (Linux, pay as you go, Standard_D2s_v3)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "70.08"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_machine_learning_compute_instance.with_monthly_hrs",
+      "costComponents": [
+        {
+          "name": "Instance usage (Linux, pay as you go, Standard_D2s_v3)",
+          "monthlyQuantity": "100",
+          "unit": "hours",
+          "monthlyCost": "9.60"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.example",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "List and create container operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Blob index",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

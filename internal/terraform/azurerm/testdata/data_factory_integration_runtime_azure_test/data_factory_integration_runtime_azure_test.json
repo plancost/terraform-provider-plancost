@@ -1,0 +1,160 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_data_factory_integration_runtime_azure.mo",
+      "costComponents": [
+        {
+          "name": "Compute (Memory Optimized, 272 vCores)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "68,453.56"
+        },
+        {
+          "name": "Orchestration",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Data movement activity",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "182.50"
+        },
+        {
+          "name": "Pipeline activity",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "3.65"
+        },
+        {
+          "name": "External pipeline activity",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "0.18"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_data_factory_integration_runtime_azure.co",
+      "costComponents": [
+        {
+          "name": "Compute (Compute Optimized, 16 vCores)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "2,318.48"
+        },
+        {
+          "name": "Orchestration",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Data movement activity",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "182.50"
+        },
+        {
+          "name": "Pipeline activity",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "3.65"
+        },
+        {
+          "name": "External pipeline activity",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "0.18"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_data_factory_integration_runtime_azure.default_with_usage",
+      "costComponents": [
+        {
+          "name": "Compute (General Purpose, 8 vCores)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "1,565.12"
+        },
+        {
+          "name": "Data movement activity",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "182.50"
+        },
+        {
+          "name": "Pipeline activity",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "3.65"
+        },
+        {
+          "name": "External pipeline activity",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "0.18"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_data_factory_integration_runtime_azure.gp",
+      "costComponents": [
+        {
+          "name": "Compute (General Purpose, 8 vCores)",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "1,565.12"
+        },
+        {
+          "name": "Orchestration",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Data movement activity",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "182.50"
+        },
+        {
+          "name": "Pipeline activity",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "3.65"
+        },
+        {
+          "name": "External pipeline activity",
+          "monthlyQuantity": "730",
+          "unit": "hours",
+          "monthlyCost": "0.18"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_data_factory.example",
+      "costComponents": [
+        {
+          "name": "Read/Write operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Monitoring operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

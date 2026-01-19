@@ -1,0 +1,21 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_eventgrid_topic.with_usage",
+      "costComponents": [],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_eventgrid_topic.without_usage",
+      "costComponents": [
+        {
+          "name": "Operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}

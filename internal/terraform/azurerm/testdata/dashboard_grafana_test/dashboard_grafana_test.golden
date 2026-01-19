@@ -1,0 +1,28 @@
+ Name                                          Monthly Qty  Unit   Monthly Cost    
+                                                                                   
+ azurerm_dashboard_grafana.standard_redundant                                      
+ ├─ Instance (Standard)                              1,460  hours        $49.93    
+ ├─ Zone redundancy                                    730  hours        $30.00    
+ └─ Active users                                        20  users       $120.00  * 
+                                                                                   
+ azurerm_dashboard_grafana.standard                                                
+ ├─ Instance (Standard)                              1,460  hours        $49.93    
+ └─ Active users                                        10  users        $60.00  * 
+                                                                                   
+ azurerm_dashboard_grafana.essential                                               
+ └─ Active users                                         5  users        $30.00  * 
+                                                                                   
+ OVERALL TOTAL                                                          $339.87 
+
+*Usage costs can be estimated by updating Infracost Cloud settings, see docs for other options.
+
+──────────────────────────────────
+4 cloud resources were detected:
+∙ 3 were estimated
+∙ 1 was free
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━┳━━━━━━━━━━━━┓
+┃ Project                                            ┃ Baseline cost ┃ Usage cost* ┃ Total cost ┃
+┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━╋━━━━━━━━━━━━┫
+┃ main                                               ┃          $130 ┃        $210 ┃       $340 ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━┻━━━━━━━━━━━━┛

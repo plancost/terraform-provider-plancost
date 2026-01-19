@@ -1,0 +1,82 @@
+{
+  "resources": [
+    {
+      "name": "azurerm_hdinsight_spark_cluster.example",
+      "costComponents": [
+        {
+          "name": "Head node (Standard_G2)",
+          "monthlyQuantity": "1,460",
+          "unit": "hours",
+          "monthlyCost": "2,154.96"
+        },
+        {
+          "name": "Worker node (Standard_G2)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "3,232.44"
+        },
+        {
+          "name": "Zookeeper node (Standard_G2)",
+          "monthlyQuantity": "2,190",
+          "unit": "hours",
+          "monthlyCost": "3,232.44"
+        }
+      ],
+      "subResources": []
+    },
+    {
+      "name": "azurerm_storage_account.example",
+      "costComponents": [
+        {
+          "name": "Capacity",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Write operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "List and create container operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Read operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "All other operations",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Data retrieval",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Blob index",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        },
+        {
+          "name": "Early deletion",
+          "monthlyQuantity": "0",
+          "unit": "usage_based",
+          "monthlyCost": "0.00"
+        }
+      ],
+      "subResources": []
+    }
+  ]
+}
