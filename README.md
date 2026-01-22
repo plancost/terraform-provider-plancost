@@ -1,6 +1,6 @@
 # Terraform Provider: plancost
 
-[![License: BUSL 1.1](https://img.shields.io/badge/License-BUSL%201.1-blue.svg)](LICENSE)
+[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](LICENSE)
 
 
 The `plancost` provider allows you to estimate, track, and optimize cloud costs directly within your Terraform workflow. By integrating cost estimation as a native Terraform resource, you get cost visibility, policy enforcement, and security without leaving your infrastructure code.
@@ -162,15 +162,13 @@ This project uses source code from [Infracost](https://github.com/infracost/infr
 
 ## Contributing 
 
-By submitting a Pull Request, you agree that your contributions are licensed under the Business Source License 1.1.
+By submitting a Pull Request, you agree that your contributions are licensed under the Mozilla Public License 2.0.
 
 ## License
 
-This project is licensed under the **Business Source License 1.1 (BUSL-1.1)**. 
+This project is licensed under the **Mozilla Public License 2.0 (MPL-2.0)**. 
 
-Users are permitted to use this software for production purposes, provided that the use is **non-competitive**. Offering this software as a managed service or redistributing it on public registries (such as the Terraform Registry) is strictly prohibited.
-
-The license converts to the **Mozilla Public License 2.0 (MPL-2.0)** on **2030-01-01**. See the [LICENSE](LICENSE) file for specific terms and conditions.
+See the [LICENSE](LICENSE) file for specific terms and conditions.
 
 ---
 
