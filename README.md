@@ -7,6 +7,10 @@ The `plancost` provider allows you to estimate, track, and optimize cloud costs 
 
 **Website:** [https://plancost.io](https://plancost.io)
 
+<p align="center">
+  <img src="./images/terraform-plan.gif" alt="plancost demo" width="98%" style="border: 1px solid #d0d7de; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+</p>
+
 ## Overview
 
 Unlike CLI wrappers, `plancost` works as a genuine Terraform Provider. This means cost data is stored in your state file, accessible to other resources, and verifiable by standard policy tools.
