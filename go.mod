@@ -7,7 +7,7 @@ require (
 	github.com/bmatcuk/doublestar v1.3.4
 	github.com/channelmeter/iso8601duration v0.0.0-20150204201828-8da3af7a2a61
 	github.com/fatih/camelcase v1.0.0
-	github.com/go-git/go-git/v5 v5.16.4
+	github.com/go-git/go-git/v5 v5.16.5
 	github.com/gobwas/glob v0.2.3
 	github.com/google/go-cmp v0.7.0
 	github.com/google/uuid v1.6.0
