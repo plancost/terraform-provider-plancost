@@ -38,7 +38,7 @@ require (
 	github.com/stretchr/testify v1.11.1
 	github.com/tidwall/gjson v1.18.0
 	github.com/turbot/terraform-components v0.0.0-20250114051614-04b806a9cbed
-	github.com/zclconf/go-cty v1.17.0
+	github.com/zclconf/go-cty v1.18.0
 	github.com/zclconf/go-cty-yaml v1.2.0
 	golang.org/x/exp v0.0.0-20251017212417-90e834f514db
 	golang.org/x/text v0.33.0
